@@ -1,0 +1,5 @@
+trait	n_loci	n_gene_locus_tests	n_pp4_ge_flag	n_loci_with_pp4_ge_flag	genes_pp4_ge_flag
+egfr_EA	265	793	7	7	FGF5;L3MBTL3;LINC02166;SH3YL1;TRIM6
+uacr_EA	61	187	2	2	A3GALT2
+egfr_DM	38	193	7	4	C4A;FGF5;TPPP;TPPP-AS1
+uacr_DM	8	17	0	0	

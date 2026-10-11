@@ -1,0 +1,71 @@
+target	adjustment	outcome	model	n	covariates	estimate	ci_low	ci_high	p	estimate_type
+tal_injured_logit	none	alb_A	ordinal	39	none	2.0877089896991143	1.1314454617649001	3.852177566625075	0.01851782744893355	odds_ratio_per_SD_higher_albuminuria_category
+tal_injured_logit	none	alb_ord	spearman	39	none	0.3570795795777138			0.02564470876112739	spearman_rho
+tal_injured_logit	none	egfr	ols	53	none	-13.23983071955052	-19.40396406500622	-7.07569737409482	7.411798610049092e-05	eGFR_change_per_SD
+tal_injured_logit	none	egfr	spearman	53	none	-0.3669670539870487			0.0068745163936804	spearman_rho
+tal_injured_logit	diagnosis	alb_A	ordinal	39	HKD+other	1.5164595635169176	0.7432664850240598	3.093977266723494	0.252435115310095	odds_ratio_per_SD_higher_albuminuria_category
+tal_injured_logit	diagnosis	egfr	ols	53	HKD+other	-9.360904853276454	-16.259658619317946	-2.46215108723496	0.008848879601417538	eGFR_change_per_SD
+tal_injured_logit	diagnosis+IF	alb_A	ordinal	38	HKD+other+IF_pct	1.0559416316960388	0.3861322657858825	2.887644541384139	0.9155431762646613	odds_ratio_per_SD_higher_albuminuria_category
+tal_injured_logit	diagnosis+IF	egfr	ols	52	HKD+other+IF_pct	-7.581825965367486	-17.189363064350943	2.025711133615971	0.11908848606421941	eGFR_change_per_SD
+tal_injured_logit	diagnosis+IF+TA	alb_A	ordinal	38	HKD+other+IF_pct+TA_pct	1.1188964784060964	0.4086988138283365	3.063207641007261	0.8269371353892985	odds_ratio_per_SD_higher_albuminuria_category
+tal_injured_logit	diagnosis+IF+TA	egfr	ols	52	HKD+other+IF_pct+TA_pct	-7.617106451158852	-17.34539196945212	2.1111790671344153	0.12186338271443974	eGFR_change_per_SD
+tal_injured_logit	diagnosis+all_descriptors	alb_A	ordinal	37	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	1.1667624365070537	0.36744117673692944	3.704904810433176	0.7936087990365377	odds_ratio_per_SD_higher_albuminuria_category
+tal_injured_logit	diagnosis+all_descriptors	egfr	ols	51	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	-6.139405643990575	-16.68681577639296	4.408004488411811	0.246564691151207	eGFR_change_per_SD
+tal_injured_logit	diagnosis+acquisition	alb_A	ordinal	39	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	1.7000660787531303				odds_ratio_per_SD_higher_albuminuria_category
+tal_injured_logit	diagnosis+acquisition	egfr	ols	53	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	-12.03452290723955	-21.082268932289377	-2.986776882189723	0.010329276521395961	eGFR_change_per_SD
+pt_injured_logit	none	alb_A	ordinal	39	none	1.7554905340610572	0.9283394752836908	3.319633708602369	0.083413769080851	odds_ratio_per_SD_higher_albuminuria_category
+pt_injured_logit	none	alb_ord	spearman	39	none	0.2776933260955163			0.08696712801749433	spearman_rho
+pt_injured_logit	none	egfr	ols	53	none	-13.03205444274129	-19.231080514484184	-6.833028370998397	0.00010023443440094969	eGFR_change_per_SD
+pt_injured_logit	none	egfr	spearman	53	none	-0.44895081115730573			0.0007464846347987921	spearman_rho
+pt_injured_logit	diagnosis	alb_A	ordinal	39	HKD+other	1.153261413737159	0.5541155795678745	2.4002427245453686	0.7029854448819923	odds_ratio_per_SD_higher_albuminuria_category
+pt_injured_logit	diagnosis	egfr	ols	53	HKD+other	-10.875324379163372	-17.080496177413636	-4.670152580913106	0.000937307027753294	eGFR_change_per_SD
+pt_injured_logit	diagnosis+IF	alb_A	ordinal	38	HKD+other+IF_pct	0.8444380404745336	0.35198489728952975	2.025869887292126	0.7049069082669058	odds_ratio_per_SD_higher_albuminuria_category
+pt_injured_logit	diagnosis+IF	egfr	ols	52	HKD+other+IF_pct	-9.694918582813433	-17.02893833682235	-2.3608988288045145	0.010672017918980245	eGFR_change_per_SD
+pt_injured_logit	diagnosis+IF+TA	alb_A	ordinal	38	HKD+other+IF_pct+TA_pct	0.8799208030148433	0.36375264200301355	2.128536071421503	0.7765391440572804	odds_ratio_per_SD_higher_albuminuria_category
+pt_injured_logit	diagnosis+IF+TA	egfr	ols	52	HKD+other+IF_pct+TA_pct	-9.774236802771226	-17.209515463680056	-2.3389581418623937	0.011108203765736601	eGFR_change_per_SD
+pt_injured_logit	diagnosis+all_descriptors	alb_A	ordinal	37	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	0.979907503832397	0.3421434475911405	2.8064799218791263	0.9698415717020253	odds_ratio_per_SD_higher_albuminuria_category
+pt_injured_logit	diagnosis+all_descriptors	egfr	ols	51	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	-8.753121468830766	-17.21098154947099	-0.2952613881905428	0.04285779441352139	eGFR_change_per_SD
+pt_injured_logit	diagnosis+acquisition	alb_A	ordinal	39	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	0.9224891527689527	0.34346080518014543	2.477680783779789	0.8728421560613924	odds_ratio_per_SD_higher_albuminuria_category
+pt_injured_logit	diagnosis+acquisition	egfr	ols	53	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	-11.883283257118542	-20.536523628577193	-3.2300428856598895	0.008255080078219089	eGFR_change_per_SD
+tubular_axis	none	alb_A	ordinal	39	none	1.7158496505483947	0.9461974485211627	3.111549315513927	0.07542776860434901	odds_ratio_per_SD_higher_albuminuria_category
+tubular_axis	none	alb_ord	spearman	39	none	0.24513544850228483			0.13255080420068546	spearman_rho
+tubular_axis	none	egfr	ols	53	none	-13.359832510844653	-19.503470209204323	-7.216194812484983	6.204184542939772e-05	eGFR_change_per_SD
+tubular_axis	none	egfr	spearman	53	none	-0.40257449356326			0.002803772730243655	spearman_rho
+tubular_axis	diagnosis	alb_A	ordinal	39	HKD+other	1.1156089993404639	0.5489615038971088	2.267159774545323	0.7623677899613263	odds_ratio_per_SD_higher_albuminuria_category
+tubular_axis	diagnosis	egfr	ols	53	HKD+other	-10.512580431010482	-16.998742802644724	-4.0264180593762395	0.002046913726725851	eGFR_change_per_SD
+tubular_axis	diagnosis+IF	alb_A	ordinal	38	HKD+other+IF_pct	0.7197681865874699	0.2858302389993616	1.8124962713429762	0.48527027689291224	odds_ratio_per_SD_higher_albuminuria_category
+tubular_axis	diagnosis+IF	egfr	ols	52	HKD+other+IF_pct	-9.315453156117133	-17.49492938610768	-1.13597692612659	0.02648436869066997	eGFR_change_per_SD
+tubular_axis	diagnosis+IF+TA	alb_A	ordinal	38	HKD+other+IF_pct+TA_pct	0.7657751517743521	0.30462557189316536	1.925024151553144	0.5704300517880945	odds_ratio_per_SD_higher_albuminuria_category
+tubular_axis	diagnosis+IF+TA	egfr	ols	52	HKD+other+IF_pct+TA_pct	-9.364987621571792	-17.649588540925183	-1.0803867022184015	0.027587458599600465	eGFR_change_per_SD
+tubular_axis	diagnosis+all_descriptors	alb_A	ordinal	37	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	0.8085505695982057	0.27899759197767854	2.343224609801962	0.6954663860634037	odds_ratio_per_SD_higher_albuminuria_category
+tubular_axis	diagnosis+all_descriptors	egfr	ols	51	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	-8.210906170842627	-17.61483782167444	1.1930254799891848	0.08529624572659612	eGFR_change_per_SD
+tubular_axis	diagnosis+acquisition	alb_A	ordinal	39	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	0.9420335328858428	0.37430624150397845	2.3708586143679096	0.8990936142840582	odds_ratio_per_SD_higher_albuminuria_category
+tubular_axis	diagnosis+acquisition	egfr	ols	53	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	-10.92083893411183	-19.32222521310405	-2.5194526551196077	0.012057000049984475	eGFR_change_per_SD
+ecgc_axis	none	alb_A	ordinal	39	none	0.9823033286776219	0.5610683365444255	1.7197902050113882	0.9501762912576851	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis	none	alb_ord	spearman	39	none	-0.08319171969439335			0.6146105445864902	spearman_rho
+ecgc_axis	none	egfr	ols	53	none	8.982707241450724	2.239351541302521	15.726062941598926	0.010038021358238142	eGFR_change_per_SD
+ecgc_axis	none	egfr	spearman	53	none	0.3746826868963784			0.005706829268109687	spearman_rho
+ecgc_axis	diagnosis	alb_A	ordinal	39	HKD+other	1.0912139345891763	0.6051684108603707	1.96763054659231	0.7716600128066275	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis	diagnosis	egfr	ols	53	HKD+other	7.991310516666158	2.222713520436125	13.759907512896191	0.007610853831044501	eGFR_change_per_SD
+ecgc_axis	diagnosis+IF	alb_A	ordinal	38	HKD+other+IF_pct	1.120319274884712	0.6021402824345675	2.08442337158301	0.7198561026553911	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis	diagnosis+IF	egfr	ols	52	HKD+other+IF_pct	7.060074483571579	1.1915005169973885	12.92864845014577	0.019431820852395296	eGFR_change_per_SD
+ecgc_axis	diagnosis+IF+TA	alb_A	ordinal	38	HKD+other+IF_pct+TA_pct	1.286224400132022	0.6647970828404353	2.488538608542696	0.45475607440500054	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis	diagnosis+IF+TA	egfr	ols	52	HKD+other+IF_pct+TA_pct	7.529793412899114	1.4459714011527423	13.613615424645484	0.016396373692749613	eGFR_change_per_SD
+ecgc_axis	diagnosis+all_descriptors	alb_A	ordinal	37	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	0.6820661446429788	0.274392446890431	1.6954337881388695	0.4101699037044222	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis	diagnosis+all_descriptors	egfr	ols	51	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	9.937937036279386	2.5450309507762974	17.330843121782475	0.009659641121879838	eGFR_change_per_SD
+ecgc_axis	diagnosis+acquisition	alb_A	ordinal	39	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	1.5837927201670494	0.5788264343466015	4.333595066862671	0.3706008522067058	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis	diagnosis+acquisition	egfr	ols	53	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	11.031125360647735	1.9364329104703053	20.125817810825165	0.018607995207730283	eGFR_change_per_SD
+ecgc_axis_all	none	alb_A	ordinal	39	none	1.5588156796780979	0.8535105430948686	2.8469552518933603	0.14858763453567042	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis_all	none	alb_ord	spearman	39	none	0.1799139859210387			0.2730875149849306	spearman_rho
+ecgc_axis_all	none	egfr	ols	53	none	9.31776421881916	2.6104343241184518	16.02509411351987	0.007416106664709265	eGFR_change_per_SD
+ecgc_axis_all	none	egfr	spearman	53	none	0.40764948205442336			0.0024474553301792024	spearman_rho
+ecgc_axis_all	diagnosis	alb_A	ordinal	39	HKD+other	1.665902399532499	0.8676864597247052	3.1984258526388065	0.1251484161529171	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis_all	diagnosis	egfr	ols	53	HKD+other	8.722598926369324	2.9406681006900808	14.504529752048567	0.0038799030315152232	eGFR_change_per_SD
+ecgc_axis_all	diagnosis+IF	alb_A	ordinal	38	HKD+other+IF_pct	1.5767535527253338	0.748331631593787	3.3222593581097035	0.23109310122661186	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis_all	diagnosis+IF	egfr	ols	52	HKD+other+IF_pct	9.038295701201545	2.9698297775184637	15.106761624884626	0.0043536102529893456	eGFR_change_per_SD
+ecgc_axis_all	diagnosis+IF+TA	alb_A	ordinal	38	HKD+other+IF_pct+TA_pct	1.671530078128128	0.7884769308757702	3.543556815268753	0.1802254060127545	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis_all	diagnosis+IF+TA	egfr	ols	52	HKD+other+IF_pct+TA_pct	9.1755808778544	3.009236445751559	15.341925309957244	0.004405777352931332	eGFR_change_per_SD
+ecgc_axis_all	diagnosis+all_descriptors	alb_A	ordinal	37	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	1.0447905409305522	0.3645946872305417	2.993974713975248	0.9349864596772657	odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis_all	diagnosis+all_descriptors	egfr	ols	51	HKD+other+IF_pct+TA_pct+tubular_injury_pct+interstitial_inflammation_pct+arteriosclerosis+arteriolar_hyalinosis	12.404785794316602	5.458611546512241	19.350960042120963	0.0008340934352526033	eGFR_change_per_SD
+ecgc_axis_all	diagnosis+acquisition	alb_A	ordinal	39	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	1.847183721850552				odds_ratio_per_SD_higher_albuminuria_category
+ecgc_axis_all	diagnosis+acquisition	egfr	ols	53	HKD+other+accession_time+alt_scanner+PAS_colPC1+PAS_colPC2+HE_colPC1+HE_colPC2	10.511520690649844	4.065648024910814	16.957393356388874	0.002012476792584133	eGFR_change_per_SD

@@ -1,0 +1,11 @@
+analysis	test	n	median_dkd	median_control	hedges_g_logit	p_mannwhitney	coef_logit_adj_chem	p_adj_chem	spearman_rho	p_spearman
+all_state_labels	DKD_vs_Control	5v6	0.15294117647058825	0.017793090968464556	1.6433123093290487	0.05194805194805195	2.240365844161641	0.033502949347187325		
+all_state_labels	spearman_egfr_all_with_clinical	6							-0.3142857142857143	0.5440932944606414
+all_state_labels	spearman_egfr_DKD_only	5							-0.3	0.6238376647810728
+all_state_labels	spearman_ifta_ord_all_with_clinical	6							-0.27774602993176545	0.5940940162568629
+all_state_labels	spearman_ifta_ord_DKD_only	5							-0.6708203932499368	0.21516994256955005
+tal_refined_labels	DKD_vs_Control	5v6	0.18235294117647058	0.016578909326890975	1.3606098284313926	0.08225108225108226	2.340197830110742	0.0630109859731424		
+tal_refined_labels	spearman_egfr_all_with_clinical	6							-0.3142857142857143	0.5440932944606414
+tal_refined_labels	spearman_egfr_DKD_only	5							-0.3	0.6238376647810728
+tal_refined_labels	spearman_ifta_ord_all_with_clinical	6							-0.27774602993176545	0.5940940162568629
+tal_refined_labels	spearman_ifta_ord_DKD_only	5							-0.6708203932499368	0.21516994256955005

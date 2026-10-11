@@ -1,0 +1,12 @@
+{
+ "model": "gpt-image-2",
+ "style": "Flat vector-style scientific illustration icon in the style of BioRender, for a Nature journal figure. Clean shapes, soft muted colours (dusty rose, slate blue, warm grey, light pink tissue tones), thin dark-grey outlines, subtle shading, centred, generous margin, plain pure white background. Absolutely no text, no letters, no numbers, no labels, no arrows, no watermark.",
+ "icons": {
+  "kidney": "A human kidney in cross-section showing cortex and medulla, with a thin cylindrical needle biopsy core lying next to it.",
+  "nephron": "A single kidney nephron (glomerulus, proximal tubule, loop of Henle, distal tubule, collecting duct) drawn in neutral grey, with only the thick ascending limb of the loop of Henle highlighted in deep red.",
+  "singlecell": "Single-cell / single-nucleus droplet sequencing: a microfluidic chip channel with small oil droplets, each droplet containing one cell nucleus and a bead.",
+  "slide": "A glass microscope slide with a PAS-stained kidney biopsy tissue section (magenta-pink tissue), overlaid with a fine square grid of tiles on the tissue.",
+  "model": "A foundation model glyph: a stylised deep neural network of interconnected nodes in layers, receiving small square histology image tiles on the left and producing a short vector of coloured cells on the right.",
+  "spatial": "A thin kidney tissue section seen from above, covered with many small coloured dots marking cell positions as in spatial transcriptomics."
+ }
+}

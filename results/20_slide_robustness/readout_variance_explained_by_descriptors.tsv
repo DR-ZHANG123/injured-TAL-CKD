@@ -1,0 +1,16 @@
+readout_set	predictors	n	r2	adj_r2
+out_of_sample_readout	IF+TA	52	0.4858359166446444	0.46484962752809933
+out_of_sample_readout	all_descriptors	51	0.5513053041011255	0.490119663751279
+out_of_sample_readout	diagnosis	53	0.30087970136129893	0.2729148894157508
+out_of_sample_readout	IF+TA+diagnosis	52	0.6183504081349325	0.5858695918059906
+out_of_sample_readout	all_descriptors+diagnosis	51	0.6606037295082443	0.595956820843148
+training_cv_readout	IF+TA	62	0.45696173989376454	0.4385536632799939
+training_cv_readout	all_descriptors	60	0.49084198079469	0.4332014503186171
+training_cv_readout	diagnosis	62	0.21196590627911482	0.1852528861529832
+training_cv_readout	IF+TA+diagnosis	62	0.5238342437802842	0.4904191029929357
+training_cv_readout	all_descriptors+diagnosis	60	0.5221693660799229	0.44721554115128337
+training_measured_injured_TAL	IF+TA	62	0.27377262038074457	0.24915474310551566
+training_measured_injured_TAL	all_descriptors	60	0.28224157198117183	0.2009859008847007
+training_measured_injured_TAL	diagnosis	62	0.2805258900628015	0.25613693718357444
+training_measured_injured_TAL	IF+TA+diagnosis	62	0.420162967207132	0.37947264911640444
+training_measured_injured_TAL	all_descriptors+diagnosis	60	0.4357440082923071	0.3472332644950219

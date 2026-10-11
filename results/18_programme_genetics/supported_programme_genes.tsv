@@ -1,0 +1,45 @@
+trait	symbol	magma_p	magma_bonf	coloc_pp4_max	coloc_pp4_ge_flag	smr_min_p	smr_heidi_pass_tissues	smr_heidi_pass	n_lines	programme	smr_tissue	b_smr	p_smr	smr_sig	smr_tissue_heidi_pass	higher_expression_effect	direction_concordant_with_injury	multi_line
+egfr_EA	A4GALT	1.6472e-12	True		False	7.233701925330815e-08	susztak_meta;susztak_tubule	True	2	up	susztak_meta	0.0129607843137254	7.233701925330815e-08	True	True	protective	no	True
+egfr_EA	STAC2	1.0991e-14	True		False			False	1	up								False
+egfr_EA	MAFF	2.9753e-10	True		False			False	1	up								False
+egfr_EA	C15orf48	5e-10	True		False			False	1	up								False
+egfr_DM	HLA-B	1.2884e-09	True		False	0.3219213688548536		False	1	up	susztak_meta	-0.0054512416717141	0.3219213688548536	False	False	adverse		False
+egfr_EA	SLC6A12	2.3346e-09	True		False			False	1	up								False
+egfr_EA	HLA-B	4.9186e-09	True		False	0.0399214100790318		False	1	up	susztak_meta	-0.004778921865536	0.0399214100790318	False	False	adverse		False
+egfr_EA	CYP24A1	6.5717e-09	True		False	0.0141498736414771		False	1	up	susztak_meta	0.0046557085739671	0.0141498736414771	False	False	protective		False
+egfr_EA	SFN	1.2437e-08	True		False			False	1	up								False
+egfr_EA	RIN3	3.3698e-08	True		False	0.4941025057662165		False	1	up	susztak_meta	0.0012738853503184	0.4941025057662165	False	False	protective		False
+egfr_EA	GRB10	3.4758e-08	True		False	1.1887664827878528e-05		False	1	up	susztak_meta	-0.0144765342960288	1.1887664827878528e-05	False	False	adverse		False
+egfr_DM	C15orf48	1.171e-07	True		False			False	1	up								False
+egfr_EA	RASD1	1.2511e-07	True		False	1.1647250191751875e-05		False	1	up	susztak_meta	-0.0065762822606991	1.1647250191751875e-05	False	False	adverse		False
+uacr_EA	C15orf48	1.9751e-07	True		False			False	1	up								False
+egfr_EA	SMAD3	3.251e-07	True		False	0.0129268541841297		False	1	up	susztak_glom	-0.0033848797250859	0.0129268541841297	False	False	adverse		False
+egfr_EA	TPM1	4.9008e-07	True	0.067424549747839	False			False	1	up								False
+egfr_DM	LOXL4	4.9632e-07	True		False			False	1	up								False
+uacr_EA	KCNK5	5.9516e-07	True		False			False	1	up								False
+egfr_DM	MAFF	6.0041e-07	True		False			False	1	up								False
+egfr_EA	CALCRL	7.0258e-07	True		False			False	1	up								False
+egfr_EA	HMGA1	7.0984e-07	True		False			False	1	up								False
+egfr_EA	SKIL	7.1785e-07	True		False			False	1	up								False
+egfr_EA	DGKH	9.7211e-07	True		False	0.1115016858791728		False	1	up	susztak_meta	-0.0054934687953555	0.1115016858791728	False	False	adverse		False
+egfr_EA	RHPN2	1.1571e-06	True	0.0629988770436471	False			False	1	up								False
+egfr_EA	PAPLN	1.5031e-06	True		False	0.0029367477391981		False	1	up	susztak_tubule	-0.00536	0.0029367477391981	False	False	adverse		False
+egfr_EA	EHBP1L1	2.153e-06	True		False			False	1	up								False
+egfr_EA	LASP1	2.5925e-06	True		False	1.0249893956762732e-05		False	1	up	susztak_meta	-0.0125749674054758	1.0249893956762732e-05	False	False	adverse		False
+egfr_EA	CTSS	2.0145e-05	False		False	3.224322147482465e-07	susztak_tubule	True	1	up	susztak_tubule	-0.0236995073891625	3.224322147482465e-07	True	True	adverse	yes	False
+egfr_EA	XYLB	2.3901e-11	True		False	1.952747808764901e-09	susztak_glom;susztak_meta;susztak_tubule	True	2	down	susztak_meta	-0.0155763073639274	1.952747808764901e-09	True	True	adverse	no	True
+egfr_EA	UMOD	5e-10	True		False	1.0218435757979722e-09	susztak_glom;susztak_meta	True	2	down	susztak_meta	-0.0488534342888047	1.0218435757979722e-09	True	True	adverse	no	True
+egfr_DM	UMOD	5e-10	True		False	1.103160089827601e-09	susztak_glom;susztak_meta	True	2	down	susztak_meta	-0.1406165494862087	1.103160089827601e-09	True	True	adverse	no	True
+egfr_EA	KNG1	1.538e-08	True		False	5.7231992631707084e-08	susztak_glom;susztak_meta;susztak_tubule	True	2	down	susztak_tubule	0.0085018315018315	5.723199263170708e-08	True	True	protective	yes	True
+egfr_EA	EPB41L3	1.0582e-06	True		False	2.8801810155559885e-08	susztak_glom;susztak_meta;susztak_tubule	True	2	down	susztak_meta	0.013800834202294	2.8801810155559885e-08	True	True	protective	yes	True
+egfr_EA	SLC47A1	9.3925e-14	True		False	5.593096470874624e-07		False	1	down	susztak_meta	0.0331904369332234	5.593096470874624e-07	True	False	protective	yes	False
+uacr_EA	HPN	7.1609e-13	True	0.469936027220672	False			False	1	down								False
+egfr_EA	NEB	3.4941e-09	True	0.0762614978618976	False			False	1	down								False
+egfr_EA	CGNL1	8.4502e-08	True		False	0.0124836290107978		False	1	down	susztak_glom	0.0021138845553822	0.0124836290107978	False	False	protective		False
+egfr_EA	PFKFB2	2.2232e-07	True		False			False	1	down								False
+egfr_EA	SULT1A1	5.5633e-07	True		False			False	1	down								False
+uacr_DM	HPN	1.122e-06	True	0.0989694153725915	False			False	1	down								False
+egfr_EA	SPI1	1.2101e-06	True		False			False	1	down								False
+uacr_EA	CACNB2	2.488e-06	True		False			False	1	down								False
+egfr_EA	CHAC1	4.7681e-06	False		False	5.192361636584913e-08	susztak_glom;susztak_meta;susztak_tubule	True	1	down	susztak_tubule	-0.0081321321321321	5.192361636584913e-08	True	True	adverse	no	False
+egfr_EA	TSPAN33	0.058838	False		False	2.5589363827568885e-07	susztak_meta;susztak_tubule	True	1	down	susztak_meta	0.0106968325791855	2.5589363827568885e-07	True	True	protective	yes	False

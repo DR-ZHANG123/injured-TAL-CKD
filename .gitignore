@@ -1,0 +1,7 @@
+data/
+logs/
+__pycache__/
+*.parquet
+*.h5ad
+*.svs
+*.npz

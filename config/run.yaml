@@ -1,0 +1,540 @@
+# 全部可调参数；脚本只从这里读取
+seed: 20261010
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+
+geo:
+  # 肾活检 bulk 系列（ERCB / NEPTUNE / DKD 队列与独立队列）
+  series: [GSE104948, GSE104954, GSE108109, GSE108112, GSE133288, GSE200818, GSE182380,
+           GSE99339, GSE37460, GSE47183, GSE32591, GSE30528, GSE30529, GSE96804,
+           GSE142025, GSE175759, GSE115857, GSE69438, GSE93798, GSE162830, GSE166239]
+
+batch_screen:
+  # 批次指纹：批次间基因均值离散度 / 同样大小随机分组的离散度；比值显著 < 1 视为在批次上做过均值去除
+  n_perm: 1000
+  ratio_flag: 0.8
+  p_flag: 0.01
+  min_batch_n: 4
+
+kpmp:
+  groups:
+    DKD: {AdjudicationCategory: Diabetic Kidney Disease}
+    HKD: {AdjudicationCategory: Hypertensive Kidney Disease}
+    REF: {ConditionCategory: [Healthy Reference, Reference]}
+  states:                                  # SubclassLevel2 组合
+    PT_normal: [PT-S1, PT-S2, PT-S3, PT-S1/S2, PT-S2/S3]
+    PT_injured: [aPT, frPT]
+    aPT: [aPT]
+    frPT: [frPT]
+    TAL_normal: [C-TAL, M-TAL, C/M-TAL]
+    TAL_injured: [aTAL, frTAL]
+    POD: [POD]
+    EC_GC: [EC-GC]
+    PC: [CCD-PC, CNT-PC, OMCD-PC]
+    EC_PTC: [EC-PTC]
+  glom_cells: [POD, dPOD, EC-GC, aEC-GC, dEC-GC, MC, PEC]
+  min_cells: 20
+  min_donors_per_group: 5
+  min_mean_logcpm: 1.0
+  top_genes: 200
+  n_perm: 1000
+  # 检查 2 的事先设定：单核 = 发现，单细胞中未出现在单核的供体 = 复现
+  discovery: snRNA
+  replication: scRNA
+
+markers:
+  # 从 KPMP 单细胞图谱健康参考供体的 pseudobulk 定义：目标亚群 logCPM 减去其余亚群最大值，取前 n 个
+  source: scRNA
+  n: 50
+  min_logcpm: 3.0
+  targets:
+    podocyte: [POD]
+    glomerular_capillary_EC: [EC-GC]
+    mesangial: [MC]
+    PT: [PT-S1/S2, PT-S2/S3]
+    injured_PT: [aPT, frPT]
+  exclude_related:                         # 计算特异性时不作对比的同谱系相关状态
+    podocyte: [dPOD]
+    glomerular_capillary_EC: [aEC-GC, dEC-GC]
+    mesangial: []
+    PT: [aPT, frPT, dPT, cycPT, PT-S3]
+  drop_gene_regex: "^(ENSG|LINC|MALAT1|NEAT1|MT-|RP[SL]\\d|.*-AS\\d)"
+
+bulk_within_batch:
+  # 只在同一存放、同一杂交批次内比较；每组标本只用一个存放
+  strata:
+    - {series: GSE47183-GPL14663, batch: H1, compartment: GLOM}
+    - {series: GSE47183-GPL11670, batch: H7, compartment: GLOM}
+    - {series: GSE104954-GPL22945, batch: H7, compartment: TUB}
+  min_n: 3
+
+genetics:
+  # 人类遗传学层：GWAS 汇总统计 → MAGMA 基因水平 → 肾脏 eQTL 共定位 / SMR
+  gwas_dir: data/raw/gwas
+  tools_dir: data/tools/magma
+  traits:                                   # build 均为 GRCh37；N 取每个 SNP 的样本量列
+    egfr_EA:   {file: 20171017_MW_eGFR_overall_EA_nstud42.dbgap.txt.gz, format: ckdgen, type: quant,
+                url: "https://ckdgen.imbi.uni-freiburg.de/files/Wuttke2019/20171017_MW_eGFR_overall_EA_nstud42.dbgap.txt.gz",
+                source: "Wuttke et al. 2019 Nat Genet (CKDGen), eGFRcrea, European ancestry", ancestry: EUR}
+    uacr_EA:   {file: formatted_20180517-UACR_overall-EA-nstud_18-SumMac_400.tbl.rsid.gz, format: ckdgen, type: quant,
+                url: "https://ckdgen.imbi.uni-freiburg.de/files/Teumer2019/formatted_20180517-UACR_overall-EA-nstud_18-SumMac_400.tbl.rsid.gz",
+                source: "Teumer et al. 2019 Nat Commun (CKDGen), UACR, European ancestry", ancestry: EUR}
+    uacr_DM:   {file: formatted_20170020-UACR_DM-All-nstud_18-SumMac_400.tbl.rsid.gz, format: ckdgen, type: quant,
+                url: "https://ckdgen.imbi.uni-freiburg.de/files/Teumer2019/formatted_20170020-UACR_DM-All-nstud_18-SumMac_400.tbl.rsid.gz",
+                source: "Teumer et al. 2019 Nat Commun (CKDGen), UACR in individuals with diabetes, trans-ethnic", ancestry: ALL}
+    egfr_DM:   {file: meta_egfr_dmstrat_stage1plus2.txt.gz, format: winkler, stratum: dm, type: quant,
+                url: "https://ckdgen.imbi.uni-freiburg.de/files/Winkler2022/meta_egfr_dmstrat_stage1plus2.txt.gz",
+                source: "Winkler et al. 2022 Commun Biol (CKDGen), eGFRcrea in individuals with diabetes", ancestry: EUR}
+    egfr_noDM: {file: meta_egfr_dmstrat_stage1plus2.txt.gz, format: winkler, stratum: nodm, type: quant,
+                url: "https://ckdgen.imbi.uni-freiburg.de/files/Winkler2022/meta_egfr_dmstrat_stage1plus2.txt.gz",
+                source: "Winkler et al. 2022 Commun Biol (CKDGen), eGFRcrea in individuals without diabetes", ancestry: EUR}
+    ckd_EA:    {file: CKD_overall_EA_JW_20180223_nstud23.dbgap.txt.gz, format: ckdgen, type: binary,
+                url: "https://ckdgen.imbi.uni-freiburg.de/files/Wuttke2019/CKD_overall_EA_JW_20180223_nstud23.dbgap.txt.gz",
+                source: "Wuttke et al. 2019 Nat Genet (CKDGen), CKD (eGFR < 60), European ancestry", ancestry: EUR}
+    bun_EA:    {file: BUN_overall_EA_YL_20171108_METAL1_nstud24.dbgap.txt.gz, format: ckdgen, type: quant,
+                url: "https://ckdgen.imbi.uni-freiburg.de/files/Wuttke2019/BUN_overall_EA_YL_20171108_METAL1_nstud24.dbgap.txt.gz",
+                source: "Wuttke et al. 2019 Nat Genet (CKDGen), blood urea nitrogen, European ancestry", ancestry: EUR}
+  magma:
+    url_binary: "https://vu.data.surfsara.nl/index.php/s/lxDgt2dNdNr6DYt/download"   # magma_v1.10_static.zip
+    url_geneloc: "https://vu.data.surfsara.nl/index.php/s/Pj2orwuF2JYyKxq/download"  # NCBI37.3.zip
+    url_ref: "https://vu.data.surfsara.nl/index.php/s/VZNByNwpD8qqINe/download"      # g1000_eur.zip
+    window_up_kb: 10
+    window_down_kb: 1.5
+    model: snp-wise=mean
+    n_batches: 24                           # 按 MAGMA --batch 并行
+    alpha: 0.05                             # Bonferroni：alpha / 检验基因数
+  loci:
+    p_lead: 5.0e-8
+    clump_kb: 500                           # 距离贪婪聚簇定义独立位点
+    region_kb: 500                          # 共定位区域：前导 SNP ± region_kb
+  coloc:
+    traits: [egfr_EA, uacr_EA, egfr_DM, uacr_DM]
+    p1: 1.0e-4
+    p2: 1.0e-4
+    p12: 1.0e-5
+    p12_sensitivity: [5.0e-6, 1.0e-6]
+    sd_prior_quant: 0.15
+    min_snps: 50
+    pp4_flag: 0.8
+    min_eqtl_p: 1.0e-4                      # 只对区域内有 cis-eQTL 信号的基因做共定位
+  eqtl:
+    gtex_kidney_cortex:
+      url: "https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000015/QTD000261/QTD000261.all.tsv.gz"
+      n: 73
+      build: GRCh38
+      full: true
+      source: "GTEx v8 kidney cortex, uniformly processed by eQTL Catalogue (QTD000261)"
+    susztak_meta:
+      url: "https://figshare.com/ndownloader/files/33957947"
+      file: Kidney_eQTL_Meta_S686_Significant.q0.01.txt.gz
+      n: 686
+      full: false
+      source: "Liu et al. 2022 Nat Genet, human kidney eQTL meta-analysis (FDR<0.01 pairs only)"
+    susztak_tubule:
+      url: "https://figshare.com/ndownloader/files/38295906"
+      file: Kidney_eQTL.TubsigeQTLsFormated.txt.gz
+      n: 356
+      full: false
+      source: "Sheng et al. 2021 Nat Genet, microdissected tubule eQTL (FDR<0.01 pairs only)"
+    susztak_glom:
+      url: "https://figshare.com/ndownloader/files/38295879"
+      file: Kidney_eQTL.GlomsigeQTLsFormated.txt.gz
+      n: 303
+      full: false
+      source: "Sheng et al. 2021 Nat Genet, microdissected glomerulus eQTL (FDR<0.01 pairs only)"
+    hgnc_url: "https://storage.googleapis.com/public-download-files/hgnc/tsv/tsv/hgnc_complete_set.txt"
+  smr:
+    traits: [egfr_EA, uacr_EA, egfr_DM, uacr_DM]
+    datasets: [susztak_meta, susztak_tubule, susztak_glom]
+    p_eqtl: 5.0e-8                          # 仪器 cis-eQTL 阈值（SMR 默认）
+    heidi_p_lower: 1.57e-3                  # HEIDI 纳入 SNP 的 eQTL P 上限
+    heidi_min_snps: 3
+    heidi_max_snps: 20
+    heidi_ld_upper: 0.9
+    heidi_ld_lower: 0.05
+    heidi_flag: 0.01                        # p_HEIDI ≥ 0.01 视为与单一因果变异一致
+
+histology:
+  # KPMP 全切片 Phikon-v2 嵌入（移植）→ 供体级分子轴 → 参与者水平交叉验证预测 → 无图谱参与者中的临床关联
+  port:
+    src_embeddings: data/processed/wsi_embeddings
+    src_logs: results/11a0_wsi_embed
+    src_provenance: results/11a0_wsi_embed/PROVENANCE.json
+    src_extra:                               # 切片清单与病理描述评分（小文件，一并复制）
+      - data/raw/kpmp/download_manifest_wsi_priority.tsv
+      - data/raw/kpmp/KPMP_TIV_Descriptor_Scores_02.19.2026.xlsx
+    src_code:                                # 嵌入生成代码，原样存档以便复算
+      - scripts/stages/11a0_wsi_embed.py
+      - scripts/lib/wsi.py
+      - scripts/lib/histo.py
+    dest: data/processed/histology
+    encoder: owkin/phikon-v2
+    encoder_revision: 2ae989a9c40cffaa27f0a6cb29cc94d1d6f9a5fd
+  stains: [HE, PAS]
+  tileset: all                               # 主分析：全部 QC tile 的平均嵌入；tubule = 预设小管富集 tile（敏感性）
+  min_tiles: 20
+  axes:
+    min_cells: 20                            # 分母亚群（或 EC-GC）合计细胞数下限，与 kpmp.min_cells 一致
+    logit_eps: 0.001
+    pt_num: [aPT, frPT]
+    pt_den: [PT-S1, PT-S2, PT-S3, PT-S1/S2, PT-S2/S3, aPT, frPT, dPT, cycPT]   # 单细胞图谱用 PT-S1/S2、PT-S2/S3 命名
+    tal_num: [aTAL, frTAL]
+    tal_den: [C-TAL, M-TAL, C/M-TAL, aTAL, frTAL, dTAL, dM-TAL, dC-TAL, cycTAL]   # 单细胞图谱退行 TAL 名为 dTAL
+    ecgc_states: [EC-GC]
+    ecgc_states_sensitivity: [EC-GC, aEC-GC, dEC-GC]
+    ecgc_marker_set: glomerular_capillary_EC
+  cv:
+    outer_folds: 10
+    repeats: 5
+    inner_folds: 5
+    ridge_alphas: [1.0e+1, 1.0e+2, 1.0e+3, 1.0e+4, 1.0e+5, 1.0e+6]
+    n_perm: 1000
+    n_jobs: 48
+  primary_targets: [tubular_axis, ecgc_axis, tal_injured_logit]   # tal_injured_logit：独立人群 eGFR 分析按 TAL 单独报告
+  clinical:
+    # 白蛋白尿按 KDIGO 归为 A1/A2/A3；eGFR 取 10 单位分档中点
+    albuminuria_A: {"<30 mg/g cr (alb)": 1, "30 to <300 mg/g cr (alb)": 2, "300 to <500 mg/g cr (alb)": 3,
+                    "500 to <1000 mg/g cr (alb)": 3, ">=1000 mg/g cr (alb)": 3}
+    albuminuria_ord: {"<30 mg/g cr (alb)": 1, "30 to <300 mg/g cr (alb)": 2, "300 to <500 mg/g cr (alb)": 3,
+                      "500 to <1000 mg/g cr (alb)": 4, ">=1000 mg/g cr (alb)": 5}
+    atlas_modalities: [Single-nucleus RNA-Seq, Single-cell RNA-Seq]   # 含任一者视为有图谱数据，不进入样本外集合
+    if_column: "Cortex: Interstitial Fibrosis: Percent"
+
+batch_erasure:
+  # Stage 12：与诊断重合的批次校正如何抹掉病种差异（Fig 2）
+  min_batch_n: 4                 # 与 batch_screen 一致：批次结构表只计 ≥4 例的批次
+  min_dx_n: 3                    # 批次×诊断结构表中计入的诊断最小例数
+  pair_uncorrected: GSE99339-GPL19184     # 同一批标本：未做批次均值去除的存放
+  pair_corrected: GSE104948-GPL24120      # 同一批标本：批次均值已去除的存放
+  match_min_r: 0.5               # 批次内中心化后两存放样本相关 ≥ 此值且互为最佳匹配才视为同一标本
+  min_n: 5                       # 单病种一对其余 / 跨批次两两比较每组最小标本数
+  min_n_within: 4                # 批次内两两比较每组最小标本数
+  cv_folds: 5
+  cv_repeats: 20
+  logit_C: 0.1                   # L2 logistic；标准化只在训练折内拟合
+  sim_deposit: GSE99339-GPL19184
+  sim_batch: H5                  # 单一杂交批次内模拟“批次 = 诊断”的中心化
+  sim_levels: [0.0, 0.25, 0.5, 0.75, 1.0]   # 与诊断重合的标本比例
+  sim_reps: 10
+  sim_cv_repeats: 5
+  n_jobs: 32
+
+xenium:
+  # Stage 10：GSE286184 Xenium（肾小球疾病诊断活检，50 基因面板）原位检验
+  geo: GSE286184
+  raw_dir: data/raw/GSE286184
+  processed_dir: data/processed/xenium
+  groups: {DKD: [DKD], PGD: [IgAN, MN, MCD], CTRL: [Control]}   # PGD = 原发性肾小球疾病
+  contrasts: [[DKD, CTRL], [DKD, PGD], [PGD, CTRL]]
+  min_donors: 3
+  min_qv: 20
+  min_transcripts: 10                   # 细胞 QC：面板基因转录本数下限
+  reference:                            # KPMP 单核参照质心
+    exclude_regex: "^(d[A-Z]|cyc)"      # 退行与增殖状态：以转录本丢失/细胞周期定义，50 基因面板不可分辨
+    exclude: [ERY, N, IMCD, PapE, M-FIB, M-IC-A, M-PC, M-TAL, DTL1, DTL2, DTL3, ATL, aDTL,
+              EC-DVR, EC-AVR, infEC-AVR, SC/NEU, tPC-IC]   # 髓质/乳头及面板不可分辨的亚群（穿刺活检以皮质为主）
+    ambient_quantile: 0.1               # 每个基因减去跨亚群的该分位 CPM（单核环境 RNA 底）
+    min_specificity: 2.0                # 用于相关注释的基因：log1p CPM 最大值 − 跨亚群中位数
+  min_r: 0.2                            # 相关注释最低 Pearson r，低于者为 unassigned
+  lineages:
+    PT: [PT-S1, PT-S2, PT-S3, aPT, frPT]
+    TAL: [C-TAL, C/M-TAL, MD, aTAL, frTAL]
+    DCT_CNT: [DCT, aDCT, CNT, aCNT]
+    PC: [C-PC]
+    IC: [C-IC-A, IC-B]
+    POD: [POD]
+    EC_GC: [EC-GC, aEC-GC]
+    MC: [MC]
+    PEC: [PEC]
+    EC_other: [EC-AA, EC-EA, EC-PTC, EC-PCV, EC-V, EC-LYM, angEC-PTC, infEC-PTC]
+    Stroma: [FIB, infFIB, pvFIB, MYOF, VSMC, VSMC/P, REN, Ad]
+    Immune: [B, PL, T, NK, MON, moMAC, moMAC-INF, resMAC, DC, MAST]
+  glomerulus:
+    seed_genes: [NPHS1, POSTN]          # 足细胞 + 系膜特异转录本；只用 NPHS1 会漏掉足细胞丢失的硬化肾小球
+    eps_um: 20
+    min_samples: 6
+    min_transcripts: 30
+    min_nphs1: 3                        # 至少有残存足细胞转录本，排除间质 POSTN 团
+    min_diameter_um: 60                 # 凸包等面积圆直径
+    max_diameter_um: 350
+    buffer_um: 10                       # 凸包外扩，纳入毛细血管袢边缘与壁层上皮
+    composition: {EC: [PECAM1], POD: [NPHS1], MC: [POSTN, PDGFRB]}
+    cell_classes: [POD, EC-GC, aEC-GC, MC, PEC, MON, moMAC, moMAC-INF, resMAC, T, NK, B, DC]
+    min_cells: 10                       # 每个肾小球内 QC 细胞下限
+    min_glomeruli: 3                    # 每个供体肾小球数下限
+    ecgc_identity_min_delta: 1.0        # EC-GC 身份基因：KPMP 中 EC-GC 减跨亚群中位数 ≥ 该值，且 ≥ 内皮外最大值
+  tubule:
+    pt_injured: [aPT, frPT]
+    immune_lineage: Immune
+    radius_um: 50                       # 邻域：半径内是否有免疫细胞
+    min_cells: 20
+  tal:                                  # Stage 10e：损伤 TAL 的原位比例与微环境
+    tal_labels: [C-TAL, C/M-TAL, aTAL, frTAL]   # 不含致密斑 MD
+    tal_injured: [aTAL, frTAL]
+    radius_um: 50
+    min_cells: 20
+    neighbours:
+      immune: {lineages: [Immune]}
+      fibroblast: {lineages: [Stroma], labels: [FIB, infFIB, MYOF, pvFIB]}
+
+gwas_enrichment:
+  # KPMP 单核亚群特异基因上的 MAGMA 基因得分富集
+  traits: [egfr_EA, uacr_EA, egfr_DM, egfr_noDM, uacr_DM]
+  top_fraction: 0.10
+  min_cp10k: 0.5
+  min_cells_total: 200
+  glomerular_vascular: [POD, MC, EC-GC, aEC-GC, PEC, REN, VSMC, EC-AEA, EC-DVR]
+  tubular_repair: [aPT, frPT, aTAL, frTAL]
+  trait_pairs: [[uacr_EA, egfr_EA], [uacr_DM, egfr_DM]]
+  n_boot: 500
+
+genetic_direction:
+  # 方向符号：eGFR 以 g·b<0 为不利（-1），UACR 以 g·b>0 为不利（+1）
+  traits: {egfr_EA: -1, egfr_DM: -1, uacr_EA: 1}
+  cases: ["DKD+HKD", "DKD", "HKD"]
+  min_mean_logcpm: 1.0
+  min_genes: 8
+  n_perm: 1000
+
+key_genes:
+  # 修复失败小管状态的关键基因：发现（KPMP 单核配对）→ 复现（KPMP 单细胞独立供体、GSE271188）→ eGFR 关联
+  states:
+    frTAL: {injured: [frTAL], normal: [C-TAL, M-TAL, C/M-TAL]}
+    aTAL_frTAL: {injured: [aTAL, frTAL], normal: [C-TAL, M-TAL, C/M-TAL]}
+    frPT: {injured: [frPT], normal: [PT-S1, PT-S2, PT-S3]}
+  fdr: 0.05
+  min_lfc: 1.0
+  rep_lfc: 0.5
+  min_cells_gse271188: 10
+
+fig_tables:
+  # Stage 16：主图 2/3 所需的供体级表（比例、跨方法一致性、复现队列、eGFR 分组、损伤 TAL 基因程序得分）
+  dx_order: [REF, DKD, HKD]
+  egfr_edges: [0, 40, 60, 90, 1000]          # eGFR 分档中点分组：<40、40–59、60–89、≥90（<30 仅 2 名供体，并入）
+  egfr_labels: ["<40", "40-59", "60-89", ">=90"]
+  gse211785_pt_normal: [PT_S1, PT_S2, PT_S3]
+  gse211785_pt_injured: [iPT]
+  gse211785_exclude_libs: [HK2663.SN, HK2770.SN]
+  gse271188_glomerular: [IgAN, MN, MCD]
+  programme_state: aTAL_frTAL               # 程序基因 = 两个复现集均复现的上调基因（不按 eGFR 选择）
+  heatmap_top_n: 25
+
+fig45:
+  # Fig 4d 切片 tile 级读出：留一参与者岭回归（与 11_histology 相同的标准化与内层 CV 选正则化），
+  # 线性模型下每个 tile 的得分 = 该 tile 嵌入代入模型，参与者平均 = 切片预测。
+  target: tal_injured_logit
+  stain: PAS
+  select_by: cv_predicted          # 训练参与者中交叉验证预测最高 / 最低者各一名
+  n_example_tiles: 4               # 每人展示得分最高（高者）/ 最低（低者）的 tile 数
+  tile_px: 224
+  target_um_per_px: 0.5
+  thumb_max_px: 1400               # 缩略图长边像素
+  slide_dir: data/raw/kpmp/Light_Microscopic_Whole_Slide_Images
+  reader_env: tal-ckd-slides           # openslide 只在该环境中可用；tile 读取在该环境运行
+
+programme_genetics:
+  # Stage 18：复现的损伤 TAL 基因程序是否携带肾功能遗传信号
+  # MAGMA 竞争性基因集分析（默认校正基因大小/密度；另做以 KPMP 单核平均表达为条件的敏感性分析）
+  # + 按 KPMP 单核平均表达十分位 × 基因长度十分位匹配的随机基因集经验零分布
+  traits: [egfr_EA, uacr_EA, egfr_DM, egfr_noDM, uacr_DM, ckd_EA, bun_EA]
+  tal_state: aTAL_frTAL                     # 程序 = 两个复现集均复现（replicated_both）
+  pt_state: frPT
+  pt_replication: replicated_gse271188      # KPMP 单细胞独立供体中 frPT 不足，PT 程序只用 GSE271188 复现
+  healthy_tal_subclasses: [C-TAL, M-TAL]    # 取自 stage 13 的亚群特异基因
+  min_cells_total: 200                      # 与 gwas_enrichment 一致：平均表达只用合计 ≥ 该细胞数的亚群
+  n_null: 1000
+  n_bins_expr: 10
+  n_bins_length: 10
+  min_lines: 2                              # 07f 遗传证据条数 ≥ 此值列为多线支持
+  adverse_sign: {egfr_EA: -1, egfr_DM: -1, egfr_noDM: -1, uacr_EA: 1, uacr_DM: 1}   # b_SMR × 符号 > 0：表达升高不利
+
+confounders:
+  # Stage 21：取材方式、年龄、性别、纤维化与组成效应对损伤 TAL 结论的影响；194 个 eGFR 相关基因的维度
+  dx_order: [REF, DKD, HKD]
+  reference_procurement: Percutaneous Needle Biopsy   # 与 DKD/HKD 相同的取材方式，作为参考组织的主比较基线
+  min_group_n: 3                       # 取材分组 / 子集最少参与者数
+  min_model_n: 10                      # 回归模型最少参与者数
+  logit_eps: 0.001                     # 与 stage 16 相同
+  egfr_subsets: {all: [REF, DKD, HKD], CKD: [DKD, HKD], DKD: [DKD], HKD: [HKD], REF: [REF]}
+  albuminuria_subsets: {all: [REF, DKD, HKD], CKD: [DKD, HKD], DKD: [DKD], HKD: [HKD]}
+  pca_programme_state: aTAL_frTAL      # 194 基因 = 两个复现集均复现的上调基因中 eGFR FDR < pca_fdr 者
+  pca_fdr: 0.05
+  pca_n_components: 10
+  pca_n_perm: 1000                     # 平行分析：逐基因独立置换参与者
+  pca_n_random_sets: 1000              # 对照：同样大小、平均表达 ≥ 1 logCPM 的随机基因集
+
+slide_robustness:
+  # Stage 20a/20：切片读出的采集偏移、染色/扫描稳健性、时间外推、病理描述评分基线、信度上限、tile 分数尺度
+  reader_env: tal-ckd-slides                      # 20a 读 .svs 文件头需要 openslide
+  slide_dir: data/raw/kpmp/Light_Microscopic_Whole_Slide_Images
+  target: tal_injured_logit                   # 主读出：损伤 TAL 比例（logit）
+  secondary_targets: [tubular_axis]
+  colour_features: [eosin_mean, hema_mean, eosin_frac, hema_frac, white_frac]   # tile 级颜色反卷积统计的切片均值
+  intensity_features: [eosin_mean, hema_mean]  # 嵌入染色校正的主版本只去除两种染料强度；全部颜色统计为更严格版本
+  colour_pcs: 2                               # 关联模型中颜色统计以训练集内 PCA 前 2 个主成分进入
+  training_mpp: 0.2527                        # 训练集全部切片的扫描分辨率（µm/px）
+  temporal_split_year: 2021                   # 时间外推：活检登记年份 ≤ 该年训练，之后测试（仅训练参与者）
+  random_split_reps: 500                      # 与时间划分同样大小的随机划分重复数，作为参照分布
+  n_perm: 1000                                # 诊断内（DKD+HKD）重新训练的置换次数
+  n_boot: 2000                                # 参与者水平自助法置信区间
+  n_null: 1000                                # 置换标签读出 / 随机投影读出的样本外 eGFR 关联零分布次数
+  embedding_pcs: 3                            # 通用"损伤"基线：训练集平均嵌入的前 3 个主成分
+  within_diagnoses: [DKD, HKD]
+  descriptors:                                # KPMP TIV 病理描述评分（无球性硬化项；该表只含小管间质与血管评分）
+    IF_pct: "Cortex: Interstitial Fibrosis: Percent"
+    TA_pct: "Cortex: Tubular Atrophy: Common Type: Percent"
+    tubular_injury_pct: "Cortex: Tubular Injury Other: Percent"
+    interstitial_inflammation_pct: "Cortex: Interstitial Monuclear WBC: Percent"
+    arteriosclerosis: "Cortex and Medulla: Arteriosclerosis: Arteriosclerosis: Presence"
+    arteriolar_hyalinosis: "Cortex and Medulla: Arteriolar Hyalinosis: Arteriolar Hyalinosis: Presence"
+  descriptor_missing_codes: [999, "N", "?"]
+
+tal_states:
+  # Stage 22：aTAL 与 frTAL 分开——比例、eGFR、程序组成检验、TAL 功能基因、皮质分母、对照人群
+  tal_den_sn: [C-TAL, M-TAL, C/M-TAL, aTAL, frTAL, dC-TAL, dM-TAL, cycTAL]     # 与 stage 16 相同的 TAL 分母
+  tal_den_sc: [C-TAL, M-TAL, C/M-TAL, aTAL, frTAL, dTAL, dM-TAL, cycTAL]
+  cortical_den_sn: [C-TAL, C/M-TAL, aTAL, frTAL, dC-TAL]                        # 只用皮质 TAL 分母（排除 M-TAL、dM-TAL）
+  cortical_den_sc: [C-TAL, C/M-TAL, aTAL, frTAL]
+  medullary: [M-TAL, dM-TAL]
+  min_injured_cells: 20             # frTAL 占损伤 TAL 份额：aTAL+frTAL 合计细胞数下限
+  comparators: {AKI: {ConditionCategory: Acute Kidney Injury}, DM_resilient: {ConditionCategory: Diabetes Mellitus - Resilient}}
+  contrasts: [[DKD, REF], [HKD, REF], [DKD, HKD], [AKI, REF], [AKI, DKD], [AKI, HKD],
+              [DM_resilient, REF], [DM_resilient, DKD], [DM_resilient, HKD]]
+  programme_states: {aTAL: [aTAL], frTAL: [frTAL], pooled: [aTAL, frTAL]}
+  function_genes: [EGF, UMOD, SLC12A1, KCNJ1, CLDN16, CLDN10, CASR, PTGER3]
+  urinary_markers: [LCN2, HAVCR1, MMP7, CCL2, SPP1, CD44, VCAM1, CST3, TIMP2, IGFBP7]
+  discovery_states: {aTAL_frTAL: [aTAL, frTAL], aTAL: [aTAL], frTAL: [frTAL]}   # 各自对同一正常 TAL（key_genes.states.aTAL_frTAL.normal）
+  participant_genes: [EGF, UMOD]
+  fdr: 0.05
+
+replication2:
+  # Stage 19a/19b：损伤 TAL（aTAL+frTAL）扩增与损伤 TAL 基因程序在 GSE211785（DKD/HKD/对照）与 GSE195460（DKD/对照）中的独立复现
+  min_umi: 500                              # 细胞 / 细胞核原始 UMI 下限（与 stage 09 相同）
+  all_states: {n_per: 25, min_r: 0.2}       # 全亚群注释迁移（与 stage 09 相同）
+  tal_states:                               # TAL 状态内注释：只在 TAL 状态之间计算特异基因
+    snRNA: [C-TAL, M-TAL, C/M-TAL, aTAL, frTAL, dC-TAL, dM-TAL, cycTAL]
+    scRNA: [C-TAL, M-TAL, C/M-TAL, aTAL, frTAL, dTAL]     # 单细胞图谱 dM-TAL 仅 75 个细胞、无 cycTAL，不作参照
+    n_per: 50
+    min_r: 0.1
+    drop_gene_regex: "^(MT-|RP[SL]\\d|MALAT1|NEAT1)"     # 线粒体 / 核糖体 / 核内保留转录本在单核与单细胞间差异大
+  tal_injured: [aTAL, frTAL]
+  tal_normal: [C-TAL, M-TAL, C/M-TAL]
+  tal_all_sn: [C-TAL, M-TAL, C/M-TAL, aTAL, frTAL, dC-TAL, dM-TAL, cycTAL]
+  tal_all_sc: [C-TAL, M-TAL, C/M-TAL, aTAL, frTAL, dTAL, dM-TAL, cycTAL]
+  min_tal_cells: 20                         # 比例分母（TAL 细胞）下限，与 kpmp.min_cells 一致
+  min_state_cells: 10                       # 程序配对比较中每个状态的细胞下限（与 key_genes.min_cells_gse271188 一致）
+  logit_eps: 0.001
+  programme: {state: aTAL_frTAL, fdr: 0.05, min_lfc: 1.0, rep_lfc: 0.5}   # 与 key_genes 相同的命中与复现标准
+  gse211785:
+    techs: [SN_RNA, SC_RNA]
+    exclude_libs: [HK2663.SN, HK2770.SN]    # 条形码前缀与样本列矛盾的单核文库（stage 08）
+    tal_clusters: [C_TAL, M_TAL]            # 原作者 TAL 簇；全亚群注释（全部 RNA 细胞）作敏感性分析
+    reference_by_tech: {SN_RNA: snRNA, SC_RNA: scRNA}
+    contrasts: [[DKD, Control], [HKD, Control], [DKD, HKD]]
+  gse195460:
+    raw_dir: data/raw/GSE195460
+    libraries:                              # 文库 → 供体、诊断、化学（系列说明：对照 1–3 与 DN1–3 为 5' R2-only，对照 4–5 与 DN4–5 为 5' 双端，对照 6 为 3' v3）
+      Control1: {group: Control, chem: 5p_R2}
+      Control2: {group: Control, chem: 5p_R2}
+      Control3: {group: Control, chem: 5p_R2}
+      Control4: {group: Control, chem: 5p_PE}
+      Control5: {group: Control, chem: 5p_PE}
+      Control6: {group: Control, chem: 3p_v3}
+      DN1: {group: DKD, chem: 5p_R2}
+      DN2: {group: DKD, chem: 5p_R2}
+      DN3: {group: DKD, chem: 5p_R2}
+      DN4: {group: DKD, chem: 5p_PE}
+      DN5: {group: DKD, chem: 5p_PE}
+    ifta_ord: {"1-10%": 1, "11-25%": 2, "26-50%": 3, ">50%": 4}
+
+confounders_extra:
+  # Stage 21 补充：全部诊断类别敏感性分析；单核 vs 单细胞跨谱系一致性的正式比较
+  full_dx:                              # AdjudicationCategory → 独立水平；其余非参考参与者按入组类别归为未定
+    "Diabetic Kidney Disease": DKD
+    "Hypertensive Kidney Disease": HKD
+    "Acute Tubular Injury": ATI
+    "Acute Interstitial Nephritis": AIN
+    "Other": other_diagnosis
+  undetermined_prefix: undetermined_    # + ConditionCategory 简写（AKI / CKD / DM-R）
+  condition_short: {"Acute Kidney Injury": AKI, "Chronic Kidney Disease": CKD, "Diabetes Mellitus - Resilient": DM-R}
+  agreement_lineages:                   # 两个图谱均有的损伤上皮状态：分子 / 分母（按两种命名取并集）
+    TAL: {num: [aTAL, frTAL], den: [C-TAL, M-TAL, C/M-TAL, aTAL, frTAL, dTAL, dM-TAL, dC-TAL, cycTAL]}
+    PT: {num: [aPT, frPT], den: [PT-S1, PT-S2, PT-S3, PT-S1/S2, PT-S2/S3, aPT, frPT, dPT, cycPT]}
+    DCT: {num: [aDCT], den: [DCT, aDCT, dDCT]}
+    CNT: {num: [aCNT], den: [CNT, aCNT, dCNT]}
+    DTL: {num: [aDTL], den: [DTL1, DTL2, DTL3, aDTL, dDTL]}
+  agreement_reference_lineage: TAL
+  n_boot: 2000
+
+replication2_circularity:
+  # Stage 19c：注释迁移循环性检验——基因随机对半拆分（A 半选注释基因，B 半评价复现）与健康状态对照对
+  n_splits: 20                              # 拆分种子 = seed + 0..n_splits-1
+  baseline_pairs:                           # “前者 vs 后者”，发现效应同样由 KPMP 单核供体内配对比较得到
+    M-TAL_vs_C-TAL: [[M-TAL], [C-TAL]]
+    CNT_vs_DCT: [[CNT], [DCT]]
+
+fig_tables_v2:
+  # Stage 23：Fig 3 / Fig 4（v2）绘图所需的补充表（零分布逐次抽样；健康 TAL 与损伤程序基因的 SMR 支持）
+  tal_state: aTAL_frTAL                       # 损伤 TAL（aTAL+frTAL）vs 正常 TAL 的 log2FC 取自 stage 15
+  support_sets: [tal_injured_down, tal_healthy, tal_injured_up]   # 先到先得：下调程序基因优先标为 tal_injured_down
+  support_traits: [egfr_EA, egfr_DM, egfr_noDM, uacr_EA, uacr_DM]  # 有 SMR 结果的性状才会出现
+  gene: EGF                                   # TAL 中与 eGFR 做标准化回归的基因
+  dx_groups: [REF, DKD, HKD]
+
+lineage_genetics:
+  # Stage 18b：各健康细胞谱系特异基因（stage 13，每亚群取特异性前 10%）的肾功能遗传信号，与 stage 18 同一匹配零分布
+  lineages:
+    PT: [PT-S1, PT-S2, PT-S3]
+    TAL: [C-TAL, M-TAL]
+    DCT: [DCT]
+    CNT: [CNT]
+    PC: [C-PC, M-PC]
+    IC: [C-IC-A, M-IC-A, IC-B]
+    POD: [POD]
+    EC: [EC-GC, EC-PTC, EC-AA, EC-EA, EC-AVR, EC-DVR]
+    FIB: [FIB, M-FIB]
+    VSMC: [VSMC, VSMC/P]
+    Immune: [T, B, NK, resMAC, MON, MAST]
+
+programme_power:
+  # Stage 18c：从健康 TAL 身份基因中抽取与损伤 TAL 程序同样大小的子集，估计匹配零分布检验的检出力
+  source_set: tal_healthy_specific
+  size_of: tal_injured_up
+  n_draws: 200
+  n_null: 1000
+
+sldsc:
+  # Stage 25：分层 LD 分数回归（baselineLD v2.2 + 全部基因对照 + 基因集注释；Finucane 2018 做法）
+  ref_dir: data/raw/ldsc                    # Zenodo 10515792：1000G Phase 3 EUR plink、baselineLD v2.2、HapMap3 权重、频率
+  env: ldsc                                 # bioconda ldsc 1.0.1（Python 2.7）
+  window_kb: 100
+  n_jobs: 24
+  gene_sets: [tal_healthy_specific, tal_injured_down, tal_injured_up, pt_injured_up]
+  traits: [egfr_EA, egfr_noDM, egfr_DM, bun_EA, uacr_EA, ckd_EA]
+
+wsi_embed:
+  # stage 11a0：KPMP 全切片分块、质控与 Phikon-v2 嵌入
+  tiles:
+    target_um_per_px: 0.5
+    tile_px: 224
+    thumb_downsample: 32
+    mask_sat_thr: 0.07
+    min_tile_tissue: 0.5
+    min_blur_var: 30
+    pen_hue_ranges: [[0.40, 0.72]]
+    pen_sat_thr: 0.35
+    max_tiles: 2000
+    tubule_lumen_range: [0.05, 0.40]
+    min_tiles_slide: 100
+    poll_minutes: 15
+    poll_max_hours: 3
+    poll_target_frac: 0.8
+  features:
+    encoder: owkin/phikon-v2
+    encoder_revision: 2ae989a9c40cffaa27f0a6cb29cc94d1d6f9a5fd
+    hema_thr: 0.05
+    eosin_thr: 0.02
+    nucleus_min_px: 12

@@ -1,0 +1,57 @@
+trait	model	gene_set	n_genes	beta	beta_std	se	p_one_sided	neglog10_p	trait_label	set_label
+egfr_EA	default	tal_injured_up	536	0.092927	0.015689	0.053047	0.039914	1.398874747012302	eGFR, all	Gained in injured TAL
+egfr_EA	default	tal_injured_down	280	0.10904	0.013402	0.07238	0.065974	1.1806271838706757	eGFR, all	Lost in injured TAL
+egfr_EA	default	tal_healthy_specific	3651	0.12884	0.051541	0.022292	3.8061e-09	8.419519805413774	eGFR, all	Healthy TAL identity genes
+egfr_EA	default	pt_injured_up	833	-0.0066211	-0.0013818	0.043399	0.56063	0.2513236663226888	eGFR, all	Gained in injured PT
+egfr_EA	expr_conditioned	tal_injured_up	536	0.050288	0.0085756	0.053047	0.17158	0.7655333365097383	eGFR, all	Gained in injured TAL
+egfr_EA	expr_conditioned	tal_injured_down	280	0.077779	0.0096571	0.07227	0.14092	0.8510273654907952	eGFR, all	Lost in injured TAL
+egfr_EA	expr_conditioned	tal_healthy_specific	3651	0.025235	0.010173	0.02538	0.16005	0.7957443215198489	eGFR, all	Healthy TAL identity genes
+egfr_EA	expr_conditioned	pt_injured_up	833	-0.053602	-0.011297	0.043559	0.89075	0.05024416897694679	eGFR, all	Gained in injured PT
+uacr_EA	default	tal_injured_up	536	-0.002123	-0.00035825	0.044586	0.51899	0.28484101014125146	UACR, all	Gained in injured TAL
+uacr_EA	default	tal_injured_down	280	0.025697	0.0031567	0.061781	0.33873	0.47014633787711924	UACR, all	Lost in injured TAL
+uacr_EA	default	tal_healthy_specific	3651	0.069945	0.027969	0.018869	0.00010525	3.977777895492294	UACR, all	Healthy TAL identity genes
+uacr_EA	default	pt_injured_up	833	0.00063146	0.00013172	0.036488	0.4931	0.3070649974688623	UACR, all	Gained in injured PT
+uacr_EA	expr_conditioned	tal_injured_up	536	-0.033455	-0.0057025	0.044645	0.77317	0.11172500550642002	UACR, all	Gained in injured TAL
+uacr_EA	expr_conditioned	tal_injured_down	280	0.0070713	0.00087756	0.061784	0.45444	0.3425234488315489	UACR, all	Lost in injured TAL
+uacr_EA	expr_conditioned	tal_healthy_specific	3651	0.0091909	0.0037038	0.021561	0.33496	0.475007052116826	UACR, all	Healthy TAL identity genes
+uacr_EA	expr_conditioned	pt_injured_up	833	-0.030235	-0.0063694	0.036737	0.79474	0.09977492798964999	UACR, all	Gained in injured PT
+egfr_DM	default	tal_injured_up	535	-0.0050047	-0.0008454	0.042198	0.5472	0.26185391128794017	eGFR, diabetes	Gained in injured TAL
+egfr_DM	default	tal_injured_down	279	0.011913	0.0014637	0.05773	0.41826	0.37855366687984926	eGFR, diabetes	Lost in injured TAL
+egfr_DM	default	tal_healthy_specific	3646	0.056928	0.022786	0.017449	0.00055343	3.2569373025833555	eGFR, diabetes	Healthy TAL identity genes
+egfr_DM	default	pt_injured_up	833	0.065816	0.013755	0.034122	0.026882	1.5705384232427722	eGFR, diabetes	Gained in injured PT
+egfr_DM	expr_conditioned	tal_injured_up	535	-0.025948	-0.004427	0.042356	0.72993	0.13671878655268122	eGFR, diabetes	Gained in injured TAL
+egfr_DM	expr_conditioned	tal_injured_down	279	0.0031066	0.00038558	0.057954	0.47863	0.3200000837707802	eGFR, diabetes	Lost in injured TAL
+egfr_DM	expr_conditioned	tal_healthy_specific	3646	0.0042969	0.0017331	0.020061	0.4152	0.38174265515959854	eGFR, diabetes	Healthy TAL identity genes
+egfr_DM	expr_conditioned	pt_injured_up	833	0.037142	0.0078388	0.034406	0.14018	0.8533139443524744	eGFR, diabetes	Gained in injured PT
+egfr_noDM	default	tal_injured_up	535	0.080806	0.01365	0.064851	0.10639	0.9730991911097449	eGFR, no diabetes	Gained in injured TAL
+egfr_noDM	default	tal_injured_down	279	0.19531	0.023998	0.088711	0.013851	1.8585188707291964	eGFR, no diabetes	Lost in injured TAL
+egfr_noDM	default	tal_healthy_specific	3646	0.2366	0.094704	0.026759	5.205800000000001e-19	18.283512520929985	eGFR, no diabetes	Healthy TAL identity genes
+egfr_noDM	default	pt_injured_up	833	-0.0010005	-0.0002091	0.052448	0.50761	0.29446983082075207	eGFR, no diabetes	Gained in injured PT
+egfr_noDM	expr_conditioned	tal_injured_up	535	0.0084145	0.0014356	0.06482	0.44836	0.3483731395073862	eGFR, no diabetes	Gained in injured TAL
+egfr_noDM	expr_conditioned	tal_injured_down	279	0.15878	0.019708	0.088681	0.036697	1.435369438110308	eGFR, no diabetes	Lost in injured TAL
+egfr_noDM	expr_conditioned	tal_healthy_specific	3646	0.047909	0.019324	0.030697	0.059307	1.2268940438708609	eGFR, no diabetes	Healthy TAL identity genes
+egfr_noDM	expr_conditioned	pt_injured_up	833	-0.088478	-0.018673	0.05265	0.95356	0.020651975036333908	eGFR, no diabetes	Gained in injured PT
+uacr_DM	default	tal_injured_up	535	-0.037853	-0.0063973	0.037154	0.84585	0.0727066463559656	UACR, diabetes	Gained in injured TAL
+uacr_DM	default	tal_injured_down	279	-0.0072163	-0.00088707	0.050722	0.55657	0.25448020652800557	UACR, diabetes	Lost in injured TAL
+uacr_DM	default	tal_healthy_specific	3645	0.0041174	0.0016485	0.015508	0.39532	0.403051213307127	UACR, diabetes	Healthy TAL identity genes
+uacr_DM	default	pt_injured_up	832	0.038489	0.0080432	0.029818	0.098394	1.007031383746898	UACR, diabetes	Gained in injured PT
+uacr_DM	expr_conditioned	tal_injured_up	535	-0.048853	-0.0083376	0.037257	0.9051	0.043303435105349126	UACR, diabetes	Gained in injured TAL
+uacr_DM	expr_conditioned	tal_injured_down	279	-0.010527	-0.001307	0.050935	0.58187	0.235174033544381	UACR, diabetes	Lost in injured TAL
+uacr_DM	expr_conditioned	tal_healthy_specific	3645	-0.026898	-0.010851	0.017838	0.9342	0.029560137048236065	UACR, diabetes	Healthy TAL identity genes
+uacr_DM	expr_conditioned	pt_injured_up	832	0.028189	0.0059478	0.030038	0.17401	0.7594257929816155	UACR, diabetes	Gained in injured PT
+ckd_EA	default	tal_injured_up	536	0.028906	0.0048798	0.038778	0.22802	0.6420270586631416	CKD, all	Gained in injured TAL
+ckd_EA	default	tal_injured_down	280	-0.033937	-0.0041707	0.053085	0.73868	0.13154365948344493	CKD, all	Lost in injured TAL
+ckd_EA	default	tal_healthy_specific	3651	0.028566	0.011426	0.016336	0.040191	1.3958711879090109	CKD, all	Healthy TAL identity genes
+ckd_EA	default	pt_injured_up	833	0.0081008	0.0016905	0.031508	0.39855	0.3995171865340412	CKD, all	Gained in injured PT
+ckd_EA	expr_conditioned	tal_injured_up	536	0.018821	0.0032092	0.038749	0.31359	0.5036377948844866	CKD, all	Gained in injured TAL
+ckd_EA	expr_conditioned	tal_injured_down	280	-0.055799	-0.0069274	0.053204	0.85285	0.06912734620733806	CKD, all	Lost in injured TAL
+ckd_EA	expr_conditioned	tal_healthy_specific	3651	-0.013105	-0.0052827	0.018535	0.76023	0.11905499637803019	CKD, all	Healthy TAL identity genes
+ckd_EA	expr_conditioned	pt_injured_up	833	-0.0062251	-0.0013119	0.031735	0.57776	0.23825252891724857	CKD, all	Gained in injured PT
+bun_EA	default	tal_injured_up	536	-0.013026	-0.0021998	0.042814	0.61952	0.2079446687077192	BUN, all	Gained in injured TAL
+bun_EA	default	tal_injured_down	280	0.0047154	0.00057969	0.059815	0.46858	0.32921625196398485	BUN, all	Lost in injured TAL
+bun_EA	default	tal_healthy_specific	3651	0.069647	0.027866	0.018211	6.5765e-05	4.1820051755491985	BUN, all	Healthy TAL identity genes
+bun_EA	default	pt_injured_up	833	-0.052755	-0.011013	0.03505	0.93384	0.029727527484651458	BUN, all	Gained in injured PT
+bun_EA	expr_conditioned	tal_injured_up	536	-0.032831	-0.0056001	0.042841	0.77825	0.10888087064544712	BUN, all	Gained in injured TAL
+bun_EA	expr_conditioned	tal_injured_down	280	0.00079251	9.8425e-05	0.059555	0.49469	0.3056668686710206	BUN, all	Lost in injured TAL
+bun_EA	expr_conditioned	tal_healthy_specific	3651	0.02406	0.0097012	0.020767	0.12332	0.9089664839455294	BUN, all	Healthy TAL identity genes
+bun_EA	expr_conditioned	pt_injured_up	833	-0.076824	-0.016196	0.035268	0.9853	0.00643151721027255	BUN, all	Gained in injured PT

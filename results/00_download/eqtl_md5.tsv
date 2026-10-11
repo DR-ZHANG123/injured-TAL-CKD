@@ -1,0 +1,6 @@
+dataset	file	url	build	N	content	source	md5
+gtex_kidney_cortex	QTD000261.all.tsv.gz	https://ftp.ebi.ac.uk/pub/databases/spot/eQTL/sumstats/QTS000015/QTD000261/QTD000261.all.tsv.gz	GRCh38	73	full	GTEx v8 kidney cortex, uniformly processed by eQTL Catalogue (QTD000261)	a0247f95245ffd4e3a198464d8209584
+susztak_meta	Kidney_eQTL_Meta_S686_Significant.q0.01.txt.gz	https://figshare.com/ndownloader/files/33957947	GRCh37	686	significant_pairs_only	Liu et al. 2022 Nat Genet, human kidney eQTL meta-analysis (FDR<0.01 pairs only)	66dc9388a6ce535774abd5f3570dcb25
+susztak_tubule	Kidney_eQTL.TubsigeQTLsFormated.txt.gz	https://figshare.com/ndownloader/files/38295906	GRCh37	356	significant_pairs_only	Sheng et al. 2021 Nat Genet, microdissected tubule eQTL (FDR<0.01 pairs only)	2f8dabc190b1b66af7fae919199720d6
+susztak_glom	Kidney_eQTL.GlomsigeQTLsFormated.txt.gz	https://figshare.com/ndownloader/files/38295879	GRCh37	303	significant_pairs_only	Sheng et al. 2021 Nat Genet, microdissected glomerulus eQTL (FDR<0.01 pairs only)	672285d6d6ff92a44c95d59fcb6539ac
+nephqtl2		https://www.nephqtl2.org/			not_downloadable	NephQTL2 (NEPTUNE glomerular/tubulointerstitial eQTL); browser only, no bulk download	

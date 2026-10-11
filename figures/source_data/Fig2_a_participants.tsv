@@ -1,0 +1,187 @@
+participant	dx	tissue	percutaneous	Age	sex	n_tal	injured_frac
+164-1	REF	Transplant Pre-perfusion Biopsy	False	50-59	male	658	0.0258358662613981
+164-10	REF	Transplant Pre-perfusion Biopsy	False	40-49	female	2238	0.0102770330652368
+164-11	REF	Transplant Pre-perfusion Biopsy	False	50-59	female	617	0.019448946515397
+164-12	REF	Transplant Pre-perfusion Biopsy	False	30-39	female	1733	0.0144258511252163
+164-13	REF	Transplant Pre-perfusion Biopsy	False	40-49	female	2669	0.0138628699887598
+164-14	REF	Transplant Pre-perfusion Biopsy	False	40-49	male	2344	0.01919795221843
+164-15	REF	Transplant Pre-perfusion Biopsy	False	40-49	female	4379	0.0627997259648321
+164-17	REF	Transplant Pre-perfusion Biopsy	False	30-39	female	1752	0.071917808219178
+164-18	REF	Transplant Pre-perfusion Biopsy	False	40-49	male	690	0.0681159420289855
+164-20	REF	Transplant Pre-perfusion Biopsy	False	30-39	male	329	0.0243161094224924
+164-3	REF	Transplant Pre-perfusion Biopsy	False	20-29	male	265	0.0264150943396226
+164-5	REF	Transplant Pre-perfusion Biopsy	False	30-39	female	1217	0.0188989317995069
+164-6	REF	Transplant Pre-perfusion Biopsy	False	30-39	female	533	0.0018761726078799
+164-7	REF	Transplant Pre-perfusion Biopsy	False	40-49	female	787	0.036848792884371
+164-8	REF	Transplant Pre-perfusion Biopsy	False	30-39	male	119	0.0084033613445378
+165-10	REF	Transplant Pre-perfusion Biopsy	False	50-59	female	2623	0.0548989706443004
+165-11	REF	Transplant Pre-perfusion Biopsy	False	40-49	female	212	0.0330188679245283
+165-13	REF	Transplant Pre-perfusion Biopsy	False	40-49	female	773	0.0478654592496765
+165-14	REF	Transplant Pre-perfusion Biopsy	False	40-49	female	568	0.0123239436619718
+165-15	REF	Transplant Pre-perfusion Biopsy	False	40-49	male	26	0.1153846153846153
+165-7	REF	Transplant Pre-perfusion Biopsy	False	50-59	male	222	0.072072072072072
+165-9	REF	Transplant Pre-perfusion Biopsy	False	30-39	female	1552	0.0154639175257731
+18-142	REF	Nephrectomy	False	60-69	female	452	0.1128318584070796
+18-162	REF	Nephrectomy	False	60-69	female	1190	0.3588235294117647
+18-312	REF	Nephrectomy	False	70-79	male	538	0.4089219330855018
+21-015	REF	Nephrectomy	False	50-59	female	683	0.0585651537335285
+21-016	REF	Nephrectomy	False	50-59	male	275	0.1054545454545454
+21-019	REF	Nephrectomy	False	50-59	male	4113	0.0201799173352783
+21-020	REF	Nephrectomy	False	70-79	male	6774	0.0980218482432831
+21-021	REF	Nephrectomy	False	70-79	male	176	0.3181818181818182
+27-10039	DKD	Percutaneous Needle Biopsy	False	60-69	female	470	0.3404255319148936
+27-10041	DKD	Percutaneous Needle Biopsy	False	60-69	female	298	0.2248322147651006
+27-10043	DKD	Percutaneous Needle Biopsy	False	40-49	female	307	0.1107491856677524
+27-10067	DKD	Percutaneous Needle Biopsy	False	30-39	male	419	0.1933174224343675
+27-10074	DKD	Percutaneous Needle Biopsy	False	70-79	female	633	0.3649289099526066
+27-10088	DM_resilient	Percutaneous Needle Biopsy	False	30-39	female	1338	0.0269058295964125
+27-10089	DKD	Percutaneous Needle Biopsy	False	50-59	male	223	0.3542600896860987
+27-10094	DKD	Percutaneous Needle Biopsy	False	60-69	female	452	0.415929203539823
+27-10104	DKD	Percutaneous Needle Biopsy	False	60-69	male	119	0.3445378151260504
+27-10154	DKD	Percutaneous Needle Biopsy	False	50-59	male	351	0.3247863247863248
+27-10163	DM_resilient	Percutaneous Needle Biopsy	False	50-59	male	498	0.0
+27-10165	DKD	Percutaneous Needle Biopsy	False	30-39	female	1955	0.0265984654731457
+27-10166	DM_resilient	Percutaneous Needle Biopsy	False	40-49	male	1457	0.0096087851750171
+27-10171	DM_resilient	Percutaneous Needle Biopsy	False	50-59	male	1410	0.0078014184397163
+27-10185	DKD	Percutaneous Needle Biopsy	False	50-59	male	396	0.0151515151515151
+27-10201	DM_resilient	Percutaneous Needle Biopsy	False	70-79	female	325	0.0984615384615384
+27-10206	DM_resilient	Percutaneous Needle Biopsy	False	50-59	male	1398	0.03862660944206
+27-10207	DM_resilient	Percutaneous Needle Biopsy	False	50-59	female	194	0.0103092783505154
+27-10231	DM_resilient	Percutaneous Needle Biopsy	False	70-79	female	369	0.1246612466124661
+28-10109	DKD	Percutaneous Needle Biopsy	False	40-49	male	614	0.1302931596091205
+28-11515	HKD	Percutaneous Needle Biopsy	False	60-69	male	136	0.0367647058823529
+28-12178	DKD	Percutaneous Needle Biopsy	False	50-59	male	92	0.3804347826086957
+28-12265	DKD	Percutaneous Needle Biopsy	False	60-69	female	1229	0.0195280716029292
+28-12372	HKD	Percutaneous Needle Biopsy	False	60-69	male	503	0.2147117296222664
+28-12510	HKD	Percutaneous Needle Biopsy	False	50-59	male	30	0.1
+28-12546	DKD	Percutaneous Needle Biopsy	False	50-59	male	160	0.4125
+28-12558	HKD	Percutaneous Needle Biopsy	False	60-69	female	1294	0.0850077279752704
+28-12579	DKD	Percutaneous Needle Biopsy	False	60-69	male	1183	0.4226542688081149
+29-10008	HKD	Percutaneous Needle Biopsy	False	60-69	female	739	0.1069012178619756
+29-10013	HKD	Percutaneous Needle Biopsy	False	60-69	female	439	0.0865603644646924
+29-10016	DKD	Percutaneous Needle Biopsy	False	30-39	female	1569	0.0936902485659655
+29-10277	DKD	Percutaneous Needle Biopsy	False	40-49	male	715	0.1146853146853146
+29-10280	DKD	Percutaneous Needle Biopsy	False	60-69	male	69	0.2028985507246377
+29-10380	HKD	Percutaneous Needle Biopsy	False	60-69	male	763	0.182175622542595
+29-10393	HKD	Percutaneous Needle Biopsy	False	50-59	male	2183	0.1016949152542373
+29-10395	HKD	Percutaneous Needle Biopsy	False	60-69	male	229	0.1703056768558952
+29-10399	DKD	Percutaneous Needle Biopsy	False	60-69	female	307	0.2442996742671009
+29-10400	HKD	Percutaneous Needle Biopsy	False	60-69	female	694	0.1945244956772334
+29-10404	DKD	Percutaneous Needle Biopsy	False	60-69	male	1154	0.1533795493934142
+29-10410	HKD	Percutaneous Needle Biopsy	False	40-49	male	637	0.3076923076923077
+29-10422	DKD	Percutaneous Needle Biopsy	False	50-59	male	87	0.2758620689655172
+29-10439	DKD	Percutaneous Needle Biopsy	False	40-49	male	52	0.0769230769230769
+29-10662	HKD	Percutaneous Needle Biopsy	False	60-69	male	1168	0.324486301369863
+30-10018	AKI	Percutaneous Needle Biopsy	False	30-39	male	264	0.2575757575757575
+30-10034	AKI	Percutaneous Needle Biopsy	False	70-79	female	217	0.5161290322580645
+30-10044	AKI	Percutaneous Needle Biopsy	False	30-39	female	703	0.0640113798008534
+30-10125	AKI	Percutaneous Needle Biopsy	False	50-59	male	484	0.4297520661157025
+30-10631	AKI	Percutaneous Needle Biopsy	False	50-59	male	420	0.5119047619047619
+30-10868	AKI	Percutaneous Needle Biopsy	False	50-59	male	1172	0.4735494880546075
+30-10929	AKI	Percutaneous Needle Biopsy	False	30-39	male	272	0.2573529411764705
+30-11051	AKI	Percutaneous Needle Biopsy	False	20-29	male	126	0.3492063492063492
+30-11080	AKI	Percutaneous Needle Biopsy	False	50-59	male	305	0.1540983606557377
+30-11081	AKI	Percutaneous Needle Biopsy	False	70-79	female	910	0.2043956043956044
+30-11084	AKI	Percutaneous Needle Biopsy	False	50-59	female	704	0.112215909090909
+31-10001	DKD	Percutaneous Needle Biopsy	False	70-79	male	1318	0.2276176024279211
+31-10063	HKD	Percutaneous Needle Biopsy	False	60-69	female	1867	0.1387252276379218
+31-10078	HKD	Percutaneous Needle Biopsy	False	60-69	female	235	0.2382978723404255
+31-10081	DKD	Percutaneous Needle Biopsy	False	70-79	female	95	0.4210526315789473
+31-10090	HKD	Percutaneous Needle Biopsy	False	70-79	female	767	0.1825293350717079
+31-10100	DKD	Percutaneous Needle Biopsy	False	70-79	female	928	0.2381465517241379
+31-10105	DKD	Percutaneous Needle Biopsy	False	30-39	male	72	0.3888888888888889
+31-10169	HKD	Percutaneous Needle Biopsy	False	60-69	male	21	0.0952380952380952
+31-10177	HKD	Percutaneous Needle Biopsy	False	70-79	male	436	0.2798165137614679
+31-10210	HKD	Percutaneous Needle Biopsy	False	70-79	female	5891	0.0398913597012391
+31-10221	HKD	Percutaneous Needle Biopsy	False	60-69	male	1257	0.1105807478122514
+31-10236	DKD	Percutaneous Needle Biopsy	False	60-69	female	1827	0.2572523262178434
+31-10322	HKD	Percutaneous Needle Biopsy	False	50-59	female	555	0.1387387387387387
+31-10340	DKD	Percutaneous Needle Biopsy	False	50-59	male	25	0.08
+32-10003	AKI	Percutaneous Needle Biopsy	False	30-39	male	422	0.3009478672985782
+32-10034	DKD	Percutaneous Needle Biopsy	False	60-69	male	195	0.441025641025641
+32-10074	AKI	Percutaneous Needle Biopsy	False	70-79	male	46	0.4782608695652174
+32-10205	AKI	Percutaneous Needle Biopsy	False	60-69	male	613	0.564437194127243
+32-10333	AKI	Percutaneous Needle Biopsy	False	40-49	male	190	0.2631578947368421
+32-10419	AKI	Percutaneous Needle Biopsy	False	40-49	female	514	0.4785992217898833
+32-10456	AKI	Percutaneous Needle Biopsy	False	30-39	male	969	0.4097007223942208
+32-10458	AKI	Percutaneous Needle Biopsy	False	50-59	female	1198	0.350584307178631
+32-2	AKI	Percutaneous Needle Biopsy	False	60-69	male	88	0.4318181818181818
+33-10005	AKI	Percutaneous Needle Biopsy	False	60-69	male	935	0.3689839572192513
+33-10006	AKI	Percutaneous Needle Biopsy	False	20-29	male	362	0.574585635359116
+33-10331	AKI	Percutaneous Needle Biopsy	False	30-39	female	850	0.508235294117647
+33-10376	AKI	Percutaneous Needle Biopsy	False	70-79	male	742	0.0902964959568733
+3374	REF	Nephrectomy	False	40-49	female	524	0.1297709923664122
+34-10050	AKI	Percutaneous Needle Biopsy	False	60-69	female	67	0.5373134328358209
+34-10184	AKI	Percutaneous Needle Biopsy	False	50-59	female	1623	0.2846580406654344
+34-10187	AKI	Percutaneous Needle Biopsy	False	20-29	male	556	0.3129496402877698
+34-10209	DKD	Percutaneous Needle Biopsy	False	50-59	male	311	0.6430868167202572
+34-10306	AKI	Percutaneous Needle Biopsy	False	30-39	male	1126	0.6261101243339254
+34-10331	AKI	Percutaneous Needle Biopsy	False	30-39	male	44	0.5
+34-10393	AKI	Percutaneous Needle Biopsy	False	30-39	male	1607	0.3410080896079651
+34-10579	AKI	Percutaneous Needle Biopsy	False	60-69	female	41	0.6341463414634146
+3490	REF	Percutaneous Needle Biopsy	True	10-19	female	968	0.0371900826446281
+3499	REF	Deceased Donor Nephrectomy	False	50-59	female	458	0.0873362445414847
+3504	REF	Nephrectomy	False	40-49	female	1053	0.0322886989553656
+3510	REF	Nephrectomy	False	50-59	male	2119	0.0755073147711184
+3535	REF	Nephrectomy	False	70-79	male	3397	0.2372681778039446
+3579	REF	Nephrectomy	False	60-69	male	842	0.010688836104513
+3593	REF	Deceased Donor Nephrectomy	False	60-69	male	19639	0.035796119965375
+3611	REF	Nephrectomy	False	50-59	female	556	0.0125899280575539
+3613	REF	Deceased Donor Nephrectomy	False	50-59	female	435	0.0620689655172413
+3619	REF	Percutaneous Needle Biopsy	True	70-79	male	991	0.0141271442986881
+3620	REF	Percutaneous Needle Biopsy	True	50-59	female	644	0.0729813664596273
+3621	REF	Percutaneous Needle Biopsy	True	40-49	male	244	0.1065573770491803
+3622	REF	Percutaneous Needle Biopsy	True	30-39	male	1714	0.0338389731621937
+3623	REF	Percutaneous Needle Biopsy	True	40-49	male	123	0.065040650406504
+3625	REF	Percutaneous Needle Biopsy	True	60-69	female	261	0.0919540229885057
+3626	REF	Percutaneous Needle Biopsy	True	40-49	male	728	0.0412087912087912
+3627	REF	Percutaneous Needle Biopsy	True	30-39	female	1308	0.0122324159021406
+3630	REF	Percutaneous Needle Biopsy	True	50-59	female	2298	0.0456919060052219
+3631	REF	Percutaneous Needle Biopsy	True	40-49	female	565	0.0123893805309734
+3632	REF	Percutaneous Needle Biopsy	True	30-39	male	1577	0.0120481927710843
+3673	AKI	Deceased Donor Nephrectomy	False	50-59	male	426	0.2511737089201878
+3675	REF	Deceased Donor Nephrectomy	False	50-59	male	176	0.034090909090909
+3691	REF	Nephrectomy	False	60-69	male	871	0.1067738231917336
+3693	REF	Nephrectomy	False	60-69	female	139	0.1510791366906475
+3704	REF	Deceased Donor Nephrectomy	False	60-69	male	7544	0.163441145281018
+3711	REF	Deceased Donor Nephrectomy	False	60-69	male	5090	0.1473477406679764
+3712	REF	Nephrectomy	False	50-59	male	15288	0.0222396650968079
+3715	REF	Nephrectomy	False	50-59	female	86	0.3255813953488372
+3723	REF	Nephrectomy	False	50-59	female	13311	0.0421455938697318
+3728	REF	Nephrectomy	False	50-59	female	7509	0.0143827407111466
+3775	REF	Nephrectomy	False	40-49	male	1797	0.0834724540901502
+3778	REF	Deceased Donor Nephrectomy	False	40-49	male	10502	0.3995429442011045
+3781	REF	Nephrectomy	False	50-59	female	7497	0.0265439509136988
+3782	AKI	Deceased Donor Nephrectomy	False	20-29	male	4682	0.330841520717642
+3785	REF	Nephrectomy	False	20-29	female	86	0.6976744186046512
+3800	REF	Nephrectomy	False	40-49	male	4290	0.0261072261072261
+3824	REF	Nephrectomy	False	50-59	male	6159	0.0824809222276343
+3825	REF	Nephrectomy	False	70-79	female	4018	0.0803882528621204
+3830	REF	Deceased Donor Nephrectomy	False	50-59	male	595	0.0336134453781512
+3893	REF	Nephrectomy	False	50-59	female	779	0.1771501925545571
+3898	REF	Nephrectomy	False	20-29	female	429	0.0116550116550116
+3900	REF	Nephrectomy	False	90-99	male	6203	0.0249879090762534
+3907	REF	Nephrectomy	False	90-99	male	7193	0.0727095787571249
+3918	REF	Nephrectomy	False	60-69	male	1267	0.0591949486977111
+3948	REF	Deceased Donor Nephrectomy	False	50-59	male	9551	0.0741283635221442
+3965	REF	Deceased Donor Nephrectomy	False	60-69	female	2093	0.0234113712374581
+933-10003	DKD	Percutaneous Needle Biopsy	False	60-69	male	568	0.3169014084507042
+934-10016	HKD	Percutaneous Needle Biopsy	False	70-79	male	1412	0.1529745042492918
+934-10022	HKD	Percutaneous Needle Biopsy	False	50-59	male	1454	0.2771664374140302
+934-10023	DKD	Percutaneous Needle Biopsy	False	60-69	male	841	0.2425683709869203
+934-10032	HKD	Percutaneous Needle Biopsy	False	50-59	male	1866	0.0819935691318328
+COV-02-0002	AKI	Percutaneous Needle Biopsy	False	40-49	male	121	0.1652892561983471
+COV-02-0010	AKI	Percutaneous Needle Biopsy	False	70-79	female	509	0.587426326129666
+COV-02-0094	AKI	Percutaneous Needle Biopsy	False	40-49	male	2445	0.5378323108384458
+COV-02-0096	AKI	Percutaneous Needle Biopsy	False	30-39	female	1140	0.2684210526315789
+D_080	REF	Nephrectomy	False	40-49	male	19431	0.0100869744223148
+IU-KRP-429	REF	Intra-operative Biopsy	False	30-39	male	255	0.1098039215686274
+IU-KRP-430	REF	Intra-operative Biopsy	False	30-39	male	1172	0.0341296928327645
+IU-KRP-473	REF	Intra-operative Biopsy	False	50-59	male	114	0.3596491228070175
+KPMP_101	REF	Nephrectomy	False	20-29	female	946	0.0105708245243128
+KPMP_104	REF	Nephrectomy	False	80-89	female	1267	0.1373322809786898
+KRP446	REF	Intra-operative Biopsy	False	20-29	male	433	0.0739030023094688
+KRP460	REF	Intra-operative Biopsy	False	60-69	female	455	0.3846153846153846
+KRP461	REF	Intra-operative Biopsy	False	50-59	male	51	0.0980392156862745
+KRP462	REF	Intra-operative Biopsy	False	60-69	female	731	0.4254445964432284
+SDKZ0001	REF	Deceased Donor Nephrectomy	False	40-49	male	3146	0.5219326128417038

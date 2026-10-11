@@ -1,0 +1,7 @@
+setting	model	n	r	ci_low	ci_high	p	source
+All participants	slide	62	0.7290504991626617	0.5978532940073669	0.8287824678496555	1.8331700943344092e-11	within_diagnosis_cv:pooled_model_all_training
+Within DKD	slide	31	0.7502954470326579	0.4360278413772373	0.8809978550260086	1.1728952832966423e-06	within_diagnosis_cv:pooled_model_DKD
+Within DKD + HKD	slide	52	0.7041057184230755	0.4957333115176026	0.828745226819902	5.758965013695159e-09	within_diagnosis_cv:pooled_model_DKD+HKD
+Later biopsies (temporal)	slide	17	0.7139246079169731	0.5223462018289027	0.8749108822938069	0.0012867367226716	temporal_validation:temporal_accession_time
+Pathologist scores only	descriptors	62	0.3771270641841054	0.186000632968837	0.5569978236078444	0.0025153550503759	descriptor_baseline_cv:descriptors
+Increment: slide added to pathologist scores (delta r)	delta_r	62	0.2642903877361849	0.1373065032760154	0.3724932062468146	0.0	descriptor_delta_r:descriptors+slide minus descriptors

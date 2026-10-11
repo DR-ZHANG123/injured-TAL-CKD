@@ -1,0 +1,10 @@
+group	label	n	estimate	ci_low	ci_high	p	source	y
+measured	Diagnosis	123	-8.189053751865108	-13.019635274639615	-3.3584722290906006	0.0010592180006589	21 egfr_models all/dx	-1.1
+measured	Diagnosis, age, sex	123	-5.689846269611742	-10.428370356372	-0.9513221828514826	0.019024727936619	21 egfr_models all/dx+age+sex	-2.1
+measured	"CKD only: diagnosis,
+age, sex"	56	-9.132341232689464	-17.773502378804388	-0.4911800865745377	0.0387426564382367	21 egfr_models CKD/dx+age+sex	-3.1
+measured	"CKD only: diagnosis,
+age, sex, fibrosis"	55	-4.913454211707656	-13.678871231625171	3.85196280820986	0.2654544461053233	21 programme_fibrosis_models CKD/dx+age+sex+IF	-4.1
+slide	Diagnosis	53	-9.360904853276454	-16.259658619317946	-2.46215108723496	0.0088488796014175	20 oos_incremental_value injured_TAL/diagnosis	-7.0
+slide	"Diagnosis, all
+pathologist scores"	51	-6.162051005762344	-16.74836554228038	4.424263530755689	0.2465646911512086	20 oos_incremental_value injured_TAL/diagnosis+all_descriptors	-8.0

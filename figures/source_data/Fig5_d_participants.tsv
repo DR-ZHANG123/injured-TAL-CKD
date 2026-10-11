@@ -1,0 +1,3 @@
+participant	diagnosis	measured_logit	measured_injured_tal_frac	cv_slide_estimate_HE+PAS	tile_mean_PAS_leave_one_out	colour_limits	tile_images
+Participant 1	DKD	-0.4510520218895015	0.3888888888888889	-0.4429411021121717	-0.6722707595184871	-7.0..2.0	results/17_fig45_tiles/tiles/A_high_1-4.png
+Participant 2	DKD	-3.1899016670251026	0.03862660944206	-3.967732869501309	-4.527633241543592	-7.0..2.0	results/17_fig45_tiles/tiles/B_low_1-4.png

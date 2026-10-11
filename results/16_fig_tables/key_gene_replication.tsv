@@ -1,0 +1,4 @@
+replication_set	n_discovery_genes	n_measured	pearson	p	replication_rate	n_replicated	n_egfr_fdr05	n_egfr_fdr05_negative
+KPMP_scRNA	1212	1147	0.9427822063633744	0.0	0.9108910891089109	1104		
+GSE271188	1212	1015	0.9744976800972482	0.0	0.820957095709571	995		
+both_up	654	580				580	194.0	194.0

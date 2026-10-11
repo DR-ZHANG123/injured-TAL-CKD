@@ -1,0 +1,224 @@
+donor_id	AdjudicationCategory	ConditionCategory	diabetes_history	hypertension	Age	sex	Race	TissueCollection	Baseline eGFR (ml/min/1.73m2) (Binned)
+3535	Not available	Reference	No	No	70-79	male	White	Nephrectomy	50-59 ml/min/1.73m2
+KRP446	Not available	Healthy Reference	No	Not available	20-29	male	White	Intra-operative Biopsy	>60 ml/min/1.73m2
+3490	Not available	Healthy Reference	No	No	10-19	female	White	Percutaneous Needle Biopsy	>60 ml/min/1.73m2
+3499	Not available	Healthy Reference	Yes	No	50-59	female	White	Deceased Donor Nephrectomy	>60 ml/min/1.73m2
+3504	Not available	Healthy Reference	No	No	40-49	female	White	Nephrectomy	>60 ml/min/1.73m2
+3593	Not available	Healthy Reference	No	No	60-69	male	White	Deceased Donor Nephrectomy	90-99 ml/min/1.73m2
+3613	Not available	Healthy Reference	No	No	50-59	female	White	Deceased Donor Nephrectomy	Not available
+KRP460	Not available	Healthy Reference	Not available	Not available	60-69	female	White	Intra-operative Biopsy	Not available
+KRP461	Not available	Healthy Reference	Not available	Not available	50-59	male	White	Intra-operative Biopsy	Not available
+KRP462	Not available	Healthy Reference	Not available	Not available	60-69	female	White	Intra-operative Biopsy	Not available
+3611	Not available	Healthy Reference	No	Yes	50-59	female	White	Nephrectomy	100-109 ml/min/1.73m2
+3579	Not available	Healthy Reference	No	No	60-69	male	White	Nephrectomy	70-79 ml/min/1.73m2
+3619	Not available	Healthy Reference	No	No	70-79	male	White	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+3621	Not available	Healthy Reference	No	No	40-49	male	White	Percutaneous Needle Biopsy	110-119 ml/min/1.73m2
+3623	Not available	Healthy Reference	No	No	40-49	male	White	Percutaneous Needle Biopsy	150-159 ml/min/1.73m2
+3675	Not available	Healthy Reference	Yes	Yes	50-59	male	Black or African-American	Deceased Donor Nephrectomy	100-109 ml/min/1.73m2
+3715	Not available	Healthy Reference	No	No	50-59	female	White	Nephrectomy	70-79 ml/min/1.73m2
+3691	Not available	Healthy Reference	No	No	60-69	male	White	Nephrectomy	>60 ml/min/1.73m2
+3716	Not available	Chronic Kidney Disease	No	Yes	50-59	female	Black or African-American	Deceased Donor Nephrectomy	20-29 ml/min/1.73m2
+3778	Not available	Healthy Reference	No	No	40-49	male	White	Deceased Donor Nephrectomy	100-109 ml/min/1.73m2
+3620	Not available	Healthy Reference	No	No	50-59	female	White	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+3622	Not available	Healthy Reference	No	No	30-39	male	Not available	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+3625	Not available	Healthy Reference	No	No	60-69	female	White	Percutaneous Needle Biopsy	170-179 ml/min/1.73m2
+3626	Not available	Healthy Reference	No	No	40-49	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+3627	Not available	Healthy Reference	No	No	30-39	female	White	Percutaneous Needle Biopsy	90-99 ml/min/1.73m2
+3630	Not available	Healthy Reference	No	No	50-59	female	White	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+3631	Not available	Healthy Reference	No	No	40-49	female	White	Percutaneous Needle Biopsy	130-139 ml/min/1.73m2
+3632	Not available	Healthy Reference	No	No	30-39	male	White	Percutaneous Needle Biopsy	110-119 ml/min/1.73m2
+SDKZ0001	Not available	Reference	Not available	Not available	40-49	male	White	Deceased Donor Nephrectomy	Not available
+3814	Not available	Chronic Kidney Disease	No	Yes	60-69	male	White	Percutaneous Needle Biopsy	20-29 ml/min/1.73m2
+3693	Not available	Healthy Reference	No	Yes	60-69	female	White	Nephrectomy	60-69 ml/min/1.73m2
+3712	Not available	Healthy Reference	No	Yes	50-59	male	White	Nephrectomy	70-79 ml/min/1.73m2
+18-162	Not available	Reference	Not available	Not available	60-69	female	Not available	Nephrectomy	Not available
+18-142	Not available	Reference	Not available	Not available	60-69	female	Not available	Nephrectomy	Not available
+18-312	Not available	Reference	Not available	Not available	70-79	male	Not available	Nephrectomy	Not available
+3477	Not available	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Nephrectomy	20-29 ml/min/1.73m2
+3479	Not available	Chronic Kidney Disease	No	Yes	50-59	male	White	Nephrectomy	40-49 ml/min/1.73m2
+3487	Not available	Chronic Kidney Disease	Yes	No	70-79	male	White	Nephrectomy	50-59 ml/min/1.73m2
+31-10001	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	male	White	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+29-10006	Cannot be determined	Chronic Kidney Disease	Yes	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+30-10034	Acute Tubular Injury	Acute Kidney Injury	Yes	Yes	70-79	female	Black or African-American	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+31-10006	Cannot be determined	Chronic Kidney Disease	No	Yes	60-69	male	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+32-10003	Acute Tubular Injury	Acute Kidney Injury	No	No	30-39	male	White	Percutaneous Needle Biopsy	120-129 ml/min/1.73m2
+29-10008	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	60-69	female	White	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+29-10012	Other	Chronic Kidney Disease	Yes	Yes	50-59	female	Black or African-American	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+31-10013	Cannot be determined	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+32-2	Acute Tubular Injury	Acute Kidney Injury	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	90-99 ml/min/1.73m2
+31-10000	Cannot be determined	Chronic Kidney Disease	No	Yes	50-59	male	White	Percutaneous Needle Biopsy	20-29 ml/min/1.73m2
+33-10005	Acute Tubular Injury	Acute Kidney Injury	No	Yes	60-69	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+32-10034	Diabetic Kidney Disease	Acute Kidney Injury	Yes	No	60-69	male	White	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+33-10006	Acute Tubular Injury	Acute Kidney Injury	No	No	20-29	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+29-10013	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+29-10010	Cannot be determined	Chronic Kidney Disease	Yes	Yes	70-79	male	Asian	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+31-10035	Other	Chronic Kidney Disease	Yes	Yes	70-79	female	White	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+COV-02-0010	Not available	Acute Kidney Injury	Not available	Not available	70-79	female	Black or African-American	Percutaneous Needle Biopsy	Not available
+COV-02-0002	Not available	Acute Kidney Injury	Not available	Not available	40-49	male	Black or African-American	Percutaneous Needle Biopsy	Not available
+COV-02-0094	Not available	Acute Kidney Injury	Not available	Not available	40-49	male	Hispanic	Percutaneous Needle Biopsy	Not available
+COV-02-0096	Not available	Acute Kidney Injury	Not available	Not available	30-39	female	Black or African-American	Percutaneous Needle Biopsy	Not available
+30-10018	Acute Interstitial Nephritis	Acute Kidney Injury	Yes	Yes	30-39	male	Black or African-American	Percutaneous Needle Biopsy	80-89 ml/min/1.73m2
+29-10276	Cannot be determined	Chronic Kidney Disease	Yes	Yes	50-59	female	Black or African-American	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+27-10043	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	female	White	Percutaneous Needle Biopsy	110-119 ml/min/1.73m2
+34-10209	Diabetic Kidney Disease	Acute Kidney Injury	Yes	Yes	50-59	male	White	Percutaneous Needle Biopsy	90-99 ml/min/1.73m2
+30-10044	Acute Tubular Injury	Acute Kidney Injury	No	No	30-39	female	White	Percutaneous Needle Biopsy	110-119 ml/min/1.73m2
+29-10011	Other	Chronic Kidney Disease	Yes	Yes	30-39	female	White	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+34-10050	Cannot be determined	Acute Kidney Injury	Yes	No	60-69	female	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+29-10016	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	30-39	female	White	Percutaneous Needle Biopsy	110-119 ml/min/1.73m2
+32-10205	Acute Tubular Injury	Acute Kidney Injury	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+29-10277	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	male	White	Percutaneous Needle Biopsy	120-129 ml/min/1.73m2
+34-10184	Cannot be determined	Acute Kidney Injury	No	No	50-59	female	White	Percutaneous Needle Biopsy	80-89 ml/min/1.73m2
+28-10109	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	male	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+28-10051	Cannot be determined	Chronic Kidney Disease	Yes	No	60-69	male	White	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+34-10187	Acute Tubular Injury	Acute Kidney Injury	No	No	20-29	male	Black or African-American	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+31-10061	Cannot be determined	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+31-10063	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	60-69	female	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+21-019	Not available	Reference	Not available	Not available	50-59	male	White	Nephrectomy	Not available
+21-020	Not available	Reference	Not available	Not available	70-79	male	White	Nephrectomy	Not available
+164-1	Not available	Healthy Reference	No	No	50-59	male	White	Transplant Pre-perfusion Biopsy	80-89 ml/min/1.73m2
+27-10088	Cannot be determined	Diabetes Mellitus - Resilient	Yes	Yes	30-39	female	White	Percutaneous Needle Biopsy	120-129 ml/min/1.73m2
+30-10929	Acute Interstitial Nephritis	Acute Kidney Injury	No	Yes	30-39	male	Black or African-American	Percutaneous Needle Biopsy	80-89 ml/min/1.73m2
+27-10094	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+27-10039	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+30-10631	Acute Tubular Injury	Acute Kidney Injury	No	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+29-10280	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+27-10074	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	female	Asian	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+28-12178	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+31-10081	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	female	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+31-10210	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	70-79	female	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+29-10380	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+31-10105	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	30-39	male	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+29-10400	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Asian	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+27-10041	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Asian	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+164-5	Not available	Healthy Reference	No	No	30-39	female	White	Transplant Pre-perfusion Biopsy	110-119 ml/min/1.73m2
+164-6	Not available	Healthy Reference	No	No	30-39	female	White	Transplant Pre-perfusion Biopsy	100-109 ml/min/1.73m2
+164-7	Not available	Healthy Reference	No	Yes	40-49	female	White	Transplant Pre-perfusion Biopsy	90-99 ml/min/1.73m2
+29-10401	Cannot be determined	Chronic Kidney Disease	No	Yes	40-49	female	Black or African-American	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+164-3	Not available	Healthy Reference	No	No	20-29	male	White	Transplant Pre-perfusion Biopsy	120-129 ml/min/1.73m2
+28-12510	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	50-59	male	White	Percutaneous Needle Biopsy	20-29 ml/min/1.73m2
+27-10089	Diabetic Kidney Disease	Diabetes Mellitus - Resilient	Yes	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+29-10406	Not available	Chronic Kidney Disease	Yes	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+32-10333	Acute Tubular Injury	Acute Kidney Injury	No	No	40-49	male	Not available	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+31-10091	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	male	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+31-10177	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	70-79	male	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+27-10104	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Not available	Percutaneous Needle Biopsy	80-89 ml/min/1.73m2
+164-8	Not available	Healthy Reference	No	No	30-39	male	White	Transplant Pre-perfusion Biopsy	110-119 ml/min/1.73m2
+29-10393	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	50-59	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+163-5	Not available	Reference	No	No	30-39	male	White	Intra-operative Biopsy	Not available
+165-7	Not available	Healthy Reference	No	No	50-59	male	Asian	Transplant Pre-perfusion Biopsy	100-109 ml/min/1.73m2
+165-10	Not available	Healthy Reference	No	No	50-59	female	White	Transplant Pre-perfusion Biopsy	80-89 ml/min/1.73m2
+164-10	Not available	Healthy Reference	No	No	40-49	female	Not available	Transplant Pre-perfusion Biopsy	90-99 ml/min/1.73m2
+163-6	Not available	Reference	Not available	Not available	40-49	female	White	Intra-operative Biopsy	Not available
+165-9	Not available	Healthy Reference	No	No	30-39	female	White	Transplant Pre-perfusion Biopsy	110-119 ml/min/1.73m2
+3723	Not available	Healthy Reference	No	No	50-59	female	White	Nephrectomy	60-69 ml/min/1.73m2
+D_080	Not available	Reference	No	No	40-49	male	Hispanic	Nephrectomy	110-119 ml/min/1.73m2
+IU-KRP-429	Not available	Healthy Reference	No	No	30-39	male	White	Intra-operative Biopsy	70-79 ml/min/1.73m2
+IU-KRP-430	Not available	Healthy Reference	No	Yes	30-39	male	White	Intra-operative Biopsy	60-69 ml/min/1.73m2
+IU-KRP-473	Not available	Healthy Reference	Yes	Yes	50-59	male	White	Intra-operative Biopsy	80-89 ml/min/1.73m2
+SDKZ0024	Not available	Chronic Kidney Disease	Not available	Not available	70-79	female	White	Deceased Donor Nephrectomy	Not available
+3612	Not available	Chronic Kidney Disease	Yes	Yes	40-49	female	White	Deceased Donor Nephrectomy	70-79 ml/min/1.73m2
+3775	Not available	Healthy Reference	No	Yes	40-49	male	White	Nephrectomy	80-89 ml/min/1.73m2
+3673	Not available	Acute Kidney Injury	No	Yes	50-59	male	White	Deceased Donor Nephrectomy	80-89 ml/min/1.73m2
+3781	Not available	Healthy Reference	No	Yes	50-59	female	White	Nephrectomy	100-109 ml/min/1.73m2
+3609	Not available	Chronic Kidney Disease	No	Yes	70-79	female	Black or African-American	Nephrectomy	60-69 ml/min/1.73m2
+3830	Not available	Healthy Reference	No	Yes	50-59	male	Black or African-American	Deceased Donor Nephrectomy	80-89 ml/min/1.73m2
+3804	Not available	Chronic Kidney Disease	No	Yes	40-49	male	Black or African-American	Nephrectomy	0-9 ml/min/1.73m2
+3898	Not available	Healthy Reference	No	No	20-29	female	White	Nephrectomy	80-89 ml/min/1.73m2
+3903	Not available	Chronic Kidney Disease	No	No	40-49	female	Hispanic	Nephrectomy	50-59 ml/min/1.73m2
+3893	Not available	Healthy Reference	No	Yes	50-59	female	White	Nephrectomy	80-89 ml/min/1.73m2
+3916	Not available	Chronic Kidney Disease	No	Yes	80-89	male	White	Nephrectomy	20-29 ml/min/1.73m2
+3785	Not available	Reference	No	Yes	20-29	female	White	Nephrectomy	90-99 ml/min/1.73m2
+3904	Not available	Chronic Kidney Disease	No	No	60-69	female	White	Nephrectomy	30-39 ml/min/1.73m2
+3800	Not available	Healthy Reference	No	No	40-49	male	White	Nephrectomy	90-99 ml/min/1.73m2
+3711	Not available	Healthy Reference	No	No	60-69	male	White	Deceased Donor Nephrectomy	80-89 ml/min/1.73m2
+3824	Not available	Healthy Reference	No	Yes	50-59	male	Black or African-American	Nephrectomy	100-109 ml/min/1.73m2
+3825	Not available	Healthy Reference	No	Yes	70-79	female	White	Nephrectomy	80-89 ml/min/1.73m2
+21-021	Not available	Reference	Not available	Not available	70-79	male	Not available	Nephrectomy	Not available
+21-015	Not available	Reference	Not available	Not available	50-59	female	White	Nephrectomy	Not available
+3510	Not available	Healthy Reference	No	Yes	50-59	male	White	Nephrectomy	70-79 ml/min/1.73m2
+21-016	Not available	Reference	Not available	Not available	50-59	male	White	Nephrectomy	Not available
+164-15	Not available	Healthy Reference	No	Yes	40-49	female	White	Transplant Pre-perfusion Biopsy	100-109 ml/min/1.73m2
+31-10090	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	female	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+33-10331	Acute Interstitial Nephritis	Acute Kidney Injury	No	No	30-39	female	Black or African-American	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+165-14	Not available	Healthy Reference	No	No	40-49	female	Asian	Transplant Pre-perfusion Biopsy	80-89 ml/min/1.73m2
+165-15	Not available	Healthy Reference	No	No	40-49	male	White	Transplant Pre-perfusion Biopsy	110-119 ml/min/1.73m2
+32-10419	Acute Tubular Injury	Acute Kidney Injury	No	No	40-49	female	Black or African-American	Percutaneous Needle Biopsy	120-129 ml/min/1.73m2
+28-12372	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+28-12412	Other	Chronic Kidney Disease	No	Yes	40-49	female	Black or African-American	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+27-10163	Cannot be determined	Diabetes Mellitus - Resilient	Yes	No	50-59	male	White	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+27-10165	Diabetic Kidney Disease	Diabetes Mellitus - Resilient	Yes	No	30-39	female	White	Percutaneous Needle Biopsy	120-129 ml/min/1.73m2
+34-10240	Acute Interstitial Nephritis	Acute Kidney Injury	No	No	50-59	female	White	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+27-10166	Cannot be determined	Diabetes Mellitus - Resilient	Yes	No	40-49	male	White	Percutaneous Needle Biopsy	110-119 ml/min/1.73m2
+30-11084	Acute Tubular Injury	Acute Kidney Injury	No	No	50-59	female	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+164-14	Not available	Healthy Reference	No	No	40-49	male	White	Transplant Pre-perfusion Biopsy	90-99 ml/min/1.73m2
+27-10066	Cannot be determined	Chronic Kidney Disease	Yes	Yes	50-59	female	Not available	Percutaneous Needle Biopsy	90-99 ml/min/1.73m2
+28-12558	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+30-10125	Acute Tubular Injury	Acute Kidney Injury	No	No	50-59	male	Black or African-American	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+165-11	Not available	Healthy Reference	Yes	No	40-49	female	White	Transplant Pre-perfusion Biopsy	110-119 ml/min/1.73m2
+164-11	Not available	Healthy Reference	No	No	50-59	female	White	Transplant Pre-perfusion Biopsy	90-99 ml/min/1.73m2
+27-10171	Cannot be determined	Diabetes Mellitus - Resilient	Yes	No	50-59	male	White	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+32-10346	Acute Interstitial Nephritis	Acute Kidney Injury	Yes	No	40-49	male	Black or African-American	Percutaneous Needle Biopsy	110-119 ml/min/1.73m2
+33-10376	Acute Tubular Injury	Acute Kidney Injury	No	Yes	70-79	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+34-10331	Acute Interstitial Nephritis	Acute Kidney Injury	No	Yes	30-39	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+28-12546	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+31-10340	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+31-10322	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	female	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+164-18	Not available	Healthy Reference	No	No	40-49	male	White	Transplant Pre-perfusion Biopsy	80-89 ml/min/1.73m2
+31-10236	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+30-10868	Acute Interstitial Nephritis	Acute Kidney Injury	Yes	No	50-59	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+164-20	Not available	Healthy Reference	No	Yes	30-39	male	White	Transplant Pre-perfusion Biopsy	110-119 ml/min/1.73m2
+29-10399	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+31-10169	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+29-10395	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+34-10306	Acute Tubular Injury	Acute Kidney Injury	No	No	30-39	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+29-10404	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+164-17	Not available	Healthy Reference	No	No	30-39	female	White	Transplant Pre-perfusion Biopsy	90-99 ml/min/1.73m2
+28-12265	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+3782	Not available	Acute Kidney Injury	No	No	20-29	male	White	Deceased Donor Nephrectomy	110-119 ml/min/1.73m2
+3704	Not available	Healthy Reference	No	Yes	60-69	male	White	Deceased Donor Nephrectomy	90-99 ml/min/1.73m2
+3900	Not available	Healthy Reference	No	Yes	90-99	male	White	Nephrectomy	70-79 ml/min/1.73m2
+3965	Not available	Healthy Reference	No	Yes	60-69	female	White	Deceased Donor Nephrectomy	90-99 ml/min/1.73m2
+3728	Not available	Healthy Reference	No	No	50-59	female	Asian	Nephrectomy	90-99 ml/min/1.73m2
+3907	Not available	Healthy Reference	No	Yes	90-99	male	White	Nephrectomy	50-59 ml/min/1.73m2
+3948	Not available	Healthy Reference	No	Yes	50-59	male	White	Deceased Donor Nephrectomy	100-109 ml/min/1.73m2
+3918	Not available	Healthy Reference	Not available	Yes	60-69	male	Black or African-American	Nephrectomy	90-99 ml/min/1.73m2
+31-10100	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	female	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+27-10185	Diabetic Kidney Disease	Diabetes Mellitus - Resilient	Yes	Yes	50-59	male	White	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+164-12	Not available	Healthy Reference	No	No	30-39	female	White	Transplant Pre-perfusion Biopsy	110-119 ml/min/1.73m2
+30-11051	Cannot be determined	Acute Kidney Injury	Yes	No	20-29	male	White	Percutaneous Needle Biopsy	90-99 ml/min/1.73m2
+32-10074	Acute Tubular Injury	Acute Kidney Injury	Not available	No	70-79	male	White	Percutaneous Needle Biopsy	80-89 ml/min/1.73m2
+28-11515	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Not available	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+31-10078	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+27-10067	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	30-39	male	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+KPMP_101	Not available	Reference	No	No	20-29	female	Black or African-American	Nephrectomy	120-129 ml/min/1.73m2
+KPMP_104	Not available	Reference	Yes	No	80-89	female	White	Nephrectomy	60-69 ml/min/1.73m2
+30-11081	Acute Tubular Injury	Acute Kidney Injury	Not available	Yes	70-79	female	White	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+29-10410	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	male	White	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+32-10456	Acute Interstitial Nephritis	Acute Kidney Injury	No	Yes	30-39	male	Black or African-American	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+934-10022	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+27-10154	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+27-10207	Not available	Diabetes Mellitus - Resilient	Yes	Yes	50-59	female	White	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+165-13	Not available	Healthy Reference	No	No	40-49	female	Asian	Transplant Pre-perfusion Biopsy	110-119 ml/min/1.73m2
+27-10201	Not available	Diabetes Mellitus - Resilient	Yes	Yes	70-79	female	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+934-10016	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	70-79	male	Not available	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+32-10458	Not available	Acute Kidney Injury	No	No	50-59	female	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+933-10003	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	20-29 ml/min/1.73m2
+936-10002	Not available	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+936-10006	Not available	Chronic Kidney Disease	Yes	Yes	50-59	female	Black or African-American	Percutaneous Needle Biopsy	20-29 ml/min/1.73m2
+29-10662	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+27-10231	Not available	Diabetes Mellitus - Resilient	Yes	Yes	70-79	female	Native Hawaiian or Pacific Islander	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+29-10422	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	male	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+164-13	Not available	Healthy Reference	No	No	40-49	female	White	Transplant Pre-perfusion Biopsy	90-99 ml/min/1.73m2
+934-10032	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	50-59	male	White	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+936-10003	Not available	Chronic Kidney Disease	Yes	Yes	60-69	female	Not available	Percutaneous Needle Biopsy	60-69 ml/min/1.73m2
+34-10393	Acute Tubular Injury	Acute Kidney Injury	No	No	30-39	male	White	Percutaneous Needle Biopsy	80-89 ml/min/1.73m2
+30-11080	Acute Interstitial Nephritis	Acute Kidney Injury	No	No	50-59	male	White	Percutaneous Needle Biopsy	70-79 ml/min/1.73m2
+28-12579	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+29-10402	Not available	Chronic Kidney Disease	Yes	Yes	50-59	male	White	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+34-10579	Acute Tubular Injury	Acute Kidney Injury	No	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	50-59 ml/min/1.73m2
+29-10439	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	male	White	Percutaneous Needle Biopsy	80-89 ml/min/1.73m2
+27-10206	Not available	Diabetes Mellitus - Resilient	Yes	Yes	50-59	male	White	Percutaneous Needle Biopsy	100-109 ml/min/1.73m2
+934-10023	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Not available	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+933-10010	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	30-39 ml/min/1.73m2
+31-10221	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	40-49 ml/min/1.73m2
+3374	Not available	Reference	Not available	Not available	40-49	female	Black or African-American	Nephrectomy	Not available

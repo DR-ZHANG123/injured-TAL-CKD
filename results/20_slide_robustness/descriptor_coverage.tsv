@@ -1,0 +1,3 @@
+set	IF_pct	TA_pct	tubular_injury_pct	interstitial_inflammation_pct	arteriosclerosis	arteriolar_hyalinosis
+out_of_sample	52	52	52	52	53	52
+training	63	63	63	63	61	63

@@ -1,0 +1,113 @@
+donor_id	EnrollmentCategory	AdjudicationCategory	ConditionCategory	diabetes_history	hypertension_history	Age	sex	Race	Tissue.Type	ParticipantID
+PRE027	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	30-39	female	White	Transplant Pre-perfusion Biopsy	27
+PRE038	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	40-49	female	White	Transplant Pre-perfusion Biopsy	38
+PRE98sc	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	50-59	female	Unknown	Transplant Pre-perfusion Biopsy	98
+PRE018-1	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	50-59	male	White	Transplant Pre-perfusion Biopsy	18
+PRE19	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	50-59	female	White	Transplant Pre-perfusion Biopsy	19
+PRE055-1	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	60-69	male	White	Transplant Pre-perfusion Biopsy	55
+PRE062-1	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	40-49	female	White	Transplant Pre-perfusion Biopsy	62
+TN_67	Healthy Reference Tissue	Unknown	Reference	Not available	Not available	50-59	male	White	Nephrectomy	67
+34-10050	Acute Kidney Injury	Cannot be determined	Acute Kidney Injury	Yes	No	60-69	female	White	Percutaneous Needle Biopsy	34-10050
+29-10006	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	Yes	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	29-10006
+28-10051	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	Yes	No	60-69	male	White	Percutaneous Needle Biopsy	28-10051
+27-10039	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	27-10039
+31-10000	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	No	Yes	50-59	male	White	Percutaneous Needle Biopsy	31-10000
+31-10001	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	male	White	Percutaneous Needle Biopsy	31-10001
+30-10034	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	Yes	Yes	70-79	female	Black or African-American	Percutaneous Needle Biopsy	30-10034
+30-10018	Acute Kidney Injury	Acute Interstitial Nephritis	Acute Kidney Injury	Yes	Yes	30-39	male	Black or African-American	Percutaneous Needle Biopsy	30-10018
+30-10123	Acute Kidney Injury	Diabetic Kidney Disease	Acute Kidney Injury	Yes	Yes	40-49	male	Black or African-American	Percutaneous Needle Biopsy	30-10123
+33-10005	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	No	Yes	60-69	male	White	Percutaneous Needle Biopsy	33-10005
+33-10006	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	No	No	20-29	male	White	Percutaneous Needle Biopsy	33-10006
+32-10074	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	Don't know	No	70-79	male	White	Percutaneous Needle Biopsy	32-10074
+32-10003	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	No	No	30-39	male	White	Percutaneous Needle Biopsy	32-10003
+29-10008	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	60-69	female	White	Percutaneous Needle Biopsy	29-10008
+29-10011	Chronic Kidney Disease	Other	Chronic Kidney Disease	Yes	Yes	30-39	female	White	Percutaneous Needle Biopsy	29-10011
+31-10013	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	31-10013
+31-10035	Chronic Kidney Disease	Other	Chronic Kidney Disease	Yes	Yes	70-79	female	White	Percutaneous Needle Biopsy	31-10035
+29-10013	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	29-10013
+29-10010	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	Yes	Yes	70-79	male	Asian	Percutaneous Needle Biopsy	29-10010
+29-10016	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	30-39	female	White	Percutaneous Needle Biopsy	29-10016
+31-10042	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Unknown	Percutaneous Needle Biopsy	31-10042
+27-10088	Diabetes Mellitus - Resilient	Cannot be determined	Diabetes Mellitus - Resilient	Yes	Yes	30-39	female	White	Percutaneous Needle Biopsy	27-10088
+29-10386	Chronic Kidney Disease	Other	Chronic Kidney Disease	Yes	Yes	60-69	male	Asian	Percutaneous Needle Biopsy	29-10386
+30-10125	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	No	No	50-59	male	Black or African-American	Percutaneous Needle Biopsy	30-10125
+30-11080	Acute Kidney Injury	Acute Interstitial Nephritis	Acute Kidney Injury	No	No	50-59	male	White	Percutaneous Needle Biopsy	30-11080
+30-11095	Acute Kidney Injury	Diabetic Kidney Disease	Acute Kidney Injury	Yes	Yes	50-59	female	Black or African-American	Percutaneous Needle Biopsy	30-11095
+32-10419	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	No	No	40-49	female	Black or African-American	Percutaneous Needle Biopsy	32-10419
+32-10458	Acute Kidney Injury	Unknown	Acute Kidney Injury	No	No	50-59	female	White	Percutaneous Needle Biopsy	32-10458
+28-12613	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	70-79	male	Black or African-American	Percutaneous Needle Biopsy	28-12613
+163-3	Healthy Reference Tissue	Unknown	Reference	No	No	50-59	male	White	Intra-operative Biopsy	163-3
+163-2	Healthy Reference Tissue	Unknown	Reference	No	No	70-79	female	White	Intra-operative Biopsy	163-2
+163-4	Healthy Reference Tissue	Unknown	Reference	No	No	50-59	female	White	Intra-operative Biopsy	163-4
+31-10322	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	female	Black or African-American	Percutaneous Needle Biopsy	31-10322
+27-10146	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	27-10146
+163-5	Healthy Reference Tissue	Unknown	Reference	No	No	30-39	male	White	Intra-operative Biopsy	163-5
+164-6	Healthy Reference Tissue	Unknown	Healthy Reference	No	No	30-39	female	White	Transplant Pre-perfusion Biopsy	164-6
+29-10420	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	30-39	male	White	Percutaneous Needle Biopsy	29-10420
+29-10423	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	female	Black or African-American	Percutaneous Needle Biopsy	29-10423
+31-10340	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	31-10340
+165-9	Healthy Reference Tissue	Unknown	Healthy Reference	No	No	30-39	female	White	Transplant Pre-perfusion Biopsy	165-9
+164-10	Healthy Reference Tissue	Unknown	Healthy Reference	No	No	40-49	female	Unknown	Transplant Pre-perfusion Biopsy	164-10
+165-14	Healthy Reference Tissue	Unknown	Healthy Reference	No	No	40-49	female	Asian	Transplant Pre-perfusion Biopsy	165-14
+28-12545	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	30-39	male	Unknown	Percutaneous Needle Biopsy	28-12545
+28-12557	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	male	Unknown	Percutaneous Needle Biopsy	28-12557
+34-10478	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	No	No	30-39	male	White	Percutaneous Needle Biopsy	34-10478
+163-7	Healthy Reference Tissue	Unknown	Reference	No	No	70-79	female	White	Intra-operative Biopsy	163-7
+164-13	Healthy Reference Tissue	Unknown	Healthy Reference	No	No	40-49	female	White	Transplant Pre-perfusion Biopsy	164-13
+164-15	Healthy Reference Tissue	Unknown	Healthy Reference	No	Yes	40-49	female	White	Transplant Pre-perfusion Biopsy	164-15
+28-12546	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	28-12546
+27-10155	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	female	White	Percutaneous Needle Biopsy	27-10155
+27-10185	Diabetes Mellitus - Resilient	Diabetic Kidney Disease	Diabetes Mellitus - Resilient	Yes	Yes	50-59	male	White	Percutaneous Needle Biopsy	27-10185
+27-10170	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Unknown	Percutaneous Needle Biopsy	27-10170
+27-10154	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	50-59	male	Black or African-American	Percutaneous Needle Biopsy	27-10154
+27-10165	Diabetes Mellitus - Resilient	Diabetic Kidney Disease	Diabetes Mellitus - Resilient	Yes	No	30-39	female	White	Percutaneous Needle Biopsy	27-10165
+164-19	Healthy Reference Tissue	Unknown	Healthy Reference	No	No	50-59	female	White	Transplant Pre-perfusion Biopsy	164-19
+164-20	Healthy Reference Tissue	Unknown	Healthy Reference	No	Yes	30-39	male	White	Transplant Pre-perfusion Biopsy	164-20
+34-10573	Acute Kidney Injury	Diabetic Kidney Disease	Acute Kidney Injury	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	34-10573
+29-10425	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	female	White	Percutaneous Needle Biopsy	29-10425
+164-22	Healthy Reference Tissue	Unknown	Healthy Reference	No	No	20-29	male	White	Transplant Pre-perfusion Biopsy	164-22
+934-10001	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	Yes	Yes	60-69	female	Unknown	Percutaneous Needle Biopsy	934-10001
+Sample1153-EO1	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	30-39	female	Black or African-American	Transplant Pre-perfusion Biopsy	73
+Sample1153-EO2	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	30-39	female	White	Transplant Pre-perfusion Biopsy	78
+Sample1153-EO3	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	30-39	female	White	Transplant Pre-perfusion Biopsy	82
+Sample1157-EO1	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	40-49	male	White	Transplant Pre-perfusion Biopsy	65
+Sample1157-EO2	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	40-49	female	White	Transplant Pre-perfusion Biopsy	69
+Sample1157-EO3	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	40-49	male	White	Transplant Pre-perfusion Biopsy	90
+Sample1158-EO1	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	40-49	female	White	Transplant Pre-perfusion Biopsy	124
+Sample1158-EO2	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	50-59	male	White	Transplant Pre-perfusion Biopsy	133
+Sample1158-EO3	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	30-39	female	White	Transplant Pre-perfusion Biopsy	138
+Sample1162-EO1	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	30-39	male	White	Transplant Pre-perfusion Biopsy	86
+Sample1162-EO2	Healthy Reference Tissue	Unknown	Healthy Reference	Not available	Not available	50-59	male	White	Transplant Pre-perfusion Biopsy	108
+21-015	Healthy Reference Tissue	Unknown	Reference	Not available	Not available	50-59	female	White	Nephrectomy	15
+21-016	Healthy Reference Tissue	Unknown	Reference	Not available	Not available	50-59	male	White	Nephrectomy	16
+21-019	Healthy Reference Tissue	Unknown	Reference	Not available	Not available	50-59	male	White	Nephrectomy	19
+21-020	Healthy Reference Tissue	Unknown	Reference	Not available	Not available	70-79	male	White	Nephrectomy	20
+34-10187	Acute Kidney Injury	Acute Tubular Injury	Acute Kidney Injury	No	No	20-29	male	Black or African-American	Percutaneous Needle Biopsy	34-10187
+34-10184	Acute Kidney Injury	Cannot be determined	Acute Kidney Injury	No	No	50-59	female	White	Percutaneous Needle Biopsy	34-10184
+28-12263	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	Yes	Yes	50-59	male	White	Percutaneous Needle Biopsy	28-12263
+27-10071	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	female	White	Percutaneous Needle Biopsy	27-10071
+32-10034	Acute Kidney Injury	Diabetic Kidney Disease	Acute Kidney Injury	Yes	No	60-69	male	White	Percutaneous Needle Biopsy	32-10034
+29-10012	Chronic Kidney Disease	Other	Chronic Kidney Disease	Yes	Yes	50-59	female	Black or African-American	Percutaneous Needle Biopsy	29-10012
+29-10280	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	29-10280
+29-10398	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	30-39	male	White	Percutaneous Needle Biopsy	29-10398
+31-10078	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	31-10078
+31-10040	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	female	White	Percutaneous Needle Biopsy	31-10040
+27-10041	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Asian	Percutaneous Needle Biopsy	27-10041
+29-10380	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	29-10380
+29-10400	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	Asian	Percutaneous Needle Biopsy	29-10400
+28-11515	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Unknown	Percutaneous Needle Biopsy	28-11515
+28-12381	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	male	White	Percutaneous Needle Biopsy	28-12381
+30-10929	Acute Kidney Injury	Acute Interstitial Nephritis	Acute Kidney Injury	No	Yes	30-39	male	Black or African-American	Percutaneous Needle Biopsy	30-10929
+30-11051	Acute Kidney Injury	Cannot be determined	Acute Kidney Injury	Yes	No	20-29	male	White	Percutaneous Needle Biopsy	30-11051
+27-10053	Chronic Kidney Disease	Other	Chronic Kidney Disease	Yes	Yes	60-69	male	White	Percutaneous Needle Biopsy	27-10053
+164-3	Healthy Reference Tissue	Unknown	Healthy Reference	No	No	20-29	male	White	Transplant Pre-perfusion Biopsy	164-3
+28-12490	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	Yes	Yes	60-69	female	Black or African-American	Percutaneous Needle Biopsy	28-12490
+29-10404	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	29-10404
+31-10210	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	70-79	female	Black or African-American	Percutaneous Needle Biopsy	31-10210
+31-10236	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	31-10236
+31-10154	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	No	Yes	80-89	male	White	Percutaneous Needle Biopsy	31-10154
+29-10406	Chronic Kidney Disease	Unknown	Chronic Kidney Disease	Yes	Yes	60-69	male	Black or African-American	Percutaneous Needle Biopsy	29-10406
+27-10119	Chronic Kidney Disease	Cannot be determined	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	27-10119
+27-10112	Chronic Kidney Disease	Diabetic Kidney Disease	Chronic Kidney Disease	Yes	Yes	60-69	female	White	Percutaneous Needle Biopsy	27-10112
+29-10410	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	40-49	male	White	Percutaneous Needle Biopsy	29-10410
+28-12518	Chronic Kidney Disease	Hypertensive Kidney Disease	Chronic Kidney Disease	Yes	Yes	70-79	male	White	Percutaneous Needle Biopsy	28-12518

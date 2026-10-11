@@ -1,0 +1,10 @@
+snRNA_profile	scRNA_profile	n_genes	pearson	p	n_participants_aTAL_and_frTAL_sn	n_participants_aTAL_and_frTAL_sc
+aTAL_vs_normal_sn	aTAL_vs_normal_sc	13884	0.6528484640406453	0.0	109	33
+aTAL_vs_normal_sn	frTAL_vs_normal_sc	13884	0.8791749975041167	0.0	109	33
+aTAL_vs_normal_sn	frTAL_vs_aTAL_sc	13884	0.1865197332754057	6.612037592766852e-109	109	33
+frTAL_vs_normal_sn	aTAL_vs_normal_sc	13884	0.7580209312162676	0.0	109	33
+frTAL_vs_normal_sn	frTAL_vs_normal_sc	13884	0.7589582587962649	0.0	109	33
+frTAL_vs_normal_sn	frTAL_vs_aTAL_sc	13884	-0.0647046727163898	2.3206006768083542e-14	109	33
+frTAL_vs_aTAL_sn	aTAL_vs_normal_sc	13884	0.4018449718621359	0.0	109	33
+frTAL_vs_aTAL_sn	frTAL_vs_normal_sc	13884	0.0921502550072584	1.431256409727134e-27	109	33
+frTAL_vs_aTAL_sn	frTAL_vs_aTAL_sc	13884	-0.3706351071096901	0.0	109	33

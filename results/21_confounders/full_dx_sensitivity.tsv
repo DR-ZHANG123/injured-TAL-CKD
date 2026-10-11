@@ -1,0 +1,22 @@
+population	adjustment	term	n	covariates	estimate	ci_low	ci_high	p	p_hc3	outcome	n_A1	n_A2	n_A3	odds_ratio	full_dx	n_with_tal	n_with_egfr	n_with_alb	median_tal_frac
+REF+DKD+HKD (main)	dx	injured_TAL_logit_perSD	123	dx_DKD+dx_HKD	-8.189053751865144	-13.019635274639654	-3.3584722290906326	0.0010592180006589013	0.0024557439642057875	eGFR									
+REF+DKD+HKD (main)	dx	injured_TAL_logit_perSD	60	dx_DKD+dx_HKD	2.8302241114158893	1.1471043807082255	6.982946500382429	0.02395765424558168		albuminuria_A1-A3	31.0	9.0	20.0	2.8302241114158893					
+REF+DKD+HKD (main)	dx+age+sex	injured_TAL_logit_perSD	123	dx_DKD+dx_HKD+age10+male	-5.689846269611735	-10.42837035637199	-0.9513221828514791	0.019024727936619135	0.010720823840563169	eGFR									
+REF+DKD+HKD (main)	dx+age+sex	injured_TAL_logit_perSD	60	dx_DKD+dx_HKD+age10+male	4.229625647287826	1.4146543104027163	12.646010396067865	0.009859113794103626		albuminuria_A1-A3	31.0	9.0	20.0	4.229625647287826					
+all participants, full diagnosis categories	dx	injured_TAL_logit_perSD	193	dx_AIN+dx_ATI+dx_DKD+dx_HKD+dx_other_diagnosis+dx_undetermined_AKI+dx_undetermined_CKD+dx_undetermined_DM-R	-8.539806985288525	-12.276426082723043	-4.803187887854007	1.1597644934832607e-05	3.652289167097654e-05	eGFR									
+all participants, full diagnosis categories	dx	injured_TAL_logit_perSD	83	dx_AIN+dx_ATI+dx_DKD+dx_HKD+dx_other_diagnosis+dx_undetermined_AKI+dx_undetermined_CKD+dx_undetermined_DM-R	3.374417226702565	1.5072096661446897	7.5548159460741715	0.003099972691658547		albuminuria_A1-A3	44.0	14.0	25.0	3.374417226702565					
+all participants, full diagnosis categories	dx+age+sex	injured_TAL_logit_perSD	193	dx_AIN+dx_ATI+dx_DKD+dx_HKD+dx_other_diagnosis+dx_undetermined_AKI+dx_undetermined_CKD+dx_undetermined_DM-R+age10+male	-6.727778879433376	-10.383794390310868	-3.0717633685558843	0.0003673900885938133	0.00010581041723041948	eGFR									
+all participants, full diagnosis categories	dx+age+sex	injured_TAL_logit_perSD	83	dx_AIN+dx_ATI+dx_DKD+dx_HKD+dx_other_diagnosis+dx_undetermined_AKI+dx_undetermined_CKD+dx_undetermined_DM-R+age10+male	4.2941523928448	1.7285308614336963	10.66787130296316	0.0016969646915852349		albuminuria_A1-A3	44.0	14.0	25.0	4.2941523928448					
+all participants, DKD/HKD/all-other (stage 11 coding)	dx	injured_TAL_logit_perSD	193	s11_DKD+s11_HKD	-11.699571149759285	-14.928623757380105	-8.470518542138464	1.8743181687062068e-11	5.861272443372768e-14	eGFR									
+all participants, DKD/HKD/all-other (stage 11 coding)	dx	injured_TAL_logit_perSD	83	s11_DKD+s11_HKD	3.360320813284991	1.8753523890867867	6.021138231889787	4.6407387587948754e-05		albuminuria_A1-A3	44.0	14.0	25.0	3.360320813284991					
+all participants, DKD/HKD/all-other (stage 11 coding)	dx+age+sex	injured_TAL_logit_perSD	193	s11_DKD+s11_HKD+age10+male	-10.382073907711442	-13.459726199715234	-7.304421615707649	3.050826402710138e-10	2.316897944736261e-13	eGFR									
+all participants, DKD/HKD/all-other (stage 11 coding)	dx+age+sex	injured_TAL_logit_perSD	83	s11_DKD+s11_HKD+age10+male	3.6266487759609447	1.9288050211352261	6.819031058120056	6.359484347028464e-05		albuminuria_A1-A3	44.0	14.0	25.0	3.6266487759609447					
+composition			9												AIN	7.0	9.0	2.0	0.4097007223942208
+composition			19												ATI	19.0	19.0	4.0	0.4297520661157025
+composition			34												DKD	33.0	34.0	25.0	0.2442996742671009
+composition			24												HKD	23.0	24.0	15.0	0.1387387387387387
+composition			88												REF	86.0	67.0	21.0	0.05673206218891445
+composition			4												other_diagnosis	4.0	4.0	1.0	0.2839638622247318
+composition			10												undetermined_AKI	10.0	6.0	2.0	0.34002393496199557
+composition			27												undetermined_CKD	27.0	26.0	7.0	0.2558746736292428
+composition			8												undetermined_DM-R	8.0	8.0	8.0	0.018607553973463947

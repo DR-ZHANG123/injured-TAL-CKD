@@ -1,0 +1,2 @@
+pool	gene	n	spearman_vs_injured_frac	p_spearman	beta_per_logit_injured_adj_dx	p_adj_dx
+all_TAL	EGF	142	-0.7132971912714197	2.293246086757893e-23	-0.9415204640426492	1.1105856242560757e-15

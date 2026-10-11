@@ -1,0 +1,4 @@
+set	DKD	HKD	other	total	with_tubular_axis	with_ecgc_axis	with_albuminuria	with_egfr	with_IF
+out_of_sample_no_atlas	31	19	3	53	0	0	39	53	52
+slides_scRNA_only_excluded	9	8	1	18	0	0	15	18	17
+training_atlas_and_slides	31	22	10	63	61	30	46	61	63

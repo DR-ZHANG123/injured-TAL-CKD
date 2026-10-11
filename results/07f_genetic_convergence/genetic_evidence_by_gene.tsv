@@ -1,0 +1,1094 @@
+trait	symbol	magma_p	magma_bonf	coloc_pp4_max	coloc_pp4_ge_flag	smr_min_p	smr_heidi_pass_tissues	smr_heidi_pass	n_lines
+egfr_EA	SH3YL1	2.9171e-08	True	0.93751580925409	True	3.3375666915914236e-08	susztak_glom;susztak_meta;susztak_tubule	True	3
+egfr_EA	TFDP2	5.346200000000001e-19	True	0.1511958867714237	False	2.4260325599737682e-14	susztak_meta;susztak_tubule	True	2
+egfr_EA	MAP1LC3A	2.7756e-16	True		False	2.7000284966953162e-11	susztak_glom	True	2
+egfr_EA	UNCX	2.5535e-15	True		False	3.2350925388980837e-10	susztak_meta;susztak_tubule	True	2
+egfr_EA	DUSP11	2.9421e-15	True		False	2.1141570144988528e-10	susztak_glom	True	2
+egfr_EA	TMEM60	3.1641e-15	True		False	9.27470898964972e-08	susztak_glom;susztak_meta	True	2
+egfr_EA	FAM122A	5.3846e-15	True		False	9.710412375761716e-08	susztak_meta	True	2
+egfr_EA	ZNF512	1.3156e-14	True		False	3.2134228214426176e-06	susztak_glom	True	2
+egfr_EA	MAN2C1	2.0206e-14	True	0.056783080155397	False	1.3647044916092081e-09	susztak_glom	True	2
+egfr_EA	CHMP1A	2.2371e-14	True	0.0591687963493042	False	8.804260889717692e-10	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	IRF5	2.9032e-14	True		False	5.915390733259484e-12	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	ITCH	3.1419e-14	True		False	9.701752382943465e-07	susztak_glom	True	2
+egfr_EA	PHTF2	7.1488e-14	True		False	4.817808391151317e-07	susztak_glom	True	2
+egfr_EA	ZNF585A	7.8881e-14	True	0.066161308120377	False	8.029107649472491e-07	susztak_meta;susztak_tubule	True	2
+egfr_EA	SLC15A2	1.1185e-13	True		False	6.323947163887812e-11	susztak_meta;susztak_tubule	True	2
+egfr_EA	SLC34A1	1.868e-13	True		False	2.927239838223056e-09	susztak_meta	True	2
+egfr_EA	FAM47E	3.4879e-13	True	0.0244958490103828	False	7.765086812231877e-16	susztak_glom	True	2
+egfr_EA	NRBP1	3.6143e-13	True		False	8.375990118203833e-09	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	METTL10	3.9524e-13	True		False	3.8359318557488905e-11	susztak_glom;susztak_tubule	True	2
+egfr_EA	ANXA9	4.7445e-13	True		False	6.836162885420088e-07	susztak_meta	True	2
+egfr_EA	DAB2	4.9227e-13	True		False	1.609233402383567e-13	susztak_meta;susztak_tubule	True	2
+egfr_EA	A4GALT	1.6472e-12	True		False	7.233701925330815e-08	susztak_meta;susztak_tubule	True	2
+egfr_EA	MANBA	2.7441e-12	True		False	2.8618369531187807e-10	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	MRPS21	2.7554e-12	True		False	8.646346018886516e-08	susztak_tubule	True	2
+egfr_EA	PCK1	3.215e-12	True	0.1104562496288323	False	2.4083707105132824e-06	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	TESK2	4.4155e-12	True		False	8.30733852165382e-08	susztak_tubule	True	2
+egfr_EA	SNUPN	6.9559e-12	True		False	5.180648156894206e-10	susztak_meta;susztak_tubule	True	2
+egfr_EA	SFMBT1	7.4836e-12	True		False	1.265141783862461e-07	susztak_glom	True	2
+egfr_EA	TPRKB	7.5696e-12	True	0.0752270153732472	False	5.174972383043864e-13	susztak_meta;susztak_tubule	True	2
+egfr_EA	FBXL20	8.4982e-12	True	0.1035168545871473	False	2.7817819780922364e-11	susztak_tubule	True	2
+egfr_EA	TREX1	2.2998e-11	True		False	1.7256855747705467e-08	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	XYLB	2.3901e-11	True		False	1.952747808764901e-09	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	ZNF260	3.4054e-11	True		False	1.1599817150114588e-06	susztak_glom;susztak_meta	True	2
+egfr_EA	ZNF793	4.9896e-11	True		False	2.5235870642229288e-09	susztak_glom	True	2
+egfr_EA	TRPC4AP	9.2933e-11	True		False	6.89997760225147e-06	susztak_meta;susztak_tubule	True	2
+egfr_EA	DACH1	1.2675e-10	True		False	2.624574528028292e-08	susztak_meta;susztak_tubule	True	2
+egfr_EA	TMA7	2.4932e-10	True		False	8.984951896358398e-07	susztak_meta;susztak_tubule	True	2
+egfr_EA	ZNF641	3.2806e-10	True		False	1.3647441551005678e-06	susztak_glom;susztak_meta	True	2
+egfr_EA	ITIH4	4.6327e-10	True	0.5288515464651468	False	9.009452446724237e-09	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	CASP9	5e-10	True	0.0045273403928828	False	4.876038550039201e-11	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	CCDC158	5e-10	True		False	3.631467274027703e-12	susztak_glom;susztak_meta	True	2
+egfr_EA	CHP1	5e-10	True		False	2.1455053890879575e-07	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	CISD2	5e-10	True		False	1.1455195379687537e-10	susztak_meta;susztak_tubule	True	2
+egfr_EA	EXOG	5e-10	True		False	5.442799687695656e-10	susztak_glom;susztak_meta	True	2
+egfr_EA	NAT8B	5e-10	True		False	1.4567113105919178e-07	susztak_meta	True	2
+egfr_EA	PIGU	5e-10	True		False	8.58657828495217e-07	susztak_meta;susztak_tubule	True	2
+egfr_EA	PPM1J	5e-10	True		False	6.18037491962172e-10	susztak_tubule	True	2
+egfr_EA	RGS14	5e-10	True		False	4.619371398782444e-17	susztak_tubule	True	2
+egfr_EA	SLC6A13	5e-10	True		False	6.874288498488448e-16	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	SORT1	5e-10	True		False	3.5379775216348554e-08	susztak_meta;susztak_tubule	True	2
+egfr_EA	TBX2	5e-10	True		False	1.244699123861708e-11	susztak_meta;susztak_tubule	True	2
+egfr_EA	UMOD	5e-10	True		False	1.0218435757979722e-09	susztak_glom;susztak_meta	True	2
+egfr_EA	ZNF781	5e-10	True	0.2997983871707754	False	3.263548285641258e-10	susztak_meta;susztak_tubule	True	2
+egfr_EA	GGNBP2	5.286e-10	True		False	4.469796855685785e-06	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	DHRS11	8.6846e-10	True		False	3.453215783246285e-08	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	UGT8	1.1909e-09	True		False	3.252179811213663e-06	susztak_meta;susztak_tubule	True	2
+egfr_EA	L3MBTL3	1.2847e-09	True	0.972613816790314	True			False	2
+egfr_EA	RNF5	6.6297e-09	True		False	1.7295291204617963e-09	susztak_meta	True	2
+egfr_EA	BTN3A2	6.7267e-09	True	0.5234986891621746	False	2.1538263171696452e-08	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	TUFM	8.907e-09	True		False	5.413941847378822e-10	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	TCEA3	1.167e-08	True		False	7.903682570458224e-10	susztak_glom;susztak_tubule	True	2
+egfr_EA	KNG1	1.538e-08	True		False	5.723199263170708e-08	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	GSTA1	1.7654e-08	True		False	5.480264997368426e-07	susztak_tubule	True	2
+egfr_EA	PDLIM4	2.9685e-08	True	0.0891019625763291	False	7.088820540305918e-06	susztak_glom	True	2
+egfr_EA	LEAP2	3.305e-08	True		False	1.0361356210457295e-10	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	KLHDC7A	4.1524e-08	True		False	5.784197200449501e-10	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	HSPA4	6.2427e-08	True		False	6.85914857389538e-07	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	VARS2	7.2874e-08	True	0.0558794135656632	False	1.4256406480736913e-06	susztak_tubule	True	2
+egfr_EA	CWH43	7.5856e-08	True		False	4.946560026728379e-06	susztak_glom	True	2
+egfr_EA	SPATA7	1.2223e-07	True		False	2.915763479797758e-06	susztak_meta	True	2
+egfr_EA	OGDHL	1.4322e-07	True		False	4.951028174558584e-07	susztak_meta	True	2
+egfr_EA	NEK4	1.4634e-07	True		False	2.325136308703144e-06	susztak_glom;susztak_meta	True	2
+egfr_EA	C8orf58	1.6886e-07	True		False	8.476242954279804e-07	susztak_glom	True	2
+egfr_EA	GNL3	1.775e-07	True	0.063548098104695	False	6.7436940230645206e-06	susztak_glom	True	2
+egfr_EA	NT5C3A	2.4263e-07	True		False	4.289942422667325e-08	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	TMEM125	2.6027e-07	True		False	5.924669362617433e-06	susztak_meta;susztak_tubule	True	2
+egfr_EA	LACTB	2.8319e-07	True		False	3.23895576982562e-07	susztak_glom	True	2
+egfr_EA	SULT1A2	3.2397e-07	True		False	3.3248483877630556e-08	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	WHAMM	4.6156e-07	True		False	5.587278610555606e-07	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	EPB41L3	1.0582e-06	True		False	2.8801810155559885e-08	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	B4GALT1	2.6831e-06	True		False	4.188571512773707e-06	susztak_meta;susztak_tubule	True	2
+egfr_EA	FGF5	8.2242e-06	False	0.9902088187721144	True	6.662481465496769e-15	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	TRIM6	0.0092213	False	0.9108376983889592	True	1.7817554103868306e-13	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_EA	BCAS3	1.5119e-25	True		False			False	1
+egfr_EA	LRP2	3.2332e-22	True		False			False	1
+egfr_EA	PIP5K1B	5.5118e-22	True		False	2.4111758493664317e-05		False	1
+egfr_EA	SQRDL	8.704799999999999e-21	True		False			False	1
+egfr_EA	TSPAN9	1.6028e-20	True		False	0.0161900875272206		False	1
+egfr_EA	ARL15	1.9164000000000005e-19	True		False	0.4161931941346904		False	1
+egfr_EA	WDR72	1.4118e-17	True		False			False	1
+egfr_EA	CEP89	5.8911e-17	True		False	1.0705904517282233e-05		False	1
+egfr_EA	SLC30A4	1.1102e-16	True		False			False	1
+egfr_EA	SHROOM3	1.7207e-16	True		False			False	1
+egfr_EA	SLC9B1	2.143e-16	True		False			False	1
+egfr_EA	KCNQ1	1.003e-15	True		False			False	1
+egfr_EA	SIPA1	1.3878e-15	True		False			False	1
+egfr_EA	SIN3A	1.6653e-15	True		False			False	1
+egfr_EA	SYPL2	1.9429e-15	True		False			False	1
+egfr_EA	C15orf27	2.1201e-15	True		False			False	1
+egfr_EA	NEUROD2	2.1649e-15	True		False			False	1
+egfr_EA	ERBB2	3.3307e-15	True		False			False	1
+egfr_EA	RERG	3.4744e-15	True		False	0.6798175570236351		False	1
+egfr_EA	FAM19A3	3.6082e-15	True		False			False	1
+egfr_EA	GGT7	4.2744e-15	True		False			False	1
+egfr_EA	RELA	4.885e-15	True		False			False	1
+egfr_EA	SLC22A2	5.1625e-15	True		False	0.0327862458057131		False	1
+egfr_EA	RNASEH2C	5.4956e-15	True		False	3.0971577110821144e-11		False	1
+egfr_EA	SPEG	5.9397e-15	True		False	0.0156209894463016		False	1
+egfr_EA	C2orf78	5.9952e-15	True		False			False	1
+egfr_EA	LMAN2	6.0507e-15	True		False			False	1
+egfr_EA	PRELID1	6.2728e-15	True	0.0829169249959015	False	0.4355157625132857		False	1
+egfr_EA	GATM	6.6058e-15	True		False			False	1
+egfr_EA	PPP1R1B	6.6058e-15	True		False			False	1
+egfr_EA	EIF2B4	6.7724e-15	True		False			False	1
+egfr_EA	WDR87	7.1054e-15	True		False			False	1
+egfr_EA	C2orf16	7.7716e-15	True		False			False	1
+egfr_EA	SPATA33	7.7716e-15	True	0.0678538167520509	False	8.886884500122736e-05		False	1
+egfr_EA	MFHAS1	8.2373e-15	True		False			False	1
+egfr_EA	RREB1	8.3745e-15	True		False			False	1
+egfr_EA	AP5B1	8.6042e-15	True		False			False	1
+egfr_EA	MIEN1	8.6042e-15	True		False	1.6020906677380965e-07		False	1
+egfr_EA	ZFP30	9.5479e-15	True		False	0.0136722921193982		False	1
+egfr_EA	OVOL1	9.881e-15	True		False			False	1
+egfr_EA	RHOC	9.9365e-15	True		False			False	1
+egfr_EA	SENP2	1.0381e-14	True		False			False	1
+egfr_EA	STAC2	1.0991e-14	True		False			False	1
+egfr_EA	NFE2L2	1.2101e-14	True	0.0694471826148185	False			False	1
+egfr_EA	MYBPHL	1.2768e-14	True		False			False	1
+egfr_EA	CCDC77	1.3156e-14	True	0.0603015942481002	False	1.032596698588216e-10		False	1
+egfr_EA	LOC100996693	1.3323e-14	True		False			False	1
+egfr_EA	CYB561D1	1.3711e-14	True		False			False	1
+egfr_EA	ATXN7L2	1.3989e-14	True		False			False	1
+egfr_EA	FBXO22	1.5488e-14	True		False			False	1
+egfr_EA	PCNXL3	1.632e-14	True		False			False	1
+egfr_EA	KAT5	1.6764e-14	True		False			False	1
+egfr_EA	PSMA5	1.8707e-14	True		False			False	1
+egfr_EA	GMPPA	1.9207e-14	True		False			False	1
+egfr_EA	GRB7	1.9262e-14	True		False			False	1
+egfr_EA	TFCP2L1	2.1705e-14	True		False			False	1
+egfr_EA	MED1	2.5036e-14	True		False			False	1
+egfr_EA	SLC28A2	2.5202e-14	True	0.0148601438189963	False	0.0049228363695705		False	1
+egfr_EA	ZNF573	2.8255e-14	True		False	0.00081077460564		False	1
+egfr_EA	SLC22A1	2.9254e-14	True		False			False	1
+egfr_EA	ZNF436	2.931e-14	True	0.6467590270641649	False	4.953690808255844e-09		False	1
+egfr_EA	ALMS1	3.0575e-14	True		False			False	1
+egfr_EA	GTF3C2	3.1142e-14	True		False			False	1
+egfr_EA	ZNF540	3.2196e-14	True		False			False	1
+egfr_EA	NEIL1	3.6693e-14	True		False			False	1
+egfr_EA	MKL1	4.1009e-14	True		False	7.952412568360057e-07		False	1
+egfr_EA	IKZF3	4.7554e-14	True		False			False	1
+egfr_EA	SLC7A9	5.3679e-14	True		False	0.0003321153023372		False	1
+egfr_EA	PRRC2A	5.3901e-14	True		False			False	1
+egfr_EA	DPEP1	5.6011e-14	True		False	5.4087624196112255e-12		False	1
+egfr_EA	TDRD12	6.8889e-14	True		False			False	1
+egfr_EA	GCKR	8.2323e-14	True		False			False	1
+egfr_EA	CELA2B	8.743e-14	True		False			False	1
+egfr_EA	SLC47A1	9.3925e-14	True		False	5.593096470874624e-07		False	1
+egfr_EA	PPM1G	9.7811e-14	True		False			False	1
+egfr_EA	PTPN9	1.0036e-13	True		False			False	1
+egfr_EA	ZNF318	1.0708e-13	True		False			False	1
+egfr_EA	TMEM252	1.3967e-13	True		False			False	1
+egfr_EA	GPSM3	1.637e-13	True	0.2161610439485645	False			False	1
+egfr_EA	CDK12	1.8108e-13	True		False			False	1
+egfr_EA	DCDC5	1.8274e-13	True		False			False	1
+egfr_EA	UBE2D3	1.8296e-13	True		False			False	1
+egfr_EA	PBX2	1.9196e-13	True		False	3.657393565778077e-05		False	1
+egfr_EA	ZNF607	1.959e-13	True		False	0.0009099128411188		False	1
+egfr_EA	IFT172	1.984e-13	True		False			False	1
+egfr_EA	DUOXA1	2.2421e-13	True		False			False	1
+egfr_EA	DUOX1	2.3681e-13	True		False			False	1
+egfr_EA	NRG4	2.412e-13	True		False	1.0556932114028542e-10		False	1
+egfr_EA	SGSM3	2.4447e-13	True		False			False	1
+egfr_EA	HNRNPR	2.4625e-13	True		False			False	1
+egfr_EA	PROCR	2.6107e-13	True		False	0.0430449307122839		False	1
+egfr_EA	MXD3	3.0193e-13	True		False			False	1
+egfr_EA	EYA4	3.0258e-13	True		False	0.0052866959244207		False	1
+egfr_EA	ZNF568	3.383e-13	True		False	0.1213127445774022		False	1
+egfr_EA	ASTN2	3.883e-13	True		False			False	1
+egfr_EA	PRPF3	4.0407e-13	True		False			False	1
+egfr_EA	PRKAG2	4.087e-13	True		False			False	1
+egfr_EA	FAM47E-STBD1	4.423e-13	True		False	2.5088098136620287e-10		False	1
+egfr_EA	FNDC4	4.679e-13	True	0.1124195028390779	False			False	1
+egfr_EA	AGER	5.1614e-13	True	0.0599432634303458	False			False	1
+egfr_EA	ZNF527	5.691e-13	True		False			False	1
+egfr_EA	SNX17	6.6541e-13	True		False			False	1
+egfr_EA	DDAH2	7.0693e-13	True		False	1.0110757199909912e-05		False	1
+egfr_EA	DCDC1	7.5928e-13	True		False			False	1
+egfr_EA	CPS1	9.2455e-13	True		False	8.112124869317238e-05		False	1
+egfr_EA	ZNF513	9.3764e-13	True		False			False	1
+egfr_EA	SIPA1L3	1.0697e-12	True		False			False	1
+egfr_EA	ABCC10	1.0836e-12	True		False			False	1
+egfr_EA	CLIC1	1.1883e-12	True		False			False	1
+egfr_EA	ZPBP2	1.4376e-12	True		False			False	1
+egfr_EA	VPS9D1	1.5566e-12	True	0.4329069633556601	False	0.008697703567056		False	1
+egfr_EA	IDI2	2.0051e-12	True		False			False	1
+egfr_EA	GSS	2.0446e-12	True		False			False	1
+egfr_EA	ILDR1	2.233e-12	True		False			False	1
+egfr_EA	SLC22A7	2.3245e-12	True		False			False	1
+egfr_EA	UBE2Q2	2.3692e-12	True		False			False	1
+egfr_EA	ACSS2	2.5807e-12	True		False	1.8241891887227514e-05		False	1
+egfr_EA	AGMAT	2.7995e-12	True		False	0.0029132730337844		False	1
+egfr_EA	SHF	2.9609e-12	True		False			False	1
+egfr_EA	SPATA2L	2.9785e-12	True		False			False	1
+egfr_EA	ZNF585B	3.4331e-12	True		False	2.209403032947275e-06		False	1
+egfr_EA	RAB24	4.0493e-12	True		False	0.0170629412688945		False	1
+egfr_EA	CRIP3	4.2153e-12	True		False			False	1
+egfr_EA	MSH5	4.367e-12	True	0.0580324660597512	False			False	1
+egfr_EA	APOM	5.0826e-12	True		False			False	1
+egfr_EA	KRTCAP3	5.1394e-12	True		False			False	1
+egfr_EA	MYPN	5.5467e-12	True		False			False	1
+egfr_EA	MYH7B	6.0084e-12	True		False	0.0184142474236297		False	1
+egfr_EA	MPV17	6.5918e-12	True	0.0711409109577609	False			False	1
+egfr_EA	TARS2	7.6701e-12	True		False	0.0016499573663727		False	1
+egfr_EA	DUOXA2	8.4798e-12	True		False			False	1
+egfr_EA	SLC7A13	8.4885e-12	True		False			False	1
+egfr_EA	TP53INP2	9.2494e-12	True		False			False	1
+egfr_EA	A1CF	1.0539e-11	True		False			False	1
+egfr_EA	C9	1.0746e-11	True		False	1.1223437810801209e-07		False	1
+egfr_EA	FGFR4	1.0787e-11	True		False			False	1
+egfr_EA	TOE1	1.0976e-11	True		False			False	1
+egfr_EA	MAP3K11	1.0996e-11	True		False	1.243882146323431e-07		False	1
+egfr_EA	STARD3	1.2351e-11	True		False			False	1
+egfr_EA	PTPN12	1.3033e-11	True	0.0833254957544696	False	0.0250847209786242		False	1
+egfr_EA	TFEB	1.5563e-11	True		False			False	1
+egfr_EA	HOXD9	1.723e-11	True		False			False	1
+egfr_EA	MUTYH	1.7362e-11	True		False	0.0022505911973985		False	1
+egfr_EA	CHD9	1.7436e-11	True	0.0725291555270769	False			False	1
+egfr_EA	DUOX2	1.7646e-11	True		False			False	1
+egfr_EA	ORC4	1.7824e-11	True		False			False	1
+egfr_EA	SPTBN1	2.4544e-11	True		False	5.0357760016511286e-05		False	1
+egfr_EA	MRPL33	2.5766e-11	True	0.0627883279267309	False			False	1
+egfr_EA	CLDN23	2.6647e-11	True		False	4.118886652330948e-06		False	1
+egfr_EA	FAM83C	3.0966e-11	True		False			False	1
+egfr_EA	ATXN7	3.3922e-11	True		False			False	1
+egfr_EA	BAG6	3.5839e-11	True		False	0.775385722026379		False	1
+egfr_EA	AFF4	3.64e-11	True		False			False	1
+egfr_EA	SNX33	3.9006e-11	True		False			False	1
+egfr_EA	HSPA1L	4.3429e-11	True		False			False	1
+egfr_EA	HSPA1B	4.5471e-11	True	0.0481234519742793	False			False	1
+egfr_EA	MSRA	4.5523e-11	True		False			False	1
+egfr_EA	PLXNB1	4.637e-11	True		False			False	1
+egfr_EA	ADSL	4.7561e-11	True		False			False	1
+egfr_EA	EXD1	5.3024e-11	True		False			False	1
+egfr_EA	PSMD6	5.8214e-11	True		False			False	1
+egfr_EA	MSL2	6.5198e-11	True		False			False	1
+egfr_EA	WDR37	7.088e-11	True		False	2.7588230958694e-06		False	1
+egfr_EA	ADAMTSL4	7.3006e-11	True		False	1.1938981503575985e-05		False	1
+egfr_EA	HOXD10	8.2297e-11	True		False			False	1
+egfr_EA	ZNF420	8.4313e-11	True		False			False	1
+egfr_EA	ATRIP	8.6818e-11	True		False	0.0007579281635056		False	1
+egfr_EA	CDK10	9.4752e-11	True	0.1898264564850142	False	0.001317524262093		False	1
+egfr_EA	ZNF276	1.0481e-10	True	0.1244415520813783	False			False	1
+egfr_EA	COMMD4	1.0809e-10	True		False			False	1
+egfr_EA	EVX2	1.1136e-10	True		False			False	1
+egfr_EA	ATP2A1	1.116e-10	True		False			False	1
+egfr_EA	MMACHC	1.1296e-10	True		False	0.0005608516478569		False	1
+egfr_EA	STAMBP	1.1564e-10	True	0.0719216771127544	False	0.0003223591697434		False	1
+egfr_EA	ECM1	1.1637e-10	True		False			False	1
+egfr_EA	THADA	1.2483e-10	True		False			False	1
+egfr_EA	CCDC51	1.4735e-10	True		False			False	1
+egfr_EA	RPRD2	1.4742e-10	True		False			False	1
+egfr_EA	RABEP2	1.5264e-10	True		False			False	1
+egfr_EA	IMP3	1.561e-10	True		False			False	1
+egfr_EA	LSM2	1.6331e-10	True		False			False	1
+egfr_EA	SAPCD1	1.9769e-10	True		False	0.0131258112300293		False	1
+egfr_EA	ATXN2L	1.9899e-10	True		False			False	1
+egfr_EA	SLC7A6	2.2092e-10	True		False			False	1
+egfr_EA	FBXW12	2.4645e-10	True		False			False	1
+egfr_EA	ORMDL3	2.5617e-10	True		False	0.0029321498274668		False	1
+egfr_EA	RSBN1L	2.6698e-10	True		False			False	1
+egfr_EA	SLC7A6OS	2.8213e-10	True		False			False	1
+egfr_EA	MAFF	2.9753e-10	True		False			False	1
+egfr_EA	PRMT7	2.9965e-10	True	0.0633516704684058	False	0.9148298072779576		False	1
+egfr_EA	TNPO3	3.0633e-10	True		False	0.0833306115519885		False	1
+egfr_EA	KDM5A	3.1441e-10	True		False			False	1
+egfr_EA	PLEKHO1	3.1518e-10	True	0.0646337874412912	False			False	1
+egfr_EA	CENPE	3.4713e-10	True		False	5.233118571456891e-09		False	1
+egfr_EA	ANO7P1	3.5461e-10	True		False	0.0024658667603876		False	1
+egfr_EA	AGPAT1	3.603e-10	True		False			False	1
+egfr_EA	LOC101928947	3.6222e-10	True		False			False	1
+egfr_EA	C6orf25	3.7112e-10	True		False			False	1
+egfr_EA	ZNHIT3	3.7956e-10	True		False			False	1
+egfr_EA	ACVR2A	4.0998e-10	True		False	1.3889924497609567e-05		False	1
+egfr_EA	SPIRE2	4.1543e-10	True	0.0904671863606687	False	0.0079367314385672		False	1
+egfr_EA	MRM1	4.5381e-10	True		False			False	1
+egfr_EA	UQCRQ	4.9155e-10	True		False			False	1
+egfr_EA	NOTCH4	4.9162e-10	True		False	3.582123776221855e-05		False	1
+egfr_EA	IGF2R	4.9251e-10	True		False			False	1
+egfr_EA	PSRC1	4.9901e-10	True		False	4.775099224361385e-07		False	1
+egfr_EA	ACVR2B	5e-10	True		False			False	1
+egfr_EA	C15orf48	5e-10	True		False			False	1
+egfr_EA	C17orf82	5e-10	True		False			False	1
+egfr_EA	C19orf40	5e-10	True		False	0.0007628038919521		False	1
+egfr_EA	DDX1	5e-10	True		False			False	1
+egfr_EA	DNAJC16	5e-10	True		False	0.0028682407034959		False	1
+egfr_EA	DYNLRB1	5e-10	True		False			False	1
+egfr_EA	ETV5	5e-10	True	0.076619725928273	False			False	1
+egfr_EA	IGF2	5e-10	True		False			False	1
+egfr_EA	INS-IGF2	5e-10	True		False			False	1
+egfr_EA	LOC101927855	5e-10	True		False			False	1
+egfr_EA	LOC101929578	5e-10	True		False			False	1
+egfr_EA	NAT8	5e-10	True		False	7.5486387568144e-10		False	1
+egfr_EA	NCOA6	5e-10	True		False	6.754577662288629e-05		False	1
+egfr_EA	NUDT19	5e-10	True		False	8.121162854681056e-06		False	1
+egfr_EA	OR52H1	5e-10	True		False			False	1
+egfr_EA	PDILT	5e-10	True		False			False	1
+egfr_EA	PGAP3	5e-10	True		False	1.1762278447363977e-18		False	1
+egfr_EA	SLC9B2	5e-10	True	0.3242583527086679	False			False	1
+egfr_EA	SPATA5L1	5e-10	True		False	2.6722371231382598e-42		False	1
+egfr_EA	STBD1	5e-10	True		False	3.1856610720022994e-09		False	1
+egfr_EA	STC1	5e-10	True		False			False	1
+egfr_EA	ZNF571	5e-10	True		False			False	1
+egfr_EA	VWA7	5.003e-10	True		False			False	1
+egfr_EA	VPS45	5.2781e-10	True		False			False	1
+egfr_EA	SBF2	5.3272e-10	True		False			False	1
+egfr_EA	PNMT	5.3549e-10	True		False	5.315861522500874e-10		False	1
+egfr_EA	RSG1	6.684e-10	True		False	0.2348574287163417		False	1
+egfr_EA	ATP1B3	6.9004e-10	True		False			False	1
+egfr_EA	RAB8B	6.9821e-10	True		False			False	1
+egfr_EA	LY6G5B	7.6145e-10	True	0.0523353813976404	False	0.0077422939185133		False	1
+egfr_EA	CASZ1	7.9595e-10	True		False			False	1
+egfr_EA	LY6G6C	8.0546e-10	True		False			False	1
+egfr_EA	C6orf48	8.2257e-10	True		False	0.0002289720796389		False	1
+egfr_EA	DPF3	8.424e-10	True		False	6.171892016987097e-05		False	1
+egfr_EA	FAM175B	9.0649e-10	True		False			False	1
+egfr_EA	HSPA1A	9.0672e-10	True	0.0513099990681621	False			False	1
+egfr_EA	CYP26C1	1.0975e-09	True		False			False	1
+egfr_EA	HNRNPH3	1.1759e-09	True		False			False	1
+egfr_EA	PHLPP2	1.2212e-09	True	0.0799588815752408	False	3.923579868665082e-05		False	1
+egfr_EA	LAMA5	1.4008e-09	True		False	0.3324322001740163		False	1
+egfr_EA	PCCB	1.4035e-09	True		False	0.246682027932194		False	1
+egfr_EA	SH2B1	1.4531e-09	True		False			False	1
+egfr_EA	CELSR2	1.6782e-09	True		False			False	1
+egfr_EA	DNAJC24	1.6951e-09	True		False			False	1
+egfr_EA	TNRC6B	1.7724e-09	True		False			False	1
+egfr_EA	SLC22A5	1.8478e-09	True		False			False	1
+egfr_EA	FAM63A	1.8523e-09	True		False			False	1
+egfr_EA	XKR6	1.8788e-09	True		False			False	1
+egfr_EA	CSNK2B	1.9171e-09	True		False			False	1
+egfr_EA	AMIGO1	1.9695e-09	True	0.0622384786888167	False	4.788073931521148e-06		False	1
+egfr_EA	CERS2	2.0308e-09	True		False			False	1
+egfr_EA	C1orf54	2.0747e-09	True	0.0648856477803528	False			False	1
+egfr_EA	ODF3L1	2.1082e-09	True		False			False	1
+egfr_EA	FOXO3	2.3086e-09	True		False			False	1
+egfr_EA	SLC6A12	2.3346e-09	True		False			False	1
+egfr_EA	BRE	2.4009e-09	True		False			False	1
+egfr_EA	EDEM2	2.4365e-09	True		False			False	1
+egfr_EA	CD19	2.6159e-09	True		False			False	1
+egfr_EA	MUSTN1	2.8712e-09	True		False			False	1
+egfr_EA	VARS	2.9088e-09	True		False			False	1
+egfr_EA	HIST1H2AB	3.0971e-09	True		False			False	1
+egfr_EA	C6orf47	3.1148e-09	True		False			False	1
+egfr_EA	HOXD11	3.122e-09	True	0.0719496290412954	False			False	1
+egfr_EA	MMP24	3.1582e-09	True		False			False	1
+egfr_EA	CIART	3.3805e-09	True		False			False	1
+egfr_EA	SHROOM1	3.3814e-09	True		False			False	1
+egfr_EA	SLC17A3	3.4401e-09	True	0.3248733698167755	False	0.0071274473853777		False	1
+egfr_EA	NEB	3.4941e-09	True	0.0762614978618976	False			False	1
+egfr_EA	ATF1	3.5288e-09	True		False			False	1
+egfr_EA	AIF1	3.5578e-09	True		False			False	1
+egfr_EA	AP1G1	3.6051e-09	True		False			False	1
+egfr_EA	CCDC17	3.7036e-09	True	0.0682755262805999	False			False	1
+egfr_EA	SND1	4.0082e-09	True		False			False	1
+egfr_EA	LACTBL1	4.0265e-09	True		False			False	1
+egfr_EA	APH1B	4.3607e-09	True		False	0.0018669679295951		False	1
+egfr_EA	FBXO42	4.3688e-09	True		False	0.0001085876871708		False	1
+egfr_EA	TRIM54	4.8649e-09	True		False			False	1
+egfr_EA	HLA-B	4.9186e-09	True		False	0.0399214100790318		False	1
+egfr_EA	GPANK1	5.0879e-09	True		False			False	1
+egfr_EA	C2CD2L	5.2582e-09	True		False			False	1
+egfr_EA	EML6	5.505e-09	True		False			False	1
+egfr_EA	INO80	5.8413e-09	True		False			False	1
+egfr_EA	DPCR1	5.8451e-09	True		False			False	1
+egfr_EA	NDOR1	6.3765e-09	True		False			False	1
+egfr_EA	CYP24A1	6.5717e-09	True		False	0.0141498736414771		False	1
+egfr_EA	LHX3	6.6697e-09	True		False			False	1
+egfr_EA	GDF9	6.9003e-09	True		False	0.0103438379087208		False	1
+egfr_EA	SFTA2	7.4767e-09	True		False	0.0004870321356973		False	1
+egfr_EA	CCDC101	7.6225e-09	True		False			False	1
+egfr_EA	MTMR3	8.4856e-09	True		False	0.0007912811475432		False	1
+egfr_EA	GSDMB	9.1836e-09	True		False			False	1
+egfr_EA	PSORS1C2	9.538e-09	True		False			False	1
+egfr_EA	UCN	9.7879e-09	True		False			False	1
+egfr_EA	CSF3	9.8307e-09	True		False			False	1
+egfr_EA	P4HA2	1.0868e-08	True		False	1.7895851319158835e-05		False	1
+egfr_EA	APH1A	1.0972e-08	True		False			False	1
+egfr_EA	INHBE	1.1156e-08	True		False			False	1
+egfr_EA	RMDN1	1.119e-08	True		False	1.3595240185180714e-07		False	1
+egfr_EA	SDCCAG8	1.1299e-08	True		False			False	1
+egfr_EA	DPAGT1	1.1465e-08	True		False			False	1
+egfr_EA	ZFP36L2	1.1712e-08	True		False	0.2901231598542877		False	1
+egfr_EA	TBX4	1.2145e-08	True		False			False	1
+egfr_EA	SFN	1.2437e-08	True		False			False	1
+egfr_EA	STAG1	1.325e-08	True		False			False	1
+egfr_EA	PRKCZ	1.3459e-08	True		False	2.103619926090879e-05		False	1
+egfr_EA	IGF1R	1.3465e-08	True		False	0.2402941033994497		False	1
+egfr_EA	CHCHD1	1.38e-08	True		False			False	1
+egfr_EA	HINFP	1.4775e-08	True		False			False	1
+egfr_EA	BIN3	1.4884e-08	True	0.5705595020400279	False	2.7758203544330907e-05		False	1
+egfr_EA	DNAJC5G	1.5713e-08	True		False			False	1
+egfr_EA	PLA2G6	1.5829e-08	True		False			False	1
+egfr_EA	HLA-DRA	1.5922e-08	True		False			False	1
+egfr_EA	WWP1	1.6119e-08	True		False	2.1880378084265583e-05		False	1
+egfr_EA	GAB2	1.6377e-08	True		False	0.0004213685199565		False	1
+egfr_EA	GPBP1L1	1.6413e-08	True		False			False	1
+egfr_EA	CA14	1.6669e-08	True		False			False	1
+egfr_EA	GPN2	1.6872e-08	True		False			False	1
+egfr_EA	IPP	1.6929e-08	True		False			False	1
+egfr_EA	TMEM69	1.7143e-08	True		False	0.0999288571397259		False	1
+egfr_EA	TEX14	1.7334e-08	True		False	0.3489347032801061		False	1
+egfr_EA	ZSWIM8	1.7615e-08	True		False			False	1
+egfr_EA	RUFY2	1.7784e-08	True		False	8.545775770185366e-05		False	1
+egfr_EA	PRUNE	1.786e-08	True		False			False	1
+egfr_EA	TMEM110	1.8318e-08	True		False			False	1
+egfr_EA	H2AFX	1.8815e-08	True		False			False	1
+egfr_EA	PDLIM2	1.8932e-08	True	0.0591323862364306	False			False	1
+egfr_EA	BLK	1.908e-08	True		False			False	1
+egfr_EA	PPP2R3A	1.9112e-08	True		False	0.0014764220055432		False	1
+egfr_EA	INS	1.94e-08	True		False			False	1
+egfr_EA	AMT	1.9747e-08	True		False			False	1
+egfr_EA	RHOA	2.0014e-08	True		False			False	1
+egfr_EA	ZNF569	2.0428e-08	True		False			False	1
+egfr_EA	CCHCR1	2.0942e-08	True	0.0423010940802534	False	0.3619240862249522		False	1
+egfr_EA	GSTA2	2.1802e-08	True	0.056718580866015	False			False	1
+egfr_EA	NDUFS4	2.1994e-08	True		False	0.0047115996468392		False	1
+egfr_EA	OR4B1	2.2422e-08	True		False			False	1
+egfr_EA	MECOM	2.2497e-08	True		False			False	1
+egfr_EA	TMEM110-MUSTN1	2.2996e-08	True		False			False	1
+egfr_EA	UBAP2	2.3481e-08	True		False			False	1
+egfr_EA	SGK223	2.3525e-08	True		False	2.4991811077655903e-05		False	1
+egfr_EA	CCDC121	2.3584e-08	True		False			False	1
+egfr_EA	LOC101928726	2.4291e-08	True		False			False	1
+egfr_EA	DNM3	2.4302e-08	True		False			False	1
+egfr_EA	AKR1A1	2.5503e-08	True		False			False	1
+egfr_EA	IL27	2.7128e-08	True		False			False	1
+egfr_EA	PCMTD2	2.7592e-08	True		False			False	1
+egfr_EA	THOC7	2.7902e-08	True		False	5.370085540398402e-05		False	1
+egfr_EA	SLC17A4	2.8212e-08	True		False			False	1
+egfr_EA	C1orf234	2.8236e-08	True		False			False	1
+egfr_EA	TAT	2.8369e-08	True		False			False	1
+egfr_EA	FANCA	2.8899e-08	True	0.0608642853101842	False	0.6679188599334394		False	1
+egfr_EA	FAM53B	2.9286e-08	True		False	2.8510104203403105e-05		False	1
+egfr_EA	HIST1H3B	3.1131e-08	True		False			False	1
+egfr_EA	BSN	3.277e-08	True		False			False	1
+egfr_EA	HOXD13	3.3048e-08	True		False			False	1
+egfr_EA	RIN3	3.3698e-08	True		False	0.4941025057662165		False	1
+egfr_EA	GRB10	3.4758e-08	True		False	1.1887664827878528e-05		False	1
+egfr_EA	MBD5	3.4885e-08	True		False			False	1
+egfr_EA	RPL19	3.504e-08	True		False			False	1
+egfr_EA	MAST2	3.5309e-08	True		False			False	1
+egfr_EA	TRIM32	3.5444e-08	True	0.1194448816730829	False			False	1
+egfr_EA	ASIC4	3.6515e-08	True		False			False	1
+egfr_EA	ZDHHC5	3.6531e-08	True		False			False	1
+egfr_EA	SLC22A4	3.6635e-08	True		False	4.560367379012442e-05		False	1
+egfr_EA	SLC30A3	4.4032e-08	True		False			False	1
+egfr_EA	TNFAIP6	4.4749e-08	True		False	7.747714998757015e-05		False	1
+egfr_EA	HKR1	4.4795e-08	True		False			False	1
+egfr_EA	RTEL1	4.7192e-08	True	0.0715586053531297	False			False	1
+egfr_EA	CYP26A1	4.7371e-08	True		False			False	1
+egfr_EA	TMEM203	4.9247e-08	True		False			False	1
+egfr_EA	LOC101927401	4.9569e-08	True		False			False	1
+egfr_EA	APOBR	5.5107e-08	True		False			False	1
+egfr_EA	NR0B2	5.5288e-08	True		False			False	1
+egfr_EA	LRRC3C	5.64e-08	True		False			False	1
+egfr_EA	PBRM1	5.6501e-08	True		False			False	1
+egfr_EA	PTGS2	5.6833e-08	True		False			False	1
+egfr_EA	GPX1	5.8446e-08	True		False	0.0022851631083525		False	1
+egfr_EA	EGFL8	5.9518e-08	True		False			False	1
+egfr_EA	FUBP3	6.049e-08	True		False			False	1
+egfr_EA	SLC25A29	6.3563e-08	True		False			False	1
+egfr_EA	EIF6	6.5429e-08	True		False	3.702147667957031e-05		False	1
+egfr_EA	CTNND1	6.8028e-08	True		False			False	1
+egfr_EA	CLN3	7.1451e-08	True		False			False	1
+egfr_EA	RBKS	7.2338e-08	True		False			False	1
+egfr_EA	CABP7	7.3466e-08	True		False			False	1
+egfr_EA	LOC101928728	7.5861e-08	True		False			False	1
+egfr_EA	INHBC	7.5874e-08	True		False			False	1
+egfr_EA	DEPTOR	7.679e-08	True		False	0.5462522505323719		False	1
+egfr_EA	KDM1A	7.8514e-08	True		False			False	1
+egfr_EA	GPATCH3	7.8554e-08	True		False			False	1
+egfr_EA	PSMD3	8.0341e-08	True		False	0.0030889858039962		False	1
+egfr_EA	CELF1	8.1287e-08	True		False			False	1
+egfr_EA	SLC39A13	8.1353e-08	True		False			False	1
+egfr_EA	CGNL1	8.4502e-08	True		False	0.0124836290107978		False	1
+egfr_EA	RAI1	8.4876e-08	True		False			False	1
+egfr_EA	PIK3R3	8.5655e-08	True		False			False	1
+egfr_EA	ZDHHC18	8.6649e-08	True		False			False	1
+egfr_EA	DNA2	8.8421e-08	True		False	1.2649485250650277e-06		False	1
+egfr_EA	RAD51C	8.9497e-08	True		False	0.0001631254961192		False	1
+egfr_EA	MED9	9.3234e-08	True		False			False	1
+egfr_EA	FUT11	9.4607e-08	True		False	0.2982720229556905		False	1
+egfr_EA	NUDC	9.8096e-08	True		False	0.0432584717636855		False	1
+egfr_EA	KCNK7	9.8696e-08	True		False			False	1
+egfr_EA	ASCC2	1.0073e-07	True		False			False	1
+egfr_EA	DAG1	1.0961e-07	True		False			False	1
+egfr_EA	GLT8D1	1.1038e-07	True		False			False	1
+egfr_EA	BTN2A2	1.1317e-07	True		False	9.007908259186904e-05		False	1
+egfr_EA	H1FNT	1.1468e-07	True		False			False	1
+egfr_EA	PIGV	1.1759e-07	True		False	3.283300683717244e-05		False	1
+egfr_EA	NRG1	1.2052e-07	True		False			False	1
+egfr_EA	PDCD11	1.2272e-07	True		False			False	1
+egfr_EA	SLC17A1	1.2288e-07	True		False			False	1
+egfr_EA	NDUFS3	1.243e-07	True		False			False	1
+egfr_EA	RASD1	1.2511e-07	True		False	1.1647250191751875e-05		False	1
+egfr_EA	CA3	1.3044e-07	True		False	0.0002409249764728		False	1
+egfr_EA	SOWAHA	1.3182e-07	True		False			False	1
+egfr_EA	NLRX1	1.369e-07	True		False	0.0110481621027752		False	1
+egfr_EA	CCAR2	1.3858e-07	True		False	0.0001108228198377		False	1
+egfr_EA	PDE1A	1.4087e-07	True		False	0.00173099157391		False	1
+egfr_EA	PGM5	1.4209e-07	True		False			False	1
+egfr_EA	CA2	1.4507e-07	True		False			False	1
+egfr_EA	GPR61	1.4566e-07	True		False			False	1
+egfr_EA	RAD17	1.4712e-07	True		False			False	1
+egfr_EA	DCUN1D4	1.4733e-07	True		False			False	1
+egfr_EA	R3HDM2	1.4854e-07	True		False			False	1
+egfr_EA	LUZP1	1.5091e-07	True		False			False	1
+egfr_EA	KCTD7	1.5177e-07	True		False			False	1
+egfr_EA	ARID1A	1.5506e-07	True		False			False	1
+egfr_EA	LIME1	1.5563e-07	True		False	2.9335234925915302e-05		False	1
+egfr_EA	TCF19	1.5663e-07	True		False	0.1473963168763953		False	1
+egfr_EA	ZKSCAN4	1.5737e-07	True		False			False	1
+egfr_EA	BNIPL	1.6112e-07	True		False			False	1
+egfr_EA	BMP4	1.6451e-07	True	0.0934212781876642	False	0.3728730400016354		False	1
+egfr_EA	KBTBD4	1.654e-07	True		False			False	1
+egfr_EA	C12orf4	1.6575e-07	True		False			False	1
+egfr_EA	NKAPL	1.6903e-07	True		False			False	1
+egfr_EA	GATA4	1.7058e-07	True		False			False	1
+egfr_EA	BTN2A1	1.8183e-07	True		False	0.7732151405831379		False	1
+egfr_EA	CACNB1	1.8283e-07	True		False			False	1
+egfr_EA	PGC	1.8422e-07	True		False			False	1
+egfr_EA	TPRN	1.8656e-07	True		False			False	1
+egfr_EA	SLC2A4RG	1.9032e-07	True		False	9.693910447528058e-06		False	1
+egfr_EA	NCR3	1.9152e-07	True		False			False	1
+egfr_EA	KDF1	1.9392e-07	True		False			False	1
+egfr_EA	SPCS1	1.9631e-07	True		False			False	1
+egfr_EA	CASR	1.9637e-07	True		False			False	1
+egfr_EA	HLA-C	1.9793e-07	True	0.0791681540250239	False	0.0001604251696274		False	1
+egfr_EA	TCAP	1.9867e-07	True		False			False	1
+egfr_EA	DHRS9	1.9963e-07	True		False			False	1
+egfr_EA	ACP1	1.9986e-07	True		False			False	1
+egfr_EA	TRIP12	2.025e-07	True		False			False	1
+egfr_EA	ZNF566	2.0705e-07	True		False			False	1
+egfr_EA	DMGDH	2.0732e-07	True		False	8.422280940211907e-05		False	1
+egfr_EA	C3orf62	2.0867e-07	True		False			False	1
+egfr_EA	KBTBD2	2.1031e-07	True		False			False	1
+egfr_EA	YPEL4	2.1067e-07	True		False			False	1
+egfr_EA	ZHX3	2.1349e-07	True		False			False	1
+egfr_EA	HIST1H3C	2.199e-07	True		False			False	1
+egfr_EA	PFKFB2	2.2232e-07	True		False			False	1
+egfr_EA	TCF20	2.2677e-07	True		False			False	1
+egfr_EA	CCDC125	2.3002e-07	True		False	1.234531423885988e-05		False	1
+egfr_EA	RAD23A	2.331e-07	True		False			False	1
+egfr_EA	STON2	2.3792e-07	True		False	0.1649566496155946		False	1
+egfr_EA	ARID5B	2.4495e-07	True		False			False	1
+egfr_EA	SMIM4	2.5057e-07	True		False			False	1
+egfr_EA	CPNE3	2.5308e-07	True		False	0.5684141759596127		False	1
+egfr_EA	NICN1	2.5966e-07	True		False			False	1
+egfr_EA	OBSCN	2.6004e-07	True		False			False	1
+egfr_EA	GPN1	2.6401e-07	True		False	0.0022096389868409		False	1
+egfr_EA	C6orf10	2.6628e-07	True		False			False	1
+egfr_EA	SYCE2	2.7307e-07	True	0.190107483742469	False			False	1
+egfr_EA	NDST2	2.8236e-07	True		False			False	1
+egfr_EA	GUSB	2.902e-07	True		False	1.586191205922709e-06		False	1
+egfr_EA	ITIH1	2.9197e-07	True		False			False	1
+egfr_EA	ZNF383	3.0208e-07	True		False			False	1
+egfr_EA	PPT2	3.0838e-07	True		False			False	1
+egfr_EA	ITIH3	3.1759e-07	True		False			False	1
+egfr_EA	C11orf31	3.1919e-07	True		False			False	1
+egfr_EA	UBE2R2	3.2364e-07	True		False			False	1
+egfr_EA	HIST1H1B	3.2491e-07	True		False			False	1
+egfr_EA	SMAD3	3.251e-07	True		False	0.0129268541841297		False	1
+egfr_EA	PARG	3.2965e-07	True		False	0.0001388503968456		False	1
+egfr_EA	TSPAN14	3.3204e-07	True		False	0.3736516685395756		False	1
+egfr_EA	TCTA	3.4246e-07	True		False			False	1
+egfr_EA	ZNF570	3.4323e-07	True		False			False	1
+egfr_EA	LY6G6D	3.4385e-07	True		False			False	1
+egfr_EA	LIMA1	3.4675e-07	True		False			False	1
+egfr_EA	ALPK3	3.5426e-07	True		False	4.988413114961098e-05		False	1
+egfr_EA	MARVELD2	3.6433e-07	True		False	0.6325557897767315		False	1
+egfr_EA	CCDC153	3.6598e-07	True		False			False	1
+egfr_EA	FARSA	3.8387e-07	True		False			False	1
+egfr_EA	ZSCAN26	3.8726e-07	True	0.0970637617330738	False	0.0032971821183292		False	1
+egfr_EA	TLN2	3.9271e-07	True	0.6815412494830939	False	0.8759961300117268		False	1
+egfr_EA	NFATC1	3.9718e-07	True		False			False	1
+egfr_EA	ZBTB12	4.0078e-07	True		False			False	1
+egfr_EA	ZNF592	4.0273e-07	True		False	0.9316657861632576		False	1
+egfr_EA	C17orf107	4.1399e-07	True		False			False	1
+egfr_EA	CALR	4.2718e-07	True		False	6.09643066494278e-05		False	1
+egfr_EA	OR4X1	4.2831e-07	True		False			False	1
+egfr_EA	LY6G6F	4.3064e-07	True		False			False	1
+egfr_EA	SCN5A	4.4247e-07	True		False			False	1
+egfr_EA	CBL	4.5091e-07	True		False	0.1373249159692279		False	1
+egfr_EA	SKA2	4.8522e-07	True		False	6.605578519314934e-05		False	1
+egfr_EA	PTPN21	4.8533e-07	True		False			False	1
+egfr_EA	TPM1	4.9008e-07	True	0.067424549747839	False			False	1
+egfr_EA	LANCL1	4.9344e-07	True		False			False	1
+egfr_EA	CPNE7	4.9499e-07	True		False			False	1
+egfr_EA	BRD3	5.1456e-07	True		False	0.0071542006451853		False	1
+egfr_EA	HORMAD2	5.2673e-07	True		False			False	1
+egfr_EA	SULT1A1	5.5633e-07	True		False			False	1
+egfr_EA	NT5DC2	5.5896e-07	True		False			False	1
+egfr_EA	SEC11A	5.6129e-07	True		False			False	1
+egfr_EA	CLP1	5.6279e-07	True		False			False	1
+egfr_EA	OSBPL2	5.9473e-07	True		False			False	1
+egfr_EA	OR4C3	6.1031e-07	True		False			False	1
+egfr_EA	SPNS1	6.1065e-07	True		False			False	1
+egfr_EA	OR4X2	6.2421e-07	True		False			False	1
+egfr_EA	IMPDH2	6.3201e-07	True		False			False	1
+egfr_EA	LOC101927262	6.372e-07	True		False			False	1
+egfr_EA	TMX2	6.6619e-07	True	0.4457147462409127	False			False	1
+egfr_EA	UBE2H	6.9954e-07	True	0.0750224936403395	False			False	1
+egfr_EA	CALCRL	7.0258e-07	True		False			False	1
+egfr_EA	USP35	7.0796e-07	True		False			False	1
+egfr_EA	HMGA1	7.0984e-07	True		False			False	1
+egfr_EA	SKIL	7.1785e-07	True		False			False	1
+egfr_EA	MARVELD3	7.4166e-07	True		False			False	1
+egfr_EA	POU5F1	7.4472e-07	True	0.0616665436150289	False	0.0005447890690443		False	1
+egfr_EA	HIST1H4C	7.4995e-07	True		False			False	1
+egfr_EA	EHMT2	8.0532e-07	True		False			False	1
+egfr_EA	PEMT	8.2805e-07	True		False	0.9855535330175044		False	1
+egfr_EA	FAM186A	8.2873e-07	True	0.0603782744754091	False			False	1
+egfr_EA	CEP170	8.4922e-07	True		False			False	1
+egfr_EA	HOXD12	8.6197e-07	True		False			False	1
+egfr_EA	CLDN14	8.6529e-07	True		False			False	1
+egfr_EA	ZGPAT	8.6639e-07	True		False	8.97118726139003e-05		False	1
+egfr_EA	AHR	8.903e-07	True		False			False	1
+egfr_EA	PLCG1	8.9686e-07	True		False			False	1
+egfr_EA	MYO19	9.0823e-07	True		False			False	1
+egfr_EA	CGB7	9.0856e-07	True		False			False	1
+egfr_EA	MED24	9.1519e-07	True	0.3302846808430288	False			False	1
+egfr_EA	OR4S1	9.2088e-07	True		False			False	1
+egfr_EA	PPM1D	9.3703e-07	True		False			False	1
+egfr_EA	USP4	9.4407e-07	True		False			False	1
+egfr_EA	SMPD3	9.717e-07	True		False			False	1
+egfr_EA	DGKH	9.7211e-07	True		False	0.1115016858791728		False	1
+egfr_EA	IL18RAP	9.7402e-07	True		False			False	1
+egfr_EA	ANP32E	1.0092e-06	True		False			False	1
+egfr_EA	LOC101929211	1.0273e-06	True		False			False	1
+egfr_EA	RAD51AP1	1.0404e-06	True	0.07738449682239	False			False	1
+egfr_EA	SLC39A5	1.0503e-06	True		False			False	1
+egfr_EA	RPS10	1.0652e-06	True		False			False	1
+egfr_EA	NCOA7	1.076e-06	True		False	3.388172766115061e-05		False	1
+egfr_EA	LOC101928868	1.0845e-06	True		False			False	1
+egfr_EA	HIST1H2AI	1.0874e-06	True		False			False	1
+egfr_EA	HIST1H2BN	1.0907e-06	True		False			False	1
+egfr_EA	SLC25A16	1.0923e-06	True		False			False	1
+egfr_EA	MRPS30	1.1176e-06	True		False			False	1
+egfr_EA	RAPSN	1.1381e-06	True		False			False	1
+egfr_EA	RHPN2	1.1571e-06	True	0.0629988770436471	False			False	1
+egfr_EA	APEH	1.1707e-06	True	0.0606886649083079	False	0.0004479026759832		False	1
+egfr_EA	CA13	1.1728e-06	True		False			False	1
+egfr_EA	RPL41	1.1782e-06	True		False			False	1
+egfr_EA	TRIM31	1.1903e-06	True		False			False	1
+egfr_EA	RER1	1.1966e-06	True		False	0.1511616999334728		False	1
+egfr_EA	TRIM37	1.2012e-06	True		False	0.8409152717008057		False	1
+egfr_EA	SPI1	1.2101e-06	True		False			False	1
+egfr_EA	MYBPC3	1.2129e-06	True		False			False	1
+egfr_EA	FSD2	1.2328e-06	True		False	4.6373547994039575e-05		False	1
+egfr_EA	CCNE2	1.2351e-06	True		False			False	1
+egfr_EA	HTT	1.2387e-06	True		False			False	1
+egfr_EA	NPIPB6	1.2576e-06	True		False			False	1
+egfr_EA	MPRIP	1.2644e-06	True		False			False	1
+egfr_EA	TNFRSF6B	1.2759e-06	True		False			False	1
+egfr_EA	ANGPT2	1.3e-06	True		False			False	1
+egfr_EA	EIF1AD	1.3037e-06	True		False	0.0086570351928416		False	1
+egfr_EA	ALDH2	1.3129e-06	True		False	3.8483006051696095e-05		False	1
+egfr_EA	PRRT1	1.3216e-06	True		False			False	1
+egfr_EA	FAM180B	1.325e-06	True		False			False	1
+egfr_EA	HIST1H4L	1.3341e-06	True		False			False	1
+egfr_EA	STAT3	1.367e-06	True		False			False	1
+egfr_EA	SMAD7	1.3942e-06	True		False			False	1
+egfr_EA	CA1	1.3946e-06	True		False			False	1
+egfr_EA	GCDH	1.4007e-06	True		False	4.4256997097008e-06		False	1
+egfr_EA	BTBD18	1.4056e-06	True		False			False	1
+egfr_EA	HOXD8	1.4301e-06	True		False			False	1
+egfr_EA	IDI1	1.4552e-06	True		False			False	1
+egfr_EA	DAND5	1.4587e-06	True		False			False	1
+egfr_EA	LSM3	1.4789e-06	True		False			False	1
+egfr_EA	NASP	1.4829e-06	True		False			False	1
+egfr_EA	TCF21	1.4929e-06	True		False	0.0442557380454955		False	1
+egfr_EA	NPIPB9	1.494e-06	True		False			False	1
+egfr_EA	PAPLN	1.5031e-06	True		False	0.0029367477391981		False	1
+egfr_EA	MST1	1.5103e-06	True		False	0.0248211919005878		False	1
+egfr_EA	CCDC58	1.5303e-06	True		False	0.25621362129148		False	1
+egfr_EA	C1orf56	1.6244e-06	True		False			False	1
+egfr_EA	HIST1H2AK	1.6428e-06	True		False			False	1
+egfr_EA	PDZD3	1.6431e-06	True		False			False	1
+egfr_EA	TRIM26	1.6892e-06	True		False	0.0001130510177553		False	1
+egfr_EA	HIST1H4B	1.7098e-06	True		False			False	1
+egfr_EA	ZSCAN9	1.7248e-06	True		False			False	1
+egfr_EA	THRA	1.7305e-06	True		False			False	1
+egfr_EA	HGFAC	1.7432e-06	True		False			False	1
+egfr_EA	KLF1	1.7872e-06	True		False			False	1
+egfr_EA	APOL3	1.7943e-06	True		False			False	1
+egfr_EA	PPM1E	1.7963e-06	True	0.7028082835944548	False	7.318376566201064e-07		False	1
+egfr_EA	EPRS	1.821e-06	True		False	0.1497584287237701		False	1
+egfr_EA	HMGCLL1	1.8349e-06	True		False			False	1
+egfr_EA	HIST1H1T	1.897e-06	True		False			False	1
+egfr_EA	FAM150B	1.9388e-06	True		False	2.811579203190398e-05		False	1
+egfr_EA	PTPMT1	1.9407e-06	True		False			False	1
+egfr_EA	STK36	1.9445e-06	True		False	0.0063856762570536		False	1
+egfr_EA	UBE2L3	1.9732e-06	True		False			False	1
+egfr_EA	YOD1	1.9748e-06	True		False			False	1
+egfr_EA	PDC	1.9774e-06	True	0.0728571592791702	False			False	1
+egfr_EA	TXNL4A	1.9854e-06	True		False	2.6775558190019665e-05		False	1
+egfr_EA	TCEA2	2.0077e-06	True	0.0847507923140134	False			False	1
+egfr_EA	GIPC2	2.008e-06	True		False			False	1
+egfr_EA	BEGAIN	2.0116e-06	True	0.0967379870879596	False	8.884023312445913e-05		False	1
+egfr_EA	CAD	2.0258e-06	True		False			False	1
+egfr_EA	ISLR	2.041e-06	True		False			False	1
+egfr_EA	FAM162A	2.0691e-06	True		False	0.0165176235224964		False	1
+egfr_EA	HIST1H2AL	2.0724e-06	True		False			False	1
+egfr_EA	VIL1	2.0803e-06	True	0.2258311270003297	False	8.957355103302974e-07		False	1
+egfr_EA	TAF9	2.0911e-06	True		False			False	1
+egfr_EA	SZRD1	2.1187e-06	True		False			False	1
+egfr_EA	ARG1	2.1392e-06	True		False			False	1
+egfr_EA	EHBP1L1	2.153e-06	True		False			False	1
+egfr_EA	ERI1	2.1976e-06	True		False	1.6186979846799595e-05		False	1
+egfr_EA	GK5	2.2394e-06	True		False			False	1
+egfr_EA	STRA6	2.2399e-06	True		False			False	1
+egfr_EA	BTN1A1	2.2751e-06	True		False			False	1
+egfr_EA	DEFB134	2.3459e-06	True		False			False	1
+egfr_EA	RASIP1	2.3545e-06	True		False			False	1
+egfr_EA	ARFRP1	2.385e-06	True		False	0.2570602290632697		False	1
+egfr_EA	LOC100129697	2.3893e-06	True		False			False	1
+egfr_EA	C2orf73	2.3989e-06	True		False	0.0001549360801341		False	1
+egfr_EA	CAMK2G	2.4139e-06	True		False			False	1
+egfr_EA	WDR1	2.4181e-06	True		False	0.0053895293860949		False	1
+egfr_EA	BTNL2	2.4388e-06	True		False			False	1
+egfr_EA	HIST1H4K	2.4553e-06	True		False			False	1
+egfr_EA	METTL7A	2.4801e-06	True		False			False	1
+egfr_EA	PRR11	2.4996e-06	True		False			False	1
+egfr_EA	ARHGEF26	2.5658e-06	True		False	0.0077705249751709		False	1
+egfr_EA	LASP1	2.5925e-06	True		False	1.0249893956762732e-05		False	1
+egfr_EA	BANF1	2.597e-06	True		False	0.0010791690316477		False	1
+egfr_EA	ZSCAN31	2.5972e-06	True		False	2.592321997877805e-05		False	1
+egfr_EA	SMARCC2	2.6501e-06	True		False			False	1
+egfr_EA	HIST1H2BM	2.6856e-06	True		False			False	1
+egfr_EA	UQCC1	2.6889e-06	True		False	1.696826708658405e-05		False	1
+egfr_EA	HIST1H2BL	2.7369e-06	True		False			False	1
+egfr_EA	USP24	4.3903e-06	False		False	2.6879478658918203e-06	susztak_tubule	True	1
+egfr_EA	CHAC1	4.7681e-06	False		False	5.192361636584913e-08	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_EA	CRCP	5.196e-06	False		False	4.513723462878592e-06	susztak_meta;susztak_tubule	True	1
+egfr_EA	CTSS	2.0145e-05	False		False	3.224322147482465e-07	susztak_tubule	True	1
+egfr_EA	FAM213A	2.7546e-05	False		False	6.0712064903253225e-06	susztak_tubule	True	1
+egfr_EA	PRDX1	5.4341e-05	False		False	7.202344798968026e-10	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_EA	HLA-G	5.952e-05	False		False	6.938996372571252e-06	susztak_tubule	True	1
+egfr_EA	UBQLNL	7.7766e-05	False		False	4.915030051176211e-11	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_EA	HERC4	0.00072156	False		False	1.33460477852818e-07	susztak_glom	True	1
+egfr_EA	PPDPF	0.0068513	False		False	9.29210494048846e-08	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_EA	FLRT3	0.0098534	False		False	5.293364737299184e-06	susztak_meta	True	1
+egfr_EA	ETNPPL	0.012135	False		False	9.216444206675621e-08	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_EA	TRIM6-TRIM34	0.014984	False		False	1.7681216117791492e-06	susztak_meta	True	1
+egfr_EA	TSPAN33	0.058838	False		False	2.5589363827568885e-07	susztak_meta;susztak_tubule	True	1
+egfr_EA	BCL2L14	0.067771	False		False	2.48756814970104e-09	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_EA	HBE1	0.29228	False		False	2.0971874237282944e-10	susztak_meta;susztak_tubule	True	1
+egfr_EA	C4orf22	0.60012	False		False	5.234859459975703e-07	susztak_tubule	True	1
+egfr_EA	AC006001.2		False		False	6.715921074805819e-07	susztak_meta	True	1
+egfr_EA	AC006254.1		False		False	5.261611234761116e-06	susztak_meta	True	1
+egfr_EA	AC007406.2		False		False	2.4365888011072305e-07	susztak_meta	True	1
+egfr_EA	AC013652.1		False		False	3.96796348222555e-06	susztak_meta	True	1
+egfr_EA	AC034220.3		False		False	3.114053954648208e-07	susztak_glom;susztak_tubule	True	1
+egfr_EA	AC078850.2		False		False	2.1795099956825696e-06	susztak_meta	True	1
+egfr_EA	AC079779.2		False		False	3.803568829455076e-06	susztak_meta	True	1
+egfr_EA	AC079779.4		False		False	3.497212859019416e-06	susztak_tubule	True	1
+egfr_EA	AC092653.5		False		False	1.011254162677441e-07	susztak_glom	True	1
+egfr_EA	AC145285.2		False		False	2.167150696777111e-06	susztak_meta	True	1
+egfr_EA	AF131215.2		False		False	4.972416424250823e-06	susztak_glom	True	1
+egfr_EA	ALMS1P		False		False	1.2667745037465817e-12	susztak_glom;susztak_tubule	True	1
+egfr_EA	ALMS1P1		False		False	6.66920041525954e-15	susztak_meta	True	1
+egfr_EA	C1orf213		False		False	5.0386400152995485e-08	susztak_tubule	True	1
+egfr_EA	CDC37P1		False		False	1.58329830837365e-06	susztak_meta	True	1
+egfr_EA	CFAP299		False		False	1.5295900106397484e-06	susztak_meta	True	1
+egfr_EA	CTD-2651B20.4		False		False	4.1474551258190686e-11	susztak_tubule	True	1
+egfr_EA	CYP21A1P		False		False	1.2941333775868618e-06	susztak_meta;susztak_tubule	True	1
+egfr_EA	EEF1AKMT2		False		False	2.307514683503877e-11	susztak_meta	True	1
+egfr_EA	EIF3C		False		False	2.4371221678653767e-06	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_EA	ENSG00000266753		False		False	5.252172436112743e-08	susztak_meta	True	1
+egfr_EA	ENSG00000269905		False		False	2.260292194894131e-11	susztak_meta	True	1
+egfr_EA	HCG4		False		False	4.965153212476024e-06	susztak_meta;susztak_tubule	True	1
+egfr_EA	HLA-DRB6		False		False	3.8793425620806285e-06	susztak_meta;susztak_tubule	True	1
+egfr_EA	KB-1471A8.1		False		False	6.407024530571413e-06	susztak_glom;susztak_tubule	True	1
+egfr_EA	LINC02166		False	0.8119691750861107	True	3.829692815670847e-08		False	1
+egfr_EA	MIR3936HG		False		False	1.619889311014762e-07	susztak_meta	True	1
+egfr_EA	MSH5-SAPCD1		False		False	3.724141410935318e-06	susztak_glom	True	1
+egfr_EA	PRXL2A		False		False	7.556181481079116e-06	susztak_meta	True	1
+egfr_EA	RP11-1348G14.4		False		False	2.4664865389483475e-06	susztak_glom;susztak_tubule	True	1
+egfr_EA	RP11-184M15.1		False		False	8.288150900958322e-06	susztak_tubule	True	1
+egfr_EA	RP11-184M15.2		False		False	1.9425659094178707e-06	susztak_glom;susztak_tubule	True	1
+egfr_EA	RP11-271K21.11		False		False	3.034865326708321e-12	susztak_tubule	True	1
+egfr_EA	RP11-283I3.4		False		False	5.807333947186536e-08	susztak_tubule	True	1
+egfr_EA	RP11-624L4.1		False		False	1.7312869803517063e-06	susztak_tubule	True	1
+egfr_EA	RP11-690G19.3		False		False	9.067576336322084e-09	susztak_tubule	True	1
+egfr_EA	RP4-756H11.3		False		False	7.44855343859712e-07	susztak_glom;susztak_tubule	True	1
+egfr_EA	RP5-966M1.6		False		False	2.702896148214242e-06	susztak_tubule	True	1
+egfr_EA	SAPCD1-AS1		False	0.0508505208329774	False	1.1660163537983398e-06	susztak_meta;susztak_tubule	True	1
+egfr_EA	ZNF436-AS1		False	0.2276820212504765	False	7.670667250821361e-09	susztak_meta	True	1
+uacr_EA	MUC1	2.387e-15	True		False	5.8324723929500964e-08	susztak_tubule	True	2
+uacr_EA	GGCX	2.5702e-14	True		False	1.6012977587522088e-08	susztak_glom	True	2
+uacr_EA	SPATA5L1	3.4861e-14	True		False	2.2766870184262224e-12	susztak_glom;susztak_meta;susztak_tubule	True	2
+uacr_EA	MPI	2.2543e-13	True		False	3.128139684070508e-09	susztak_glom	True	2
+uacr_EA	FUT1	1.3343e-12	True		False	8.036752117045979e-09	susztak_meta;susztak_tubule	True	2
+uacr_EA	NRBP1	1.1074e-10	True		False	4.231530553131301e-07	susztak_glom;susztak_meta;susztak_tubule	True	2
+uacr_EA	FRS2	1.7936e-10	True		False	1.4381837391648558e-10	susztak_glom	True	2
+uacr_EA	PDLIM4	5.4144e-09	True	0.1522868683658864	False	2.565962970898968e-06	susztak_glom	True	2
+uacr_EA	FBXL20	7.6193e-09	True		False	3.2482810726936758e-06	susztak_tubule	True	2
+uacr_EA	MYL3	3.3483e-07	True		False	7.16128411205665e-07	susztak_glom	True	2
+uacr_EA	GNL3	1.2703e-06	True		False	4.143611079584214e-06	susztak_glom;susztak_tubule	True	2
+uacr_EA	TMEM165	2.3086e-06	True		False	5.770572640627301e-07	susztak_glom	True	2
+uacr_EA	KRTCAP2	5.7176e-15	True		False			False	1
+uacr_EA	TRIM46	7.7716e-15	True	0.0732456473079131	False			False	1
+uacr_EA	VAMP8	1.0825e-14	True		False	0.1181946810270151		False	1
+uacr_EA	CSK	2.7034e-14	True		False			False	1
+uacr_EA	AHR	3.3862e-14	True		False			False	1
+uacr_EA	VAMP5	3.5749e-14	True		False	0.7826785891063797		False	1
+uacr_EA	COMMD4	4.069e-14	True		False			False	1
+uacr_EA	CYP1A1	4.4187e-14	True		False			False	1
+uacr_EA	SLC50A1	7.5551e-14	True		False			False	1
+uacr_EA	SCAMP2	3.3507e-13	True		False			False	1
+uacr_EA	CUBN	4.3309e-13	True		False			False	1
+uacr_EA	TYRO3	6.0746e-13	True		False	9.83617885545217e-05		False	1
+uacr_EA	ICA1L	6.2263e-13	True		False	4.945527983453357e-09		False	1
+uacr_EA	THBS3	6.8573e-13	True		False	2.44182670326506e-07		False	1
+uacr_EA	GCKR	6.8889e-13	True		False			False	1
+uacr_EA	HPN	7.1609e-13	True	0.469936027220672	False			False	1
+uacr_EA	MTX1	7.4363e-13	True		False			False	1
+uacr_EA	SEMA7A	9.921e-13	True	0.0834149690447541	False			False	1
+uacr_EA	HOXA13	1.3839e-12	True		False			False	1
+uacr_EA	EFNA1	1.7976e-12	True		False			False	1
+uacr_EA	CCDC33	1.8264e-12	True		False			False	1
+uacr_EA	SNX17	1.8844e-12	True		False			False	1
+uacr_EA	EIF2B4	1.904e-12	True		False			False	1
+uacr_EA	DPM3	2.2357e-12	True		False			False	1
+uacr_EA	CARF	2.2409e-12	True		False	0.0202447771066767		False	1
+uacr_EA	WDR12	2.3607e-12	True		False			False	1
+uacr_EA	FGF21	3.2772e-12	True		False			False	1
+uacr_EA	RPP25	3.484e-12	True	0.1245460796962578	False	1.2541278125604164e-10		False	1
+uacr_EA	MAMSTR	4.9112e-12	True		False			False	1
+uacr_EA	NEIL1	8.467e-12	True		False			False	1
+uacr_EA	LMAN1L	8.5631e-12	True		False			False	1
+uacr_EA	ULK3	1.0341e-11	True		False			False	1
+uacr_EA	ARL15	1.1614e-11	True		False	0.0119836244021018		False	1
+uacr_EA	FAM219B	1.382e-11	True		False			False	1
+uacr_EA	COX5A	1.6184e-11	True		False			False	1
+uacr_EA	FNDC4	1.6556e-11	True		False			False	1
+uacr_EA	SIN3A	2.0958e-11	True		False			False	1
+uacr_EA	SNUPN	2.2829e-11	True		False	8.830818603997974e-07		False	1
+uacr_EA	FUT2	2.7068e-11	True	0.1489062424848131	False			False	1
+uacr_EA	CYP11A1	4.3732e-11	True		False			False	1
+uacr_EA	RASIP1	6.3804e-11	True		False			False	1
+uacr_EA	PPM1G	8.9454e-11	True		False			False	1
+uacr_EA	CPLX3	8.9472e-11	True		False			False	1
+uacr_EA	RNF181	9.8051e-11	True		False			False	1
+uacr_EA	ZNF513	1.0547e-10	True		False			False	1
+uacr_EA	IFT172	1.1663e-10	True		False			False	1
+uacr_EA	KRTCAP3	1.5254e-10	True		False			False	1
+uacr_EA	ZFP36L1	1.7856e-10	True		False			False	1
+uacr_EA	HOXA10	1.9415e-10	True		False			False	1
+uacr_EA	IZUMO1	1.9437e-10	True	0.1047399315869336	False	6.599629643933228e-05		False	1
+uacr_EA	MAT2A	2.4974e-10	True		False			False	1
+uacr_EA	CCT2	2.7343e-10	True		False			False	1
+uacr_EA	CYP1A2	4.7781e-10	True		False			False	1
+uacr_EA	GATM	5e-10	True		False			False	1
+uacr_EA	GTF3C2	5.0386e-10	True		False			False	1
+uacr_EA	HOXA11	5.8314e-10	True		False			False	1
+uacr_EA	CPS1	6.4893e-10	True		False	0.000138161782628		False	1
+uacr_EA	MPV17	8.3356e-10	True	0.0672530636012989	False			False	1
+uacr_EA	MAN2C1	9.3758e-10	True	0.03980657161479	False	0.001202462525541		False	1
+uacr_EA	MGA	1.5448e-09	True		False			False	1
+uacr_EA	NBEAL1	2.137e-09	True		False			False	1
+uacr_EA	LOC101929578	2.1586e-09	True		False			False	1
+uacr_EA	AUTS2	3.5112e-09	True		False			False	1
+uacr_EA	SLC22A5	4.6732e-09	True		False			False	1
+uacr_EA	SLC22A4	8.5277e-09	True		False	1.31258561442347e-05		False	1
+uacr_EA	PSORS1C2	1.0006e-08	True		False			False	1
+uacr_EA	CDK12	1.343e-08	True		False			False	1
+uacr_EA	EGLN2	1.4075e-08	True		False			False	1
+uacr_EA	CLK3	1.6224e-08	True		False			False	1
+uacr_EA	SHROOM3	1.754e-08	True		False			False	1
+uacr_EA	MED1	1.8584e-08	True		False			False	1
+uacr_EA	ARID3B	2.5146e-08	True		False			False	1
+uacr_EA	TRIM54	2.6966e-08	True		False			False	1
+uacr_EA	PLA2G4B	2.7874e-08	True	6.160189220106629e-08	False			False	1
+uacr_EA	JMJD7-PLA2G4B	3.1605e-08	True	0.1174183610014321	False			False	1
+uacr_EA	CLOCK	3.476e-08	True		False			False	1
+uacr_EA	SF3A1	4.8617e-08	True		False			False	1
+uacr_EA	POU5F1	5.4734e-08	True	0.0588883420250465	False	4.805014985862164e-05		False	1
+uacr_EA	SBF2	5.6676e-08	True		False			False	1
+uacr_EA	IMP3	5.9465e-08	True		False			False	1
+uacr_EA	CR1L	6.2067e-08	True		False	0.6368114774836966		False	1
+uacr_EA	EDC3	6.3147e-08	True		False			False	1
+uacr_EA	TBC1D10A	6.5325e-08	True		False	5.93101900856514e-05		False	1
+uacr_EA	DNAJC5G	7.4793e-08	True		False			False	1
+uacr_EA	SYNE1	7.5652e-08	True		False	0.000268272394709		False	1
+uacr_EA	RSU1	7.6175e-08	True		False	0.6833095112586438		False	1
+uacr_EA	CCHCR1	8.2267e-08	True	0.0411930828873859	False	1.371747426568849e-05		False	1
+uacr_EA	STRA6	9.3061e-08	True		False			False	1
+uacr_EA	PTPN9	9.3878e-08	True		False			False	1
+uacr_EA	TRIM29	1.1054e-07	True		False	4.776334700162725e-05		False	1
+uacr_EA	EFNA3	1.3987e-07	True		False			False	1
+uacr_EA	TM9SF4	1.4145e-07	True		False			False	1
+uacr_EA	RSBN1L	1.4781e-07	True		False			False	1
+uacr_EA	SMIM4	1.5063e-07	True		False			False	1
+uacr_EA	UBL7	1.5222e-07	True		False	3.351104652882343e-05		False	1
+uacr_EA	NT5DC2	1.5869e-07	True		False			False	1
+uacr_EA	SERPINF2	1.8194e-07	True		False	2.28153354875011e-05		False	1
+uacr_EA	CCDC158	1.8594e-07	True		False	3.769511721447559e-05		False	1
+uacr_EA	C15orf48	1.9751e-07	True		False			False	1
+uacr_EA	CCDC157	2.128e-07	True		False			False	1
+uacr_EA	GYS2	2.2324e-07	True		False			False	1
+uacr_EA	COL4A4	2.2962e-07	True		False			False	1
+uacr_EA	SKAP1	2.3109e-07	True		False	0.7896452662395468		False	1
+uacr_EA	TSPAN9	2.3813e-07	True		False	0.0023542008482843		False	1
+uacr_EA	ZNF281	2.6337e-07	True		False			False	1
+uacr_EA	CYHR1	2.6344e-07	True		False			False	1
+uacr_EA	STBD1	2.7431e-07	True		False	2.015272391515422e-05		False	1
+uacr_EA	FOXD2	2.8997e-07	True		False			False	1
+uacr_EA	CWC27	2.9621e-07	True		False			False	1
+uacr_EA	KIFC2	3.3591e-07	True		False	0.0001802814785086		False	1
+uacr_EA	SNX33	3.3701e-07	True		False			False	1
+uacr_EA	C2orf16	3.3975e-07	True		False			False	1
+uacr_EA	BAHCC1	3.46e-07	True		False			False	1
+uacr_EA	SLC30A3	3.7036e-07	True		False			False	1
+uacr_EA	SPCS1	3.8216e-07	True		False			False	1
+uacr_EA	EVX1	4.5956e-07	True		False			False	1
+uacr_EA	WDR81	4.6127e-07	True		False	9.954855657493896e-05		False	1
+uacr_EA	GLT8D1	4.7482e-07	True		False			False	1
+uacr_EA	P4HA2	5.0084e-07	True		False	7.2777122172427185e-06		False	1
+uacr_EA	TMEM120A	5.2656e-07	True		False	0.4642612970875205		False	1
+uacr_EA	PCBP2	5.3934e-07	True		False			False	1
+uacr_EA	ZNF512	5.5858e-07	True		False	0.0879622654841788		False	1
+uacr_EA	ISLR	5.7511e-07	True		False			False	1
+uacr_EA	PGAP3	5.8472e-07	True		False	6.945716777910762e-07		False	1
+uacr_EA	KCNK5	5.9516e-07	True		False			False	1
+uacr_EA	ASXL1	6.1412e-07	True		False			False	1
+uacr_EA	PBRM1	6.835e-07	True		False			False	1
+uacr_EA	UCN	7.6529e-07	True		False			False	1
+uacr_EA	FOXH1	7.8279e-07	True		False			False	1
+uacr_EA	HOXB1	7.9952e-07	True		False			False	1
+uacr_EA	C9	8.1302e-07	True		False	0.0010157368215866		False	1
+uacr_EA	PPP1R16A	8.8512e-07	True		False			False	1
+uacr_EA	BDNF	8.9231e-07	True	0.0836197872511116	False			False	1
+uacr_EA	USP3	8.9934e-07	True		False			False	1
+uacr_EA	KIF3B	9.064e-07	True		False	0.0001806930509305		False	1
+uacr_EA	MFSD3	1.0645e-06	True		False			False	1
+uacr_EA	LANCL1	1.0746e-06	True		False			False	1
+uacr_EA	ITIH1	1.1092e-06	True		False			False	1
+uacr_EA	SLC8A1	1.1336e-06	True		False			False	1
+uacr_EA	CASZ1	1.1492e-06	True		False			False	1
+uacr_EA	TMEM60	1.2072e-06	True		False	8.65589668257176e-05		False	1
+uacr_EA	GATSL3	1.2436e-06	True		False	0.0012348824866176		False	1
+uacr_EA	NEK4	1.2854e-06	True		False	1.3504703110021106e-05		False	1
+uacr_EA	DOK7	1.292e-06	True		False	0.2372553286564893		False	1
+uacr_EA	LOC101927160	1.3682e-06	True		False			False	1
+uacr_EA	HOXB5	1.3764e-06	True		False			False	1
+uacr_EA	GPT	1.4964e-06	True		False			False	1
+uacr_EA	MDH2	1.5235e-06	True	0.3621325929895001	False	2.421609093390266e-05		False	1
+uacr_EA	HOXA9	1.5329e-06	True		False			False	1
+uacr_EA	RAB4B	1.5483e-06	True		False	0.0236981293935336		False	1
+uacr_EA	HSPB6	1.5664e-06	True		False			False	1
+uacr_EA	TMCC2	1.7446e-06	True		False	0.0913615858812381		False	1
+uacr_EA	LRRC14	1.8021e-06	True		False			False	1
+uacr_EA	STYXL1	1.9159e-06	True	0.1152306619627745	False	0.0397294608761751		False	1
+uacr_EA	HOXB6	1.9539e-06	True		False			False	1
+uacr_EA	RECQL4	1.9622e-06	True		False			False	1
+uacr_EA	TCF19	1.9797e-06	True		False	0.0002868874475544		False	1
+uacr_EA	DXO	2.042e-06	True		False	0.0625255686493754		False	1
+uacr_EA	ERBB2	2.0974e-06	True		False			False	1
+uacr_EA	FAM47E-STBD1	2.1434e-06	True		False	2.3946670802508132e-05		False	1
+uacr_EA	MLLT10	2.15e-06	True		False			False	1
+uacr_EA	HOXB3	2.2274e-06	True		False			False	1
+uacr_EA	HGFAC	2.3044e-06	True		False			False	1
+uacr_EA	RHOC	2.4091e-06	True		False			False	1
+uacr_EA	PPM1J	2.4133e-06	True		False	3.2096180900525224e-05		False	1
+uacr_EA	UPB1	2.4218e-06	True		False			False	1
+uacr_EA	CACNB2	2.488e-06	True		False			False	1
+uacr_EA	PLAGL2	2.4975e-06	True		False	0.0115673625959928		False	1
+uacr_EA	SNRPA	2.5163e-06	True		False			False	1
+uacr_EA	ZBTB10	2.5965e-06	True		False			False	1
+uacr_EA	RBBP5	2.6741e-06	True		False			False	1
+uacr_EA	HOXB2	4.3495e-06	False		False	5.20024222384139e-06	susztak_glom;susztak_meta;susztak_tubule	True	1
+uacr_EA	CHMP1A	5.4168e-06	False		False	7.982678805719568e-06	susztak_tubule	True	1
+uacr_EA	A3GALT2	7.2315e-05	False	0.9131033921860232	True	1.078262631953781e-05		False	1
+uacr_EA	PRSS50	8.1986e-05	False		False	4.0246378864670986e-07	susztak_glom	True	1
+uacr_EA	NTN5	0.00011363	False		False	1.6657674378655784e-08	susztak_meta;susztak_tubule	True	1
+uacr_EA	WIPF3	0.00015254	False		False	5.092602781858755e-13	susztak_glom	True	1
+uacr_EA	PTH1R	0.00022757	False		False	1.7147376439958742e-08	susztak_glom	True	1
+uacr_EA	ATRAID	0.00041814	False		False	3.1070586406755966e-06	susztak_glom	True	1
+uacr_EA	PNMT	0.0006459	False		False	1.911232053210981e-06	susztak_glom	True	1
+uacr_EA	CCDC97	0.0070128	False		False	5.2509356199354066e-08	susztak_glom	True	1
+uacr_EA	PRKCI	0.12277	False		False	3.238403945973744e-07	susztak_glom	True	1
+uacr_EA	TGFB1	0.13956	False		False	1.7282065394532855e-08	susztak_glom	True	1
+uacr_EA	OAF	0.15053	False	0.6157146129786687	False	2.2539564242733942e-08	susztak_glom;susztak_meta	True	1
+uacr_EA	ZNF503	0.32626	False		False	1.4647420127946292e-06	susztak_glom	True	1
+uacr_EA	AC034220.3		False		False	7.378916004129513e-08	susztak_glom;susztak_tubule	True	1
+uacr_EA	AC074117.10		False		False	1.3280383551915824e-08	susztak_tubule	True	1
+uacr_EA	CTD-2651B20.4		False		False	4.705861582412142e-06	susztak_tubule	True	1
+egfr_DM	TPPP	3.803e-10	True	0.9669298796512288	True	1.488997612085502e-12	susztak_glom;susztak_meta;susztak_tubule	True	3
+egfr_DM	SLC34A1	5.726e-11	True		False	1.266123233896811e-06	susztak_glom;susztak_meta	True	2
+egfr_DM	RGS14	4.7482e-10	True		False	1.2914901932499753e-08	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_DM	UMOD	5e-10	True		False	1.103160089827601e-09	susztak_glom;susztak_meta	True	2
+egfr_DM	UNCX	5.2599e-09	True		False	4.56374649718358e-08	susztak_meta;susztak_tubule	True	2
+egfr_DM	NARS2	6.879e-08	True		False	6.486894740153356e-06	susztak_glom	True	2
+egfr_DM	NOTCH4	2.3322e-06	True		False	5.306268444729543e-06	susztak_meta	True	2
+egfr_DM	C4A	0.0012182	False	0.850910488473361	True	3.5753278162518986e-10	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_DM	FGF5	0.0016293	False	0.9962620985413896	True	2.9520982563835953e-10	susztak_glom;susztak_meta;susztak_tubule	True	2
+egfr_DM	WDR72	1.5481e-15	True		False			False	1
+egfr_DM	PDILT	2.4647e-14	True		False			False	1
+egfr_DM	SAPCD1	1.428e-12	True		False	0.1459334878402673		False	1
+egfr_DM	SPATA5L1	1.9191e-12	True		False	1.08075551365552e-09		False	1
+egfr_DM	FBXO22	2.1491e-12	True		False			False	1
+egfr_DM	MSH5	2.4862e-12	True	0.0554991423696595	False			False	1
+egfr_DM	SLC22A2	7.3019e-12	True		False	0.0009534466146625		False	1
+egfr_DM	NRG4	1.4929e-11	True		False	9.095045538756258e-06		False	1
+egfr_DM	STBD1	8.7026e-11	True		False	8.086901655386989e-05		False	1
+egfr_DM	PIP5K1B	1.6556e-10	True		False	0.0094100046081711		False	1
+egfr_DM	GATM	1.7973e-10	True		False			False	1
+egfr_DM	UBE2Q2	5e-10	True		False			False	1
+egfr_DM	HLA-B	1.2884e-09	True		False	0.3219213688548536		False	1
+egfr_DM	PRKAG2	1.3972e-09	True		False			False	1
+egfr_DM	VARS	1.4589e-09	True		False			False	1
+egfr_DM	HLA-DQA1	1.5841e-09	True	0.1003076370732471	False	3.701168067355181e-05		False	1
+egfr_DM	CCDC158	3.9669e-09	True		False	4.985924694461063e-07		False	1
+egfr_DM	CLIC1	4.0022e-09	True		False			False	1
+egfr_DM	RNASEH2C	5.3207e-09	True		False	3.174082821553868e-05		False	1
+egfr_DM	VWA7	9.985e-09	True		False			False	1
+egfr_DM	PCNXL3	1.0043e-08	True		False			False	1
+egfr_DM	AP5B1	1.0302e-08	True		False			False	1
+egfr_DM	TBX2	1.243e-08	True		False	8.243542064014836e-05		False	1
+egfr_DM	SLC28A2	1.3227e-08	True	0.0148940926619783	False	0.9115303355038687		False	1
+egfr_DM	SHROOM3	1.5697e-08	True		False			False	1
+egfr_DM	C17orf82	2.7601e-08	True		False			False	1
+egfr_DM	KAT5	3.4902e-08	True		False			False	1
+egfr_DM	SIPA1	4.4458e-08	True		False			False	1
+egfr_DM	PCK1	5.5672e-08	True	0.0721187673254455	False	0.0002490116267992		False	1
+egfr_DM	LSM2	5.9383e-08	True		False			False	1
+egfr_DM	C6orf48	6.0679e-08	True		False	0.416826521674959		False	1
+egfr_DM	RELA	6.0893e-08	True		False			False	1
+egfr_DM	GPSM3	6.3082e-08	True	0.1067951630890012	False			False	1
+egfr_DM	C15orf48	1.171e-07	True		False			False	1
+egfr_DM	OVOL1	1.296e-07	True		False			False	1
+egfr_DM	GAB2	1.3003e-07	True		False	7.030616022912066e-05		False	1
+egfr_DM	ZBTB12	1.3849e-07	True		False			False	1
+egfr_DM	DDAH2	1.5302e-07	True		False	0.0086174008126892		False	1
+egfr_DM	HLA-C	1.9407e-07	True	0.0672934736846885	False	1.1476086572322696e-07		False	1
+egfr_DM	FAM122A	2.1741e-07	True		False	4.430152992941094e-05		False	1
+egfr_DM	ALMS1	2.7674e-07	True		False			False	1
+egfr_DM	AGER	2.8746e-07	True	0.0377447964182479	False			False	1
+egfr_DM	GIGYF2	3.6021e-07	True		False			False	1
+egfr_DM	HLA-DRA	4.0176e-07	True		False			False	1
+egfr_DM	LOXL4	4.9632e-07	True		False			False	1
+egfr_DM	BTN2A1	5.2827e-07	True		False	0.2744438822553654		False	1
+egfr_DM	MAFF	6.0041e-07	True		False			False	1
+egfr_DM	ZBTB38	6.2881e-07	True		False	0.0004525613309641		False	1
+egfr_DM	TIMP4	6.5718e-07	True		False			False	1
+egfr_DM	FAM47E-STBD1	7.2302e-07	True		False	7.572670385251379e-05		False	1
+egfr_DM	SYN2	7.2645e-07	True		False	0.3563984057611687		False	1
+egfr_DM	USP35	7.5296e-07	True		False			False	1
+egfr_DM	APOM	9.6582e-07	True		False			False	1
+egfr_DM	ILDR1	1.1183e-06	True		False			False	1
+egfr_DM	PBX2	1.1236e-06	True		False	0.0003777547817404		False	1
+egfr_DM	KCNJ13	1.235e-06	True		False	2.1785596965480015e-05		False	1
+egfr_DM	AGPAT1	1.3264e-06	True		False			False	1
+egfr_DM	LOC101927855	1.5432e-06	True		False			False	1
+egfr_DM	BCAS3	1.6104e-06	True		False			False	1
+egfr_DM	TNXB	1.6854e-06	True		False			False	1
+egfr_DM	STC1	1.7579e-06	True		False			False	1
+egfr_DM	BTNL2	2.354e-06	True		False			False	1
+egfr_DM	HLA-DRB1	2.3565e-06	True	0.0744965857644714	False	0.0008751679262039		False	1
+egfr_DM	C2orf82	2.3627e-06	True		False	0.0011098078362362		False	1
+egfr_DM	C6orf10	2.3915e-06	True		False			False	1
+egfr_DM	BTN3A2	2.907e-06	False	0.6415012200092601	False	6.717899486612718e-06	susztak_meta;susztak_tubule	True	1
+egfr_DM	MAP3K11	6.7503e-06	False		False	1.868709917637376e-06	susztak_meta;susztak_tubule	True	1
+egfr_DM	CPXM1	0.055848	False		False	1.005840364636916e-06	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_DM	VPS16	0.098179	False		False	7.0128374705856e-06	susztak_glom	True	1
+egfr_DM	C4orf22	0.69987	False		False	3.2376595810442983e-06	susztak_tubule	True	1
+egfr_DM	AC051619.2		False		False	2.557634939354616e-09	susztak_meta	True	1
+egfr_DM	AC051619.4		False		False	7.994615835503166e-09	susztak_meta	True	1
+egfr_DM	ALMS1P		False		False	4.916982394765306e-06	susztak_tubule	True	1
+egfr_DM	CTD-2651B20.4		False		False	1.4346297204515032e-07	susztak_tubule	True	1
+egfr_DM	HLA-DRB6		False		False	5.074995122952903e-07	susztak_glom;susztak_meta;susztak_tubule	True	1
+egfr_DM	TPPP-AS1		False	0.8428535387391823	True			False	1
+uacr_DM	CUBN	7.7415e-09	True		False			False	1
+uacr_DM	GCKR	8.8112e-08	True		False			False	1
+uacr_DM	SNX17	1.6353e-07	True		False			False	1
+uacr_DM	EIF2B4	3.2396e-07	True		False			False	1
+uacr_DM	ZNF512	9.1817e-07	True		False	0.0462443032333697		False	1
+uacr_DM	HPN	1.122e-06	True	0.0989694153725915	False			False	1
+uacr_DM	JMJD1C	1.8412e-06	True		False			False	1
+uacr_DM	C2orf16	1.9944e-06	True		False			False	1
+uacr_DM	IFT172	2.6652e-06	True		False			False	1
+uacr_DM	NRBP1	3.7399e-06	False		False	4.228606215846941e-06	susztak_glom	True	1
+uacr_DM	AC074117.10		False		False	6.673202107838828e-07	susztak_glom	True	1

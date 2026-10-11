@@ -1,0 +1,5 @@
+stain	features	n	n_out_of_sample	cv_auc_training_vs_out_of_sample
+PAS	colour_statistics	115	53	0.7455873402312843
+HE	colour_statistics	111	51	0.6055555555555556
+PAS	embedding_mean	115	53	0.8222763237979307
+HE	embedding_mean	111	51	0.8803921568627451

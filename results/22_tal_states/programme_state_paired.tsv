@@ -1,0 +1,2 @@
+n_participants	n_genes	median_mean_logcpm_aTAL	median_mean_logcpm_frTAL	median_paired_diff_frTAL_minus_aTAL	frac_participants_frTAL_higher	p_wilcoxon	n_genes_higher_in_frTAL	median_gene_diff_frTAL_minus_aTAL
+109	580	4.582229	4.9807715	0.3618431	0.8256880733944955	3.4526852462873485e-13	397	0.37814927

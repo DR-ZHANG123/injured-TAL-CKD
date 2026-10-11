@@ -1,0 +1,73 @@
+target	set	adjustment	outcome	model	n	covariates	estimate	ci_low	ci_high	p	estimate_type	alpha_HE	alpha_PAS
+tubular_axis	slide_predicted_out_of_sample	none	alb_A	ordinal	39	none	1.715849651183599	0.9461974369691843	3.1115493558061313	0.07542777457657462	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	slide_predicted_out_of_sample	none	alb_ord	spearman	39	none	0.24513544850228483			0.13255080420068546	spearman_rho	100.0	100.0
+tubular_axis	slide_predicted_out_of_sample	none	egfr	ols	53	none	-13.359832510844655	-19.503470209204323	-7.216194812484985	6.204184542939751e-05	eGFR_change_per_SD	100.0	100.0
+tubular_axis	slide_predicted_out_of_sample	none	egfr	spearman	53	none	-0.40257449356326			0.002803772730243655	spearman_rho	100.0	100.0
+tubular_axis	slide_predicted_out_of_sample	diagnosis	alb_A	ordinal	39	HKD+other	1.1156089985438236	0.5489620129488241	2.267157668973312	0.762367489846005	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	slide_predicted_out_of_sample	diagnosis	egfr	ols	53	HKD+other	-10.512580431010475	-16.998742802644713	-4.026418059376239	0.002046913726725851	eGFR_change_per_SD	100.0	100.0
+tubular_axis	slide_predicted_out_of_sample	diagnosis+IF	alb_A	ordinal	38	HKD+other+IF_pct	0.7197681872527979	0.28583024619728925	1.812496229050555	0.4852702666552592	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	slide_predicted_out_of_sample	diagnosis+IF	egfr	ols	52	HKD+other+IF_pct	-9.31545315611713	-17.49492938610768	-1.1359769261265829	0.0264843686906701	eGFR_change_per_SD	100.0	100.0
+tubular_axis	measured_atlas_with_slides	none	alb_A	ordinal	45	none	4.144126106463667	1.8715939838848237	9.176018588511647	0.000455884297360987	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	measured_atlas_with_slides	none	alb_ord	spearman	45	none	0.5521039474608197			8.43219858133357e-05	spearman_rho	100.0	100.0
+tubular_axis	measured_atlas_with_slides	none	egfr	ols	59	none	-16.009027452235095	-22.525726988492455	-9.492327915977736	7.748720322385011e-06	eGFR_change_per_SD	100.0	100.0
+tubular_axis	measured_atlas_with_slides	none	egfr	spearman	59	none	-0.4097781393740762			0.0012684420104808786	spearman_rho	100.0	100.0
+tubular_axis	measured_atlas_with_slides	diagnosis	alb_A	ordinal	45	HKD+other	3.143138408610291	1.2491209640933354	7.90901709255361	0.014998270143152246	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	measured_atlas_with_slides	diagnosis	egfr	ols	59	HKD+other	-14.20345443319206	-21.68384669762596	-6.7230621687581635	0.00035803365139642053	eGFR_change_per_SD	100.0	100.0
+tubular_axis	measured_atlas_with_slides	diagnosis+IF	alb_A	ordinal	45	HKD+other+IF_pct	2.546554681181179	0.9463338867938796	6.852698434181991	0.06420555957036574	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	measured_atlas_with_slides	diagnosis+IF	egfr	ols	59	HKD+other+IF_pct	-10.657221910941097	-18.170595795121464	-3.143848026760727	0.006282925571784582	eGFR_change_per_SD	100.0	100.0
+tubular_axis	measured_all_snRNA_donors	none	alb_A	ordinal	81	none	3.8459549814565785	2.1871308115928723	6.762910403433171	2.904270056650446e-06	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	measured_all_snRNA_donors	none	alb_ord	spearman	81	none	0.5622428386600624			4.706325373255507e-08	spearman_rho	100.0	100.0
+tubular_axis	measured_all_snRNA_donors	none	egfr	ols	135	none	-12.033151937846126	-16.363540841072407	-7.702763034619847	1.9095232099441456e-07	eGFR_change_per_SD	100.0	100.0
+tubular_axis	measured_all_snRNA_donors	none	egfr	spearman	135	none	-0.35725434400834044			2.103984882940351e-05	spearman_rho	100.0	100.0
+tubular_axis	measured_all_snRNA_donors	diagnosis	alb_A	ordinal	81	DKD+HKD	3.2442406064582165	1.7952839273069263	5.862636518102676	9.690400434439342e-05	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	measured_all_snRNA_donors	diagnosis	egfr	ols	135	DKD+HKD	-11.302002993860604	-15.170354704220491	-7.433651283500717	5.1917098976838754e-08	eGFR_change_per_SD	100.0	100.0
+tubular_axis	measured_all_snRNA_donors	diagnosis+IF	alb_A	ordinal	58	DKD+HKD+IF_pct	2.537429278790191	1.1825130527077834	5.444800232960108	0.016834232875703976	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tubular_axis	measured_all_snRNA_donors	diagnosis+IF	egfr	ols	104	DKD+HKD+IF_pct	-7.3550122594205	-12.86546518605044	-1.8445593327905598	0.009412637678752105	eGFR_change_per_SD	100.0	100.0
+ecgc_axis	slide_predicted_out_of_sample	none	alb_A	ordinal	39	none	0.9823033279267671	0.5610680284447025	1.719791146771967	0.9501763378476323	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	slide_predicted_out_of_sample	none	alb_ord	spearman	39	none	-0.08319171969439335			0.6146105445864902	spearman_rho	1000.0	10000.0
+ecgc_axis	slide_predicted_out_of_sample	none	egfr	ols	53	none	8.982707071611454	2.2393515024785122	15.726062640744395	0.010038021321727793	eGFR_change_per_SD	1000.0	10000.0
+ecgc_axis	slide_predicted_out_of_sample	none	egfr	spearman	53	none	0.3746826868963784			0.005706829268109687	spearman_rho	1000.0	10000.0
+ecgc_axis	slide_predicted_out_of_sample	diagnosis	alb_A	ordinal	39	HKD+other	1.091213985503961	0.6051690158274611	1.9676287632328675	0.7716595352690294	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	slide_predicted_out_of_sample	diagnosis	egfr	ols	53	HKD+other	7.991310422716537	2.2227135494469445	13.759907295986128	0.007610853293348883	eGFR_change_per_SD	1000.0	10000.0
+ecgc_axis	slide_predicted_out_of_sample	diagnosis+IF	alb_A	ordinal	38	HKD+other+IF_pct	1.120319323541943	0.6021403091106241	2.0844234602983365	0.7198559997009277	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	slide_predicted_out_of_sample	diagnosis+IF	egfr	ols	52	HKD+other+IF_pct	7.060074493708659	1.19150069225768	12.928648295159638	0.019431817462399605	eGFR_change_per_SD	1000.0	10000.0
+ecgc_axis	measured_atlas_with_slides	none	alb_A	ordinal	20	none	0.3920547377458514	0.11360812174191971	1.3529571216584313	0.13843791664919977	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	measured_atlas_with_slides	none	alb_ord	spearman	20	none	-0.3498129124631931			0.1305544800380496	spearman_rho	1000.0	10000.0
+ecgc_axis	measured_atlas_with_slides	none	egfr	ols	28	none	18.17948718987743	7.0732622960300535	29.28571208372481	0.00238824643206854	eGFR_change_per_SD	1000.0	10000.0
+ecgc_axis	measured_atlas_with_slides	none	egfr	spearman	28	none	0.6107198054792934			0.0005571100148230715	spearman_rho	1000.0	10000.0
+ecgc_axis	measured_atlas_with_slides	diagnosis	alb_A	ordinal	20	HKD+other	0.2528024610636083	0.024987327567315514	2.5576598436806424	0.2441678328457506	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	measured_atlas_with_slides	diagnosis	egfr	ols	28	HKD+other	10.903499680197822	1.2559473777289174	20.551051982666728	0.028383247862774387	eGFR_change_per_SD	1000.0	10000.0
+ecgc_axis	measured_atlas_with_slides	diagnosis+IF	alb_A	ordinal	20	HKD+other+IF_pct	0.27795604712202676	0.02508645613730963	3.0797320956306256	0.2967998368403484	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	measured_atlas_with_slides	diagnosis+IF	egfr	ols	28	HKD+other+IF_pct	9.82006862713994	0.03985633205632233	19.60028092222356	0.049147969680054	eGFR_change_per_SD	1000.0	10000.0
+ecgc_axis	measured_all_snRNA_donors	none	alb_A	ordinal	36	none	0.36025644202236035	0.15627911451021545	0.8304673623558744	0.01657884579037547	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	measured_all_snRNA_donors	none	alb_ord	spearman	36	none	-0.4214159281374355			0.010475630572394345	spearman_rho	1000.0	10000.0
+ecgc_axis	measured_all_snRNA_donors	none	egfr	ols	62	none	12.332722041374343	5.428278204440368	19.237165878308318	0.0007036288356315844	eGFR_change_per_SD	1000.0	10000.0
+ecgc_axis	measured_all_snRNA_donors	none	egfr	spearman	62	none	0.44161227238132994			0.0003267753355775494	spearman_rho	1000.0	10000.0
+ecgc_axis	measured_all_snRNA_donors	diagnosis	alb_A	ordinal	36	DKD+HKD	0.3683869405251159	0.14906115643375722	0.9104245612757225	0.030521720599881737	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	measured_all_snRNA_donors	diagnosis	egfr	ols	62	DKD+HKD	9.717720805990625	3.0492160418888874	16.386225570092364	0.00501927551753337	eGFR_change_per_SD	1000.0	10000.0
+ecgc_axis	measured_all_snRNA_donors	diagnosis+IF	alb_A	ordinal	26	DKD+HKD+IF_pct	0.8218393360652142	0.2895289796275961	2.332823108667272	0.7124196679882404	odds_ratio_per_SD_higher_albuminuria_category	1000.0	10000.0
+ecgc_axis	measured_all_snRNA_donors	diagnosis+IF	egfr	ols	48	DKD+HKD+IF_pct	6.371767507634852	-1.42225638367076	14.165791398940463	0.10650041911209868	eGFR_change_per_SD	1000.0	10000.0
+tal_injured_logit	slide_predicted_out_of_sample	none	alb_A	ordinal	39	none	2.0877089895896344	1.1314454737120734	3.852177525545095	0.0185178254241366	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	slide_predicted_out_of_sample	none	alb_ord	spearman	39	none	0.3570795795777138			0.02564470876112739	spearman_rho	100.0	100.0
+tal_injured_logit	slide_predicted_out_of_sample	none	egfr	ols	53	none	-13.239830719550518	-19.403964065006218	-7.075697374094818	7.411798610049092e-05	eGFR_change_per_SD	100.0	100.0
+tal_injured_logit	slide_predicted_out_of_sample	none	egfr	spearman	53	none	-0.3669670539870487			0.0068745163936804	spearman_rho	100.0	100.0
+tal_injured_logit	slide_predicted_out_of_sample	diagnosis	alb_A	ordinal	39	HKD+other	1.516459559402171	0.7432665359170505	3.0939770380821643	0.25243507104513063	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	slide_predicted_out_of_sample	diagnosis	egfr	ols	53	HKD+other	-9.360904853276464	-16.25965861931796	-2.4621510872349672	0.008848879601417505	eGFR_change_per_SD	100.0	100.0
+tal_injured_logit	slide_predicted_out_of_sample	diagnosis+IF	alb_A	ordinal	38	HKD+other+IF_pct	1.0559416424347092	0.38613039210693306	2.8876586122724195	0.9155435672424275	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	slide_predicted_out_of_sample	diagnosis+IF	egfr	ols	52	HKD+other+IF_pct	-7.581825965367516	-17.189363064350967	2.0257111336159355	0.11908848606421778	eGFR_change_per_SD	100.0	100.0
+tal_injured_logit	measured_atlas_with_slides	none	alb_A	ordinal	46	none	5.561401404483876	2.1647072625411776	14.287929881792447	0.00036504115759175446	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	measured_atlas_with_slides	none	alb_ord	spearman	46	none	0.5697075610135257			3.589499222565239e-05	spearman_rho	100.0	100.0
+tal_injured_logit	measured_atlas_with_slides	none	egfr	ols	60	none	-18.838549921527697	-24.65291092692504	-13.024188916130356	2.131015734607413e-08	eGFR_change_per_SD	100.0	100.0
+tal_injured_logit	measured_atlas_with_slides	none	egfr	spearman	60	none	-0.49478237168701533			5.8547910285166486e-05	spearman_rho	100.0	100.0
+tal_injured_logit	measured_atlas_with_slides	diagnosis	alb_A	ordinal	46	HKD+other	4.12975659135285	1.527737396697431	11.163495467670375	0.005186365409487378	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	measured_atlas_with_slides	diagnosis	egfr	ols	60	HKD+other	-18.15891280351584	-24.88341493327018	-11.434410673761498	1.3573470882138623e-06	eGFR_change_per_SD	100.0	100.0
+tal_injured_logit	measured_atlas_with_slides	diagnosis+IF	alb_A	ordinal	46	HKD+other+IF_pct	3.3361623371795197	1.1635088948194634	9.565873702875392	0.024978169678538862	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	measured_atlas_with_slides	diagnosis+IF	egfr	ols	60	HKD+other+IF_pct	-14.745113312492073	-21.705699686502623	-7.784526938481523	8.465843578726458e-05	eGFR_change_per_SD	100.0	100.0
+tal_injured_logit	measured_all_snRNA_donors	none	alb_A	ordinal	83	none	4.598074054663413	2.4733760143990717	8.547946163093016	1.417854208529196e-06	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	measured_all_snRNA_donors	none	alb_ord	spearman	83	none	0.5815236300524836			8.171805871583035e-09	spearman_rho	100.0	100.0
+tal_injured_logit	measured_all_snRNA_donors	none	egfr	ols	137	none	-13.35743145070036	-17.558786212888695	-9.156076688512027	4.155305764646615e-09	eGFR_change_per_SD	100.0	100.0
+tal_injured_logit	measured_all_snRNA_donors	none	egfr	spearman	137	none	-0.39831654295409324			1.4322143062179058e-06	spearman_rho	100.0	100.0
+tal_injured_logit	measured_all_snRNA_donors	diagnosis	alb_A	ordinal	83	DKD+HKD	3.799116430146046	2.0049409954486217	7.198858062441919	4.257088552410966e-05	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	measured_all_snRNA_donors	diagnosis	egfr	ols	137	DKD+HKD	-12.218438932825265	-15.977358077884846	-8.459519787765684	2.116474928022571e-09	eGFR_change_per_SD	100.0	100.0
+tal_injured_logit	measured_all_snRNA_donors	diagnosis+IF	alb_A	ordinal	59	DKD+HKD+IF_pct	2.7774895546681635	1.2262768816108642	6.29095136830508	0.014326317382219712	odds_ratio_per_SD_higher_albuminuria_category	100.0	100.0
+tal_injured_logit	measured_all_snRNA_donors	diagnosis+IF	egfr	ols	105	DKD+HKD+IF_pct	-9.423970017773986	-14.717015023443391	-4.130925012104581	0.0006249232867372868	eGFR_change_per_SD	100.0	100.0

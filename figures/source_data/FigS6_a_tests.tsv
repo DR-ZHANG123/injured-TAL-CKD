@@ -1,0 +1,7 @@
+stain	variable	n_training	n_out_of_sample	training_summary	out_of_sample_summary	summary	test	p
+PAS	accession_time	62	53	2021.0833333333333	2023.5833333333333	median	mann_whitney	2.486417818352581e-13
+PAS	scan_time	62	53	2021.5	2024.1666666666667	median	mann_whitney	7.176761793438494e-14
+PAS	alt_scanner	62	53	0.0	0.1886792452830188	proportion	fisher_exact	0.0002615910450035
+HE	accession_time	60	51	2021.0833333333333	2023.5833333333333	median	mann_whitney	1.6345364008005416e-12
+HE	scan_time	60	51	2021.5	2024.1666666666667	median	mann_whitney	3.950557620926919e-13
+HE	alt_scanner	60	51	0.0	0.196078431372549	proportion	fisher_exact	0.0002479137008482

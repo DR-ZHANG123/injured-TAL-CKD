@@ -1,0 +1,295 @@
+participant	has_slides	in_repository	in_snRNA_atlas	in_scRNA_atlas	repository_lists_sc_or_sn	has_tubular_axis	has_ecgc_axis	set	egfr_bin_atlas	egfr_bin_repository	diabetes_atlas	diabetes_repository	diagnosis
+163-5	False	True	True	True	True	False	False	atlas_only_no_slides	Not available		No	No	other
+163-6	False	True	True	False	True	False	False	atlas_only_no_slides	Not available		Not available	Don't Know	other
+164-1	False	True	True	False	True	True	True	atlas_only_no_slides	80-89	80-89	No	No	other
+164-10	False	True	True	True	True	True	True	atlas_only_no_slides	90-99	90-99	No	No	other
+164-11	False	True	True	False	True	True	False	atlas_only_no_slides	90-99	90-99	No	No	other
+164-12	True	True	True	False	True	True	True	training_atlas_and_slides	110-119	110-119	No	No	other
+164-13	False	True	True	True	True	True	False	atlas_only_no_slides	90-99	90-99	No	No	other
+164-14	False	True	True	False	True	True	False	atlas_only_no_slides	90-99	90-99	No	No	other
+164-15	False	True	True	True	True	True	False	atlas_only_no_slides	100-109	100-109	No	No	other
+164-17	True	True	True	False	True	True	False	training_atlas_and_slides	90-99	90-99	No	No	other
+164-18	False	True	True	False	True	True	True	atlas_only_no_slides	80-89	80-89	No	No	other
+164-20	False	True	True	True	True	True	False	atlas_only_no_slides	110-119	110-119	No	No	other
+164-22	True	True	False	True	True	False	False	slides_scRNA_only_excluded		120-129		No	other
+164-3	False	True	True	True	True	True	True	atlas_only_no_slides	120-129	120-129	No	No	other
+164-5	False	True	True	False	True	True	True	atlas_only_no_slides	110-119	110-119	No	No	other
+164-6	False	True	True	True	True	True	True	atlas_only_no_slides	100-109	100-109	No	No	other
+164-7	False	True	True	False	True	True	True	atlas_only_no_slides	90-99	90-99	No	No	other
+164-8	True	True	True	False	True	True	True	training_atlas_and_slides	110-119	110-119	No	No	other
+165-10	False	True	True	False	True	True	False	atlas_only_no_slides	80-89	80-89	No	No	other
+165-11	False	True	True	False	True	True	True	atlas_only_no_slides	110-119	110-119	Yes	Yes	other
+165-13	False	True	True	False	True	True	True	atlas_only_no_slides	110-119	110-119	No	No	other
+165-14	False	True	True	True	True	False	False	atlas_only_no_slides	80-89	80-89	No	No	other
+165-15	False	True	True	False	True	True	False	atlas_only_no_slides	110-119	110-119	No	No	other
+165-7	False	True	True	False	True	True	True	atlas_only_no_slides	100-109	100-109	No	No	other
+165-9	False	True	True	True	True	True	False	atlas_only_no_slides	110-119	110-119	No	No	other
+18-142	True	True	True	False	True	True	True	training_atlas_and_slides	Not available		Not available		other
+18-162	True	True	True	False	True	True	True	training_atlas_and_slides	Not available		Not available		other
+18-312	False	True	True	False	True	True	True	atlas_only_no_slides	Not available		Not available		other
+21-015	False	True	True	True	True	True	True	atlas_only_no_slides	Not available		Not available		other
+21-016	False	True	True	True	True	True	False	atlas_only_no_slides	Not available		Not available		other
+21-019	False	True	True	True	True	True	True	atlas_only_no_slides	Not available		Not available		other
+21-020	False	True	True	True	True	True	True	atlas_only_no_slides	Not available		Not available		other
+21-021	False	True	True	False	True	True	True	atlas_only_no_slides	Not available		Not available		other
+27-10039	True	True	True	True	True	True	True	training_atlas_and_slides	40-49	40-49	Yes	Yes	DKD
+27-10041	True	True	True	True	True	True	True	training_atlas_and_slides	60-69	60-69	Yes	Yes	DKD
+27-10043	True	True	True	False	True	True	True	training_atlas_and_slides	110-119	110-119	Yes	Yes	DKD
+27-10066	False	True	True	False	True	True	False	atlas_only_no_slides	90-99	90-99	Yes	Yes	other
+27-10067	True	True	True	False	True	False	False	training_atlas_and_slides	30-39	30-39	Yes	Yes	DKD
+27-10071	True	True	False	True	True	False	False	slides_scRNA_only_excluded		90-99		Yes	DKD
+27-10074	True	True	True	False	True	True	True	training_atlas_and_slides	40-49	40-49	Yes	Yes	DKD
+27-10087	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	HKD
+27-10088	True	True	True	True	True	True	True	training_atlas_and_slides	120-129	120-129	Yes	Yes	other
+27-10089	True	True	True	False	True	True	True	training_atlas_and_slides	70-79	70-79	Yes	Yes	DKD
+27-10094	True	True	True	False	True	True	True	training_atlas_and_slides	50-59	50-59	Yes	Yes	DKD
+27-10104	True	True	True	False	True	True	True	training_atlas_and_slides	80-89	80-89	Yes	Yes	DKD
+27-10112	True	True	False	True	True	False	False	slides_scRNA_only_excluded		30-39		Yes	DKD
+27-10146	True	True	False	True	True	False	False	slides_scRNA_only_excluded		40-49		Yes	DKD
+27-10154	True	True	True	True	True	True	True	training_atlas_and_slides	30-39	30-39	Yes	Yes	DKD
+27-10155	True	True	False	True	True	False	False	slides_scRNA_only_excluded		30-39		Yes	HKD
+27-10163	False	True	True	False	True	True	False	atlas_only_no_slides	100-109	100-109	Yes	Yes	other
+27-10165	True	True	True	True	True	True	False	training_atlas_and_slides	120-129	120-129	Yes	Yes	DKD
+27-10166	False	True	True	False	True	True	False	atlas_only_no_slides	110-119	110-119	Yes	Yes	other
+27-10170	True	True	False	True	True	False	False	slides_scRNA_only_excluded		40-49		Yes	HKD
+27-10171	True	True	True	False	True	True	True	training_atlas_and_slides	100-109	100-109	Yes	Yes	other
+27-10185	True	True	True	True	True	True	False	training_atlas_and_slides	100-109	100-109	Yes	Yes	DKD
+27-10201	True	True	True	False	True	True	False	training_atlas_and_slides	70-79	70-79	Yes	Yes	other
+27-10206	True	True	True	False	True	True	False	training_atlas_and_slides	100-109	100-109	Yes	Yes	DKD
+27-10207	True	True	True	False	True	True	False	training_atlas_and_slides	100-109	100-109	Yes	Yes	other
+27-10211	True	True	False	False	True	False	False	out_of_sample_no_atlas		90-99		Yes	DKD
+27-10228	True	True	False	False	True	False	False	out_of_sample_no_atlas		100-109		Yes	DKD
+27-10229	True	True	False	False	True	False	False	out_of_sample_no_atlas		100-109		Yes	other
+27-10231	True	True	True	False	True	True	False	training_atlas_and_slides	60-69	60-69	Yes	Yes	other
+27-10262	True	True	False	False	True	False	False	out_of_sample_no_atlas		110-119		Yes	other
+27-10363	True	True	False	False	True	False	False	out_of_sample_no_atlas		60-69		Yes	DKD
+27-10365	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+27-10371	True	True	False	False	True	False	False	out_of_sample_no_atlas		110-119		Yes	other
+27-10391	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+28-10051	False	True	True	True	True	True	True	atlas_only_no_slides	40-49	40-49	Yes	Yes	other
+28-10109	True	True	True	False	True	True	True	training_atlas_and_slides	50-59	50-59	Yes	Yes	DKD
+28-11515	True	True	True	True	True	True	False	training_atlas_and_slides	30-39	30-39	Yes	Yes	HKD
+28-12178	True	True	True	False	True	True	False	training_atlas_and_slides	50-59	50-59	Yes	Yes	DKD
+28-12265	False	True	True	False	True	True	False	atlas_only_no_slides	50-59	50-59	Yes	Yes	DKD
+28-12372	True	True	True	False	True	True	False	training_atlas_and_slides	50-59	50-59	Yes	Yes	HKD
+28-12381	True	True	False	True	True	False	False	slides_scRNA_only_excluded		70-79		Yes	HKD
+28-12412	False	True	True	False	True	True	True	atlas_only_no_slides	60-69	60-69	No	No	other
+28-12442	True	True	False	False	True	False	False	out_of_sample_no_atlas		70-79		Yes	DKD
+28-12510	True	True	True	False	True	True	False	training_atlas_and_slides	20-29	20-29	No	No	HKD
+28-12518	True	True	False	True	True	False	False	slides_scRNA_only_excluded		30-39		Yes	HKD
+28-12545	True	True	False	True	True	False	False	slides_scRNA_only_excluded		60-69		No	HKD
+28-12546	True	True	True	True	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	DKD
+28-12557	True	True	False	True	True	False	False	slides_scRNA_only_excluded		70-79		Yes	HKD
+28-12558	True	True	True	False	True	True	True	training_atlas_and_slides	40-49	40-49	No	No	HKD
+28-12579	True	True	True	False	True	True	True	training_atlas_and_slides	30-39	30-39	Yes	Yes	DKD
+28-12613	True	True	False	True	True	False	False	slides_scRNA_only_excluded		40-49		No	HKD
+29-10006	False	True	True	True	True	True	False	atlas_only_no_slides	70-79	70-79	Yes	Yes	other
+29-10008	True	True	True	True	True	True	True	training_atlas_and_slides	40-49	40-49	No	No	HKD
+29-10010	False	True	True	True	True	True	False	atlas_only_no_slides	40-49	40-49	Yes	Yes	other
+29-10011	False	True	True	True	True	True	True	atlas_only_no_slides	40-49	40-49	Yes	Yes	other
+29-10012	False	True	True	True	True	True	True	atlas_only_no_slides	30-39	30-39	Yes	Yes	other
+29-10013	True	True	True	True	True	True	False	training_atlas_and_slides	100-109	100-109	Yes	Yes	HKD
+29-10016	True	True	True	True	True	True	True	training_atlas_and_slides	110-119	110-119	Yes	Yes	DKD
+29-10276	False	True	True	False	True	True	True	atlas_only_no_slides	30-39	30-39	Yes	Yes	other
+29-10277	True	True	True	False	True	True	True	training_atlas_and_slides	120-129	120-129	Yes	Yes	DKD
+29-10280	True	True	True	True	True	True	True	training_atlas_and_slides	30-39	30-39	Yes	Yes	DKD
+29-10282	True	True	False	False	True	False	False	out_of_sample_no_atlas		60-69		Yes	DKD
+29-10380	True	True	True	True	True	True	True	training_atlas_and_slides	50-59	50-59	No	No	HKD
+29-10393	True	True	True	False	True	True	False	training_atlas_and_slides	70-79	70-79	No	No	HKD
+29-10395	True	True	True	False	True	True	False	training_atlas_and_slides	50-59	50-59	Yes	Yes	HKD
+29-10397	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+29-10398	True	True	False	True	True	False	False	slides_scRNA_only_excluded		60-69		Yes	DKD
+29-10399	True	True	True	False	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	DKD
+29-10400	True	True	True	True	True	True	True	training_atlas_and_slides	30-39	30-39	Yes	Yes	HKD
+29-10401	False	True	True	False	True	True	False	atlas_only_no_slides	30-39	30-39	No	No	other
+29-10402	False	True	True	False	True	True	True	atlas_only_no_slides	40-49	40-49	Yes	Yes	other
+29-10404	True	True	True	True	True	True	False	training_atlas_and_slides	50-59	50-59	Yes	Yes	DKD
+29-10405	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	DKD
+29-10406	False	True	True	True	True	True	False	atlas_only_no_slides	50-59	50-59	Yes	Yes	other
+29-10410	True	True	True	True	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	HKD
+29-10420	True	True	False	True	True	False	False	slides_scRNA_only_excluded		30-39		Yes	DKD
+29-10422	True	True	True	False	True	True	False	training_atlas_and_slides	50-59	50-59	Yes	Yes	DKD
+29-10423	True	True	False	True	True	False	False	slides_scRNA_only_excluded		40-49		Yes	DKD
+29-10425	True	True	False	True	True	False	False	slides_scRNA_only_excluded		70-79		Yes	DKD
+29-10439	True	True	True	False	True	True	False	training_atlas_and_slides	80-89	80-89	Yes	Yes	DKD
+29-10452	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+29-10618	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	HKD
+29-10625	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+29-10662	True	True	True	False	True	True	True	training_atlas_and_slides	50-59	50-59	No	No	HKD
+29-10677	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+29-10695	True	True	False	False	True	False	False	out_of_sample_no_atlas		110-119		Yes	DKD
+29-10698	True	True	False	False	True	False	False	out_of_sample_no_atlas		40-49		Yes	DKD
+29-10877	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	HKD
+29-10896	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	DKD
+29-10937	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	DKD
+29-10939	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	DKD
+29-11000	True	True	False	False	True	False	False	out_of_sample_no_atlas		60-69		Yes	DKD
+29-11201	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	DKD
+29-11203	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	DKD
+30-10018	False	True	True	True	True	True	False	atlas_only_no_slides	80-89	80-89	Yes	Yes	other
+30-10034	False	True	True	True	True	True	True	atlas_only_no_slides	60-69	60-69	Yes	Yes	other
+30-10044	False	True	True	False	True	True	False	atlas_only_no_slides	110-119	110-119	No	No	other
+30-10125	False	True	True	True	True	True	False	atlas_only_no_slides	100-109	100-109	No	No	other
+30-10631	False	True	True	False	True	True	True	atlas_only_no_slides	70-79	70-79	No	No	other
+30-10868	False	True	True	False	True	True	True	atlas_only_no_slides	70-79	70-79	Yes	Yes	other
+30-10929	False	True	True	True	True	True	True	atlas_only_no_slides	80-89	80-89	No	No	other
+30-11051	False	False	True	True	False	True	False	atlas_only_no_slides	90-99		Yes		other
+30-11080	False	True	True	True	True	True	False	atlas_only_no_slides	70-79	70-79	No	No	other
+30-11081	False	True	True	False	True	True	False	atlas_only_no_slides	60-69	60-69	Not available	Don't Know	other
+30-11084	False	True	True	False	True	True	False	atlas_only_no_slides	50-59	50-59	No	No	other
+31-10000	False	True	True	True	True	True	False	atlas_only_no_slides	20-29	20-29	No	No	other
+31-10001	True	True	True	True	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	DKD
+31-10006	False	True	True	False	True	True	False	atlas_only_no_slides	50-59	50-59	No	No	other
+31-10013	False	True	True	True	True	True	False	atlas_only_no_slides	50-59	50-59	Yes	Yes	other
+31-10035	False	True	True	True	True	True	True	atlas_only_no_slides	60-69	60-69	Yes	Yes	other
+31-10040	True	True	False	True	True	False	False	slides_scRNA_only_excluded		30-39		Yes	DKD
+31-10042	True	True	False	True	True	False	False	slides_scRNA_only_excluded		20-29		Yes	DKD
+31-10061	False	True	True	False	True	True	True	atlas_only_no_slides	30-39	30-39	Yes	Yes	other
+31-10063	True	True	True	False	True	True	True	training_atlas_and_slides	50-59	50-59	No	No	HKD
+31-10078	True	True	True	True	True	True	False	training_atlas_and_slides	30-39	30-39	Yes	Yes	HKD
+31-10081	True	True	True	False	True	True	True	training_atlas_and_slides	50-59	50-59	Yes	Yes	DKD
+31-10090	True	True	True	False	True	True	False	training_atlas_and_slides	30-39	30-39	Yes	Yes	HKD
+31-10091	True	True	True	False	True	False	True	training_atlas_and_slides	30-39	30-39	Yes	Yes	HKD
+31-10100	True	True	True	False	True	True	False	training_atlas_and_slides	30-39	30-39	Yes	Yes	DKD
+31-10105	True	True	True	False	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	DKD
+31-10154	True	True	False	True	True	False	False	slides_scRNA_only_excluded		20-29		No	HKD
+31-10169	False	True	True	False	True	True	False	atlas_only_no_slides	40-49	40-49	Yes	Yes	HKD
+31-10177	True	True	True	False	True	True	True	training_atlas_and_slides	30-39	30-39	No	No	HKD
+31-10210	True	True	True	True	True	True	True	training_atlas_and_slides	40-49	40-49	No	No	HKD
+31-10221	True	True	True	False	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	HKD
+31-10236	True	True	True	True	True	True	False	training_atlas_and_slides	30-39	30-39	Yes	Yes	DKD
+31-10322	True	True	True	True	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	HKD
+31-10336	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	HKD
+31-10340	True	True	True	True	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	DKD
+31-10381	True	True	False	False	True	False	False	out_of_sample_no_atlas		20-29		Yes	DKD
+31-10637	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	HKD
+31-11027	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+31-11041	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	HKD
+32-10003	False	True	True	True	True	True	True	atlas_only_no_slides	120-129	120-129	No	No	other
+32-10034	False	True	True	True	True	True	True	atlas_only_no_slides	60-69	60-69	Yes	Yes	DKD
+32-10074	False	True	True	True	True	True	False	atlas_only_no_slides	80-89	80-89	Not available	Don't Know	other
+32-10205	False	True	True	False	True	True	True	atlas_only_no_slides	50-59	50-59	Yes	Yes	other
+32-10333	False	True	True	False	True	True	True	atlas_only_no_slides	60-69	60-69	No	No	other
+32-10346	False	True	True	False	True	False	False	atlas_only_no_slides	110-119	110-119	Yes	Yes	other
+32-10419	False	True	True	True	True	True	False	atlas_only_no_slides	120-129	120-129	No	No	other
+32-10456	False	True	True	False	True	True	False	atlas_only_no_slides	100-109	100-109	No	No	other
+32-10458	False	True	True	True	True	True	False	atlas_only_no_slides	70-79	70-79	No	No	other
+32-2	False	True	True	False	True	True	False	atlas_only_no_slides	90-99	90-99	Yes	Yes	other
+33-10005	False	True	True	True	True	True	False	atlas_only_no_slides	70-79	70-79	No	No	other
+33-10006	False	True	True	True	True	True	True	atlas_only_no_slides	70-79	70-79	No	No	other
+33-10331	False	True	True	False	True	True	True	atlas_only_no_slides	60-69	60-69	No	No	other
+33-10376	False	True	True	False	True	True	False	atlas_only_no_slides	70-79	70-79	No	No	other
+3374	False	False	True	False	False	False	False	atlas_only_no_slides	Not available		Not available		other
+34-10050	False	True	True	True	True	True	False	atlas_only_no_slides	50-59	50-59	Yes	Yes	other
+34-10184	False	True	True	True	True	True	False	atlas_only_no_slides	80-89	80-89	No	No	other
+34-10187	False	True	True	True	True	True	True	atlas_only_no_slides	60-69	60-69	No	No	other
+34-10209	False	True	True	False	True	True	True	atlas_only_no_slides	90-99	90-99	Yes	Yes	DKD
+34-10240	False	True	True	False	True	False	False	atlas_only_no_slides	100-109	100-109	No	No	other
+34-10306	False	True	True	False	True	True	True	atlas_only_no_slides	70-79	70-79	No	No	other
+34-10331	False	True	True	False	True	True	False	atlas_only_no_slides	70-79	70-79	No	No	other
+34-10393	False	True	True	False	True	True	True	atlas_only_no_slides	80-89	80-89	No	No	other
+34-10579	False	True	True	False	True	True	False	atlas_only_no_slides	50-59	50-59	No	No	other
+3477	False	False	True	False	False	True	False	atlas_only_no_slides	20-29		Yes		other
+3479	False	False	True	False	False	True	True	atlas_only_no_slides	40-49		No		other
+3487	False	False	True	False	False	True	True	atlas_only_no_slides	50-59		Yes		other
+3490	False	True	True	False	True	True	False	atlas_only_no_slides	>60		No		other
+3499	False	True	True	False	True	True	False	atlas_only_no_slides	>60		Yes		other
+3504	False	True	True	False	True	True	False	atlas_only_no_slides	>60		No		other
+3510	False	False	True	False	False	True	True	atlas_only_no_slides	70-79		No		other
+3535	False	True	True	False	True	True	True	atlas_only_no_slides	50-59		No		other
+3579	False	False	True	False	False	True	True	atlas_only_no_slides	70-79		No		other
+3593	False	True	True	False	True	True	False	atlas_only_no_slides	90-99		No		other
+3609	False	False	True	False	False	True	True	atlas_only_no_slides	60-69		No		other
+3611	False	False	True	False	False	True	False	atlas_only_no_slides	100-109		No		other
+3612	False	False	True	False	False	True	True	atlas_only_no_slides	70-79		Yes		other
+3613	False	True	True	False	True	True	False	atlas_only_no_slides	Not available		No		other
+3619	False	False	True	False	False	True	True	atlas_only_no_slides	100-109		No		other
+3620	False	False	True	False	False	True	False	atlas_only_no_slides	60-69		No		other
+3621	False	False	True	False	False	True	True	atlas_only_no_slides	110-119		No		other
+3622	False	False	True	False	False	True	False	atlas_only_no_slides	100-109		No		other
+3623	False	False	True	False	False	False	False	atlas_only_no_slides	150-159		No		other
+3625	False	False	True	False	False	True	True	atlas_only_no_slides	170-179		No		other
+3626	False	False	True	False	False	True	True	atlas_only_no_slides	70-79		No		other
+3627	False	False	True	False	False	True	True	atlas_only_no_slides	90-99		No		other
+3630	False	False	True	False	False	True	True	atlas_only_no_slides	100-109		No		other
+3631	False	False	True	False	False	True	True	atlas_only_no_slides	130-139		No		other
+3632	False	False	True	False	False	True	False	atlas_only_no_slides	110-119		No		other
+3673	False	False	True	False	False	True	False	atlas_only_no_slides	80-89		No		other
+3675	False	False	True	False	False	True	False	atlas_only_no_slides	100-109		Yes		other
+3691	False	False	True	False	False	True	False	atlas_only_no_slides	>60		No		other
+3693	False	False	True	False	False	True	False	atlas_only_no_slides	60-69		No		other
+3704	False	False	True	False	False	True	True	atlas_only_no_slides	90-99		No		other
+3711	False	False	True	False	False	True	True	atlas_only_no_slides	80-89		No		other
+3712	False	False	True	False	False	True	True	atlas_only_no_slides	70-79		No		other
+3715	False	False	True	False	False	True	False	atlas_only_no_slides	70-79		No		other
+3716	False	False	True	False	False	True	True	atlas_only_no_slides	20-29		No		other
+3723	False	False	True	False	False	True	True	atlas_only_no_slides	60-69		No		other
+3728	False	False	True	False	False	True	True	atlas_only_no_slides	90-99		No		other
+3775	False	False	True	False	False	True	True	atlas_only_no_slides	80-89		No		other
+3778	False	False	True	False	False	True	True	atlas_only_no_slides	100-109		No		other
+3781	False	False	True	False	False	True	True	atlas_only_no_slides	100-109		No		other
+3782	False	False	True	False	False	True	True	atlas_only_no_slides	110-119		No		other
+3785	False	False	True	False	False	True	False	atlas_only_no_slides	90-99		No		other
+3800	False	False	True	False	False	True	True	atlas_only_no_slides	90-99		No		other
+3804	False	False	True	False	False	False	False	atlas_only_no_slides	0-9		No		other
+3814	False	False	True	False	False	True	True	atlas_only_no_slides	20-29		No		other
+3824	False	False	True	False	False	True	False	atlas_only_no_slides	100-109		No		other
+3825	False	False	True	False	False	True	True	atlas_only_no_slides	80-89		No		other
+3830	False	False	True	False	False	True	False	atlas_only_no_slides	80-89		No		other
+3893	False	False	True	False	False	True	False	atlas_only_no_slides	80-89		No		other
+3898	False	False	True	False	False	True	False	atlas_only_no_slides	80-89		No		other
+3900	False	False	True	False	False	True	True	atlas_only_no_slides	70-79		No		other
+3903	False	False	True	False	False	True	True	atlas_only_no_slides	50-59		No		other
+3904	False	False	True	False	False	True	True	atlas_only_no_slides	30-39		No		other
+3907	False	False	True	False	False	True	True	atlas_only_no_slides	50-59		No		other
+3916	False	False	True	False	False	True	False	atlas_only_no_slides	20-29		No		other
+3918	False	False	True	False	False	True	True	atlas_only_no_slides	90-99		Not available		other
+3948	False	False	True	False	False	True	True	atlas_only_no_slides	100-109		No		other
+3965	False	False	True	False	False	True	True	atlas_only_no_slides	90-99		No		other
+933-10003	True	True	True	False	True	True	False	training_atlas_and_slides	20-29	20-29	Yes	Yes	DKD
+933-10010	False	True	True	False	True	False	False	atlas_only_no_slides	30-39	30-39	Yes	Yes	DKD
+933-10182	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	HKD
+933-10201	True	True	False	False	True	False	False	out_of_sample_no_atlas		40-49		Yes	DKD
+933-10281	True	True	False	False	True	False	False	out_of_sample_no_atlas		40-49		Yes	DKD
+933-10319	True	True	False	False	True	False	False	out_of_sample_no_atlas		100-109		Yes	HKD
+934-10004	True	True	False	False	True	False	False	out_of_sample_no_atlas		40-49		No	HKD
+934-10016	True	True	True	False	True	True	True	training_atlas_and_slides	50-59	50-59	No	No	HKD
+934-10018	True	True	False	False	True	False	False	out_of_sample_no_atlas		60-69		Yes	DKD
+934-10022	False	True	True	False	True	True	False	atlas_only_no_slides	40-49	40-49	No	No	HKD
+934-10023	True	True	True	False	True	True	False	training_atlas_and_slides	40-49	40-49	Yes	Yes	DKD
+934-10032	True	True	True	False	True	True	False	training_atlas_and_slides	50-59	50-59	No	No	HKD
+934-10034	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	HKD
+934-10035	True	True	False	False	True	False	False	out_of_sample_no_atlas		90-99		Yes	DKD
+934-10038	True	True	False	False	True	False	False	out_of_sample_no_atlas		40-49		No	HKD
+934-10042	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+934-10059	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		No	HKD
+934-10061	True	True	False	False	True	False	False	out_of_sample_no_atlas		80-89		Yes	DKD
+934-10062	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	HKD
+934-10067	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	HKD
+934-10073	True	True	False	False	True	False	False	out_of_sample_no_atlas		60-69		No	HKD
+934-10075	True	True	False	False	True	False	False	out_of_sample_no_atlas		60-69		Don't Know	HKD
+934-10079	True	True	False	False	True	False	False	out_of_sample_no_atlas		100-109		Yes	DKD
+934-10086	True	True	False	False	True	False	False	out_of_sample_no_atlas		40-49		Yes	HKD
+934-10091	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	HKD
+934-10100	True	True	False	False	True	False	False	out_of_sample_no_atlas		50-59		Yes	DKD
+935-10106	True	True	False	False	True	False	False	out_of_sample_no_atlas		70-79		Yes	HKD
+936-10002	False	True	True	False	True	True	False	atlas_only_no_slides	30-39	30-39	Yes	Yes	HKD
+936-10003	False	True	True	False	True	True	False	atlas_only_no_slides	60-69	60-69	Yes	Yes	HKD
+936-10006	False	True	True	False	True	True	False	atlas_only_no_slides	20-29	20-29	Yes	Yes	HKD
+936-10136	True	True	False	False	True	False	False	out_of_sample_no_atlas		30-39		Yes	DKD
+COV-02-0002	False	False	True	False	False	True	True	atlas_only_no_slides	Not available		Not available		other
+COV-02-0010	False	False	True	False	False	True	True	atlas_only_no_slides	Not available		Not available		other
+COV-02-0094	False	False	True	False	False	True	False	atlas_only_no_slides	Not available		Not available		other
+COV-02-0096	False	False	True	False	False	True	False	atlas_only_no_slides	Not available		Not available		other
+D_080	False	True	True	False	True	True	True	atlas_only_no_slides	110-119	60-69	No	No	other
+IU-KRP-429	False	False	True	False	False	True	False	atlas_only_no_slides	70-79		No		other
+IU-KRP-430	False	False	True	False	False	True	True	atlas_only_no_slides	60-69		No		other
+IU-KRP-473	False	False	True	False	False	True	False	atlas_only_no_slides	80-89		Yes		other
+KPMP_101	False	True	True	False	True	True	True	atlas_only_no_slides	120-129	120-129	No	No	other
+KPMP_104	False	True	True	False	True	True	False	atlas_only_no_slides	60-69	60-69	Yes	Yes	other
+KRP446	False	True	True	False	True	True	True	atlas_only_no_slides	>60		No		other
+KRP460	False	True	True	False	True	True	True	atlas_only_no_slides	Not available		Not available		other
+KRP461	False	True	True	False	True	True	False	atlas_only_no_slides	Not available		Not available		other
+KRP462	False	True	True	False	True	True	True	atlas_only_no_slides	Not available		Not available		other
+SDKZ0001	False	False	True	False	False	True	True	atlas_only_no_slides	Not available		Not available		other
+SDKZ0024	False	False	True	False	False	True	True	atlas_only_no_slides	Not available		Not available		other

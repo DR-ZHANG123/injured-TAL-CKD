@@ -1,0 +1,2 @@
+technology	gene_set	n_donors	n_units	n_genes_common	lfc_pearson_r	lfc_spearman_rho	n_hits	n_hits_expressed	rep_rate	rep_rate_expressed	n_up_hits	rep_rate_up	n_down_hits	rep_rate_down
+both	all_genes	15	16	13791	0.755906412758486	0.6568216378716378	1212	1004	0.783003300330033	0.945219123505976	654	0.8608562691131498	558	0.6917562724014337
